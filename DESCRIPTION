@@ -14,3 +14,7 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+Imports: 
+    here,
+    rtweet
+    tidyr
