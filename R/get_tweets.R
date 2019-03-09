@@ -69,12 +69,15 @@ get_tweets <- function(save_number = TRUE) {
 #' tibble(text = "foo") %>% add_rstats_hashtag()
 #' tibble(text = "foo #rstats") %>% add_rstats_hashtag
 #' 
-add_rstats_hashtag <- function(tbl) {
+add_rstats_hashtag <- function(tbl, col) {
+ 
+ q_col <- enquo(col)
+ 
  tbl %>% 
   mutate(
    text = 
     case_when(
-     ! str_detect(text, "#rstats") ~ text %>% str_c(" #rstats"),
+     ! str_detect(!!q_col, "#rstats") ~ !!q_col %>% str_c(" #rstats"),
      TRUE ~ text
     )
   )

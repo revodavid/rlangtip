@@ -23,5 +23,6 @@ save_tweets <- function(tbl) {
 run_tweet_pipeline <- function() {
  get_tweets() %>% 
   score_tweets() %>% 
+  add_rstats_hashtag() %>% 
   save_tweets()
 }
