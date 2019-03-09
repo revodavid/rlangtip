@@ -18,3 +18,4 @@ Imports:
     here,
     rtweet
     tidyr
+RoxygenNote: 6.1.1
