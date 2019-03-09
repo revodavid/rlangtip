@@ -12,11 +12,11 @@ save_tweet_number <- function(val) {
  readr::write_lines(val, n_tweets_path)
 }
 
-get_rlangtip_tweets <- function(save_number = TRUE) {
+get_tweets <- function(save_number = TRUE) {
  n_tweets_to_grab <- 
   get_tweet_number()
  
- tbl <- rtweet::get_timeline("RLangTip")
+ tbl <- rtweet::get_timeline("RLangTip", n = n_tweets_to_grab)
  
  if (save_number) {
   n_tweets <- nrow(tbl)

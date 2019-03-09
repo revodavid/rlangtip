@@ -15,6 +15,7 @@ Suggests:
     rmarkdown
 VignetteBuilder: knitr
 Imports: 
+    googlesheets,
     here,
     rtweet
     tidyr

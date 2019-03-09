@@ -1,5 +1,6 @@
 
 n_tweets_path <- here::here("n_tweets.txt")
+tips_path <- here::here("tips.csv")
 
 save_token <- function() {
  source(here::here(twitter_keys.R))
