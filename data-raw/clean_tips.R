@@ -9,3 +9,7 @@ tips_2 <- readr::read_csv(here::here("inst", "extdata", "tips.csv"))
 
 # verify roundtrip
 all.equal(tips, tips_2)
+
+#' Check duplicates
+
+close_tips(tips, 0.20)
