@@ -18,5 +18,7 @@ Imports:
     googlesheets,
     here,
     rtweet,
-    tidyr
+    tidyr,
+    spelling,
+    stringdist
 RoxygenNote: 6.1.1
