@@ -1,0 +1,255 @@
+status_id,created_at,text,favorite_count,retweet_count,score
+1104094432016715777,2019-03-08T19:00:00Z,Some examples of using get() to retrieve an R object by name using a character string: https://t.co/JHkMGFzAF7 #rstats,34,8,50
+1103732043979124737,2019-03-07T19:00:00Z,Use skim_tee (in the skimr package) data to inspect data in a #rstats pipe chain: https://t.co/72npuPWyY4,94,20,134
+1103369661440233472,2019-03-06T19:00:01Z,How to deploy R as a service in Azure with Kubernetes and the plumber package https://t.co/wLVFx3ChDo #rstats,34,10,54
+1103007269485129728,2019-03-05T19:00:00Z,How to make color-coded calendars in R: https://t.co/V28ExP2Hnp #rstats,54,6,66
+1102644880524873728,2019-03-04T19:00:00Z,"Just because you *can* redefine built-in functions in R doesn't mean it's a good idea. Avoid function names like c, t, sum etc. #rstats",51,7,65
+1101557719553564673,2019-03-01T19:00:00Z,"Free book by @ClausWilke: ""Fundamentals of Data Visualization"". R code linked in ""Technical Notes"" section. https://t.co/lS8sIkVedS #rstats",146,48,242
+1101195329074978817,2019-02-28T19:00:00Z,Keep up with R by reading the R Journal: https://t.co/PVl91vnweg #rstats,53,20,93
+1100832945831534592,2019-02-27T19:00:01Z,"Introduction to AzureStor, a package to manage Blob storage, File storage, and Data Lake Storage in Azure https://t.co/ws6hH6zyzg #rstats",18,4,26
+1100470556078600192,2019-02-26T19:00:00Z,"Use library() to see all packages installed, search() to see all packages loaded #rstats https://t.co/RozRAq2T3c",67,23,113
+1100108170943492096,2019-02-25T19:00:01Z,"In base graphics, use rug() to add a rug representation (1-d plot) of the data to a plot https://t.co/OcAqhjqaOD #rstats",11,4,19
+1098990810404712448,2019-02-22T17:00:02Z,"? is a shortcut for help(). ?? is a shortcut for https://t.co/as9rMAfdob(). Use ""packagename::query"" to restrict the search to a specific package. https://t.co/MOD92teHI0 #rstats",23,6,35
+1098628420018294784,2019-02-21T17:00:01Z,The function dpih() {KernSmooth} uses the direct plug-in methodology to automatically select the bin width of a histogram https://t.co/CfJN4vOYem #rstats,21,5,31
+1098266036095340546,2019-02-20T17:00:02Z,"Free e-book by @nbrgraphs and @jtrnyc ""Effective Graphs with Microsoft R Open"" https://t.co/Z3Ox4c9vur #rstats",43,16,75
+1097903646241705984,2019-02-19T17:00:01Z,BBC Visual and Data Journalism cookbook for R graphics https://t.co/GoQU4MkKSp #rstats,75,24,123
+1097541255091896322,2019-02-18T17:00:01Z,"Use mapply to call a multi-argument function repeatedly, e.g. mapply(sample, list(1:56, 1:46), c(5,1)) #rstats https://t.co/ZxuiovANpJ",33,11,55
+1096454088777035777,2019-02-15T17:00:00Z,Use unname() to remove the names of an R object #rstats https://t.co/sClPwUofbW,39,9,57
+1096091713968340993,2019-02-14T17:00:03Z,Send an R valentine https://t.co/Tqccke54Bf #rstats,16,5,26
+1095729316997017600,2019-02-13T17:00:01Z,Walkthroughs of data analyses using SQL Server and R under the Team Data Science Process https://t.co/oTxnemdrVA #rstats,28,8,44
+1095366930100338690,2019-02-12T17:00:01Z,Getting started with Tensorflow Probability from R https://t.co/Wy3ox3CsVn #rstats,58,12,82
+1095034736093945856,2019-02-11T19:00:00Z,agnes() (in the cluster package) implements 6 methods of agglomerative clustering https://t.co/1AagkTGy8v #rstats,17,5,27
+1093947576989081600,2019-02-08T19:00:01Z,"Use saveRDS(obj,""myfile"") and readRDS(obj,""myfile"") to save / read an R object to / from a file https://t.co/iZNHFboJSa #rstats",35,9,53
+1093585186590257152,2019-02-07T19:00:00Z,"xor(x,y) (element wise exclusive OR) is one of R's logical operators https://t.co/vU3P8fi52o #rstats",18,6,30
+1093222797742993408,2019-02-06T19:00:00Z,Free hosted Jupyter notebooks with R support: Azure Notebooks https://t.co/04ij9up69q #rstats,28,8,44
+1092860407889313792,2019-02-05T19:00:00Z,Use containers for reproducibility: Introduction to Docker for R users https://t.co/sW6GE1xzRd #rstats,63,21,105
+1092467825422336005,2019-02-04T17:00:01Z,Locate the largest number in a vector with which.max(mydata) https://t.co/hkfNCN35Kr #rstats,28,10,48
+1091380664333590535,2019-02-01T17:00:01Z,"If ch is a character vector, then noquote(ch) prints it without the usual quotes surrounding each element #rstats https://t.co/ed8zQJIDNE",57,7,71
+1091018270428168192,2019-01-31T17:00:00Z,"Sort a vector into decreasing order:
+   sort(x,decreasing=TRUE) #rstats 
+https://t.co/9nS5haVQqB",25,7,39
+1090655890888224769,2019-01-30T17:00:02Z,How to generate Outlook email notifications from R: https://t.co/HpKz5Y8z1W #rstats,72,14,100
+1090293498987905024,2019-01-29T17:00:01Z,"Hydrology Data and Modeling, a CRAN task view listing packages for the analysis of movement, distribution and quality of water and water resources https://t.co/RC47MqRS0s #rstats",16,5,26
+1089931112493662210,2019-01-28T17:00:01Z,"tail(x, n) shows the last n elements of x if n is positive, all but the first |n| elements if n is negative https://t.co/Mkpf3DNaIT #rstats",26,7,40
+1088843949370793984,2019-01-25T17:00:01Z,Get started debugging by adding a browser() call to your function https://t.co/iD4W9q8XtK #rstats,20,4,28
+1088481557327896576,2019-01-24T17:00:00Z,"""How do I?..."": 200 R idioms for common tasks from @sharon000, author of Practical R for Mass Communication and Journalism https://t.co/TWwsVRPRvJ #rstats",147,46,239
+1088119172297515008,2019-01-23T17:00:01Z,"A free, 4-week online course for beginners: ""Introduction to R for Data Science"" https://t.co/GyXO2AThXJ #rstats",65,25,115
+1087756784180154369,2019-01-22T17:00:01Z,Online help for the ggplot2 graphics package https://t.co/QFNOQtBXnp #rstats,77,29,135
+1087394396297822211,2019-01-21T17:00:01Z,Get financial data and more from Quandl with R https://t.co/WbgkaKYtlB #rstats,30,9,48
+1086307232214642688,2019-01-18T17:00:01Z,"Compute or estimate the condition number of a matrix: 
+kappa(M) 
+https://t.co/TRFP0IcGCN #rstats",18,6,30
+1085944842142703617,2019-01-17T17:00:00Z,"Got duration data, but some of the events are incomplete? Fit a Cox Proportional Hazards Regression Model with the coxph() function in the survival package https://t.co/w1Y2Zq8IV7 #rstats",33,9,51
+1085582454545661952,2019-01-16T17:00:00Z,How to use R in an Azure VM with Microsoft ML Server: https://t.co/yqcpAIisUX #rstats,21,5,31
+1085220066789076993,2019-01-15T17:00:00Z,"Lightweight, dependency-free package for installing R packages from Github, etc: remotes https://t.co/kXGgJ96yMO #rstats",24,3,30
+1084857678692679680,2019-01-14T17:00:00Z,"Calculate running 30-day means of daily values in vector x: filter(x,rep(1/30,30)) #rstats
+https://t.co/2EOWOSpQOs",51,15,81
+1083770513837613056,2019-01-11T17:00:00Z,"Leave out the mth column of a data frame: 
+dF[,-m] 
+https://t.co/nDWQWzPfeD #rstats",24,6,36
+1083408126936793094,2019-01-10T17:00:00Z,Use clusterboot() in the fpc package to help assess the stability of cluster classifications #rstats https://t.co/zocRloA965,27,7,41
+1083045740727939073,2019-01-09T17:00:01Z,An architecture for deploying real-time predictive models trained with R: https://t.co/lSZ4hb7if2  #rstats,28,8,44
+1082683349385297921,2019-01-08T17:00:00Z,This vignette for the showtext package explains how to display non-standard fonts in R graphics https://t.co/nTd47fVFqY #rstats,28,8,44
+1082320961637154816,2019-01-07T17:00:00Z,"Use setdiff(x,y) to find the values that appear in x but not in y https://t.co/5lQKfkZlkC #rstats",122,27,176
+1081233800519127040,2019-01-04T17:00:01Z,"Introduction to Empirical Bayes: Examples from Baseball Statistics, a name-your-own-price book by @drob #rstats https://t.co/R6RtKci8nB",54,24,102
+1080871409499422720,2019-01-03T17:00:00Z,A suite of R packages for quantitative risk management in finance: https://t.co/nYvB5xXK0i #rstats,48,15,78
+1080475135411437569,2019-01-02T14:45:21Z,"Generate a sequence of dates: 
+
+seq(https://t.co/3xmZS4XMQg(""2000/1/1""),
+    https://t.co/3xmZS4XMQg(""2019/1/1""), ""years"") 
+
+https://t.co/hWzcw2tFHq #rstats",122,34,190
+1080146633671593986,2019-01-01T17:00:00Z,New YeaR's resolution: Join a local R user group: https://t.co/3LrfnJhEi9 #rstats,56,14,84
+1078697084428009472,2018-12-28T17:00:00Z,Try demo('graphics') ... and type demo() to see other demos available in attached packages https://t.co/UtrP8sqKe4 #rstats,22,4,30
+1078334697359302656,2018-12-27T17:00:00Z,"write.matrix(M) in the built-in ""MASS"" package will print out a matrix, M, without the row and column index labels https://t.co/hljYdPNL6D #rstats",40,13,66
+1077972306700443653,2018-12-26T17:00:00Z,"getOption(""defaultPackages"") lists the packages (in addition to base) loaded at startup #rstats",45,6,57
+1077609921473056769,2018-12-25T17:00:00Z,"Seasons Greetings!
+
+library(animation)
+demo(""Xmas"") 
+
+https://t.co/YqHkfyIRAx #rstats",58,21,100
+1077247541144543233,2018-12-24T17:00:02Z,Plot sample with error bars and color coded legend https://t.co/zV9k3g9Np5 #rstats,45,9,63
+1076160371696775169,2018-12-21T17:00:01Z,"The official ""Introduction to R"" manual, updated with every R release https://t.co/EsZsJhiFXk #rstats",95,39,173
+1075797988323188736,2018-12-20T17:00:02Z,"rle(x) (""run-length encoding"") computes the lengths of runs of equal values in a vector https://t.co/usvgdAWkqy #rstats",10,2,14
+1075435594761687040,2018-12-19T17:00:01Z,Tutorial: Run a parallel R simulation in an Azure cluster with the doAzureParallel package https://t.co/CXszLDsSBb #rstats,35,14,63
+1075073204140630018,2018-12-18T17:00:00Z,"To select a column from a matrix and keep it as a column matrix, not a vector: X[,1,drop=FALSE] https://t.co/nDWQWA6QDd #rstats",56,19,94
+1074710816476127232,2018-12-17T17:00:00Z,How to generate random numbers in R: https://t.co/lSjtG9nmPW #rstats,30,13,56
+1073623652531363843,2018-12-14T17:00:00Z,The scan() function is useful for reading short sequences of data into a vector or list from the console or from a file https://t.co/NZr8ZLFosi #rstats,27,11,49
+1073261264552517632,2018-12-13T17:00:00Z,Index of datasets included with R https://t.co/dWkX91R5tA #rstats,27,10,47
+1072898882860793858,2018-12-12T17:00:01Z,"Introduction to AzureRMR, a package for managing Azure resources from R https://t.co/Uyop4Hy9xE #rstats",37,8,53
+1072536488930406401,2018-12-11T17:00:00Z,"Use readr::parse_datetime to convert text representations of dates and times (e.g. ""4:30 PM"") to a POSIXct vector https://t.co/SHC2ebopl5 #rstats",48,11,70
+1072174107209408513,2018-12-10T17:00:01Z,"The ""round"" function uses the ""round-to-even"" rule. round(3.5) and round(4.5) are both 4 https://t.co/yUQyBXfBY3 #rstats",50,15,80
+1071086937363095557,2018-12-07T17:00:00Z,Find the smallest positive floating-point number x such 1 + x != 1 on your computer with the variable .Machine https://t.co/22zNlMOw8E #rstats,9,1,11
+1070724549371682818,2018-12-06T17:00:00Z,"Free text: ""Practical Regression and ANOVA with R"": https://t.co/zGPJ4FNvCF #rstats",69,23,115
+1070362166702702597,2018-12-05T17:00:01Z,RTVS is a free extension for Visual Studio for R programming and debugging https://t.co/2IPtgm0giE #rstats,16,3,22
+1069999778182950913,2018-12-04T17:00:01Z,"If you want to create animated charts, check out this overview of the gganimate package with lots of examples https://t.co/GA58cjmGXj #rstats",135,40,215
+1069637392498335744,2018-12-03T17:00:01Z,Guidance for use of #rstats in regulated clinical trial environments (incl. for FDA): https://t.co/KXQRExKwfH #rstats,24,10,44
+1068550222077292544,2018-11-30T17:00:00Z,Use any() and all() to test if any or all of a vector of logical conditions are true https://t.co/F1NlBgmmy4 #rstats,33,12,57
+1068187838666035202,2018-11-29T17:00:01Z,Look at under help(par) for options you can use to customize plot() https://t.co/BcvnzloZjW #rstats,20,4,28
+1067825447927336960,2018-11-28T17:00:00Z,How to set up a data science client for R development on SQL Server: https://t.co/SNLCObhLVP #rstats,26,5,36
+1067463064189001728,2018-11-27T17:00:01Z,A guide to making a reproducible data science environment with R and Docker https://t.co/BufaNg8XPy #rstats,52,17,86
+1067100674658197505,2018-11-26T17:00:01Z,"Introduction to Rcpp, an R module for integrating C and C++ code: https://t.co/C01aPfta04 #rstats",31,5,41
+1066013518934106112,2018-11-23T17:00:03Z,"Hands-On Programming with R, a book to teach programming in R by @StatGarrett, available in its entirety at https://t.co/0z0wlNybxe #rstats",228,102,432
+1065651119349792769,2018-11-22T17:00:00Z,"Thanks to the R Core Group, for volunteering their time and expertise to create, improve and support R https://t.co/mwKR3pncrd #rstats",92,16,124
+1065288732738113536,2018-11-21T17:00:00Z,"Use checkpoint(""2018-11-21"") to make the current project always use today's package versions from now on https://t.co/70XwjnPuAm #rstats",61,14,89
+1064926346973917184,2018-11-20T17:00:01Z,"Download the source tarball for a specific version of a CRAN package by appending 
+ &amp;package=&lt;name&gt;&amp;version=&lt;version_no&gt;
+to the CRAN mirror URL. Example: https://t.co/ySrUMUpwZE #rstats",15,5,25
+1064563958693093376,2018-11-19T17:00:01Z,"par(mfrow=c(2,2)); plot(lm(y~x)) will produce 4 nice plots of the regression residuals https://t.co/yT3Yibjuvv #rstats
+par(mfrow=c(2,2)); plot(lm(y~x)) will produce 4 nice plots of the regression residuals https://t.co/yT3Yibjuvv #rstats",44,21,86
+1063540965250482176,2018-11-16T21:15:00Z,"Some #rstats Linear Algebra: For a matrix M, Null(M) {MASS package} finds a matrix giving a basis for the left null space https://t.co/EJ3uWs3jvW",15,4,23
+1063084213983801344,2018-11-15T15:00:02Z,"You can use the %&lt;&gt;% operator (in the magrittr package) to update an object with a pipe. 
+  a %&lt;&gt;% f %&gt;% g 
+is the same as 
+  a &lt;- a %&gt;% f %&gt;% g
+https://t.co/flxJjXU7RA #rstats",135,31,197
+1062752020296228864,2018-11-14T17:00:01Z,How to run RStudio on Azure Databricks https://t.co/3VyMgFfb81 #rstats,19,0,19
+1062389629528137728,2018-11-13T17:00:00Z,"Chromebook Data Science, a free course on Data Science with R from the Johns Hopkins Data Science lab #rstats https://t.co/hoa06QsnJU",58,18,94
+1062027242862194689,2018-11-12T17:00:00Z,Use the || and &amp;&amp; operators when working with scalar booleans; use | and &amp; when working with vectors https://t.co/RgnvmV1SRR #rstats,44,14,72
+1060940082515865600,2018-11-09T17:00:01Z,Tutorial: Analysis of Variance (ANOVA) for comparing the means https://t.co/zAsvbzBKZc #rstats,66,22,110
+1060577697061990400,2018-11-08T17:00:02Z,Want to fit a generalized additive model to a large data set? Try the bam() function in the mgcv package https://t.co/vRT9V2vmby #rstats,38,8,54
+1060215306281410560,2018-11-07T17:00:01Z,How to connect to Azure Databricks from R https://t.co/H5sLTDyNyl #rstats,13,5,23
+1059852914745921537,2018-11-06T17:00:00Z,"The fs package provides a unified, consistent, and cross-platform set of function for interacting with files and directories in R: https://t.co/A3BnxR6PcH #rstats",62,16,94
+1059490527186436098,2018-11-05T17:00:00Z,"Info on getting data from databases, spreadsheets, binary files and APIs into #rstats, from the official R data import/export manual: https://t.co/4JTw63NUPm",50,19,88
+1058388262371262466,2018-11-02T16:00:00Z,"nchar(string) finds the length of a string, whereas length(string) finds the length of the vector containing the string(s) https://t.co/yejvDrk4D9 #rstats",34,9,52
+1058025880579010562,2018-11-01T16:00:01Z,"Use is.atomic(v) NOT is.vector(v) to test if vector. Try:
+ v=9; attr(v,""A"") = ""attr"" 
+See Wickham, Advanced R https://t.co/V7a2xNRU4f #rstats",26,6,38
+1057663492189229060,2018-10-31T16:00:01Z,How to schedule R jobs as batch tasks with Microsoft ML Server https://t.co/RdbLpYbA7o #rstats,14,6,26
+1057301100229988352,2018-10-30T16:00:00Z,"Get docker containers with specific versions of R, RStudio, tidyverse and more from the rocker project https://t.co/wFYondcKj3 #rstats",27,5,37
+1056938717485637632,2018-10-29T16:00:01Z,rm(list=ls()) will remove almost everything from your working environment. Be careful! Be sure! https://t.co/z2iRBfRHHM #rstats,49,16,81
+1055851554723389440,2018-10-26T16:00:02Z,"Use ""gnls"" in the nlme package to fit a nonlinear model using generalized least squares https://t.co/yXB1mH0LdH #rstats",34,10,54
+1055489163645067264,2018-10-25T16:00:01Z,Robust function writing tip: use seq_len(N) instead of 1:N (it handles the N&lt;1 case appropriately) https://t.co/bV36jrunMg #rstats,56,21,98
+1055126771895582720,2018-10-24T16:00:00Z,"RT @MikeKSmith Looking for older versions of R packages, but don’t want to have to compile from source? You need the MRAN TimeMachine: https://t.co/VPadM9rVfD #rstats",23,7,37
+1054764392313733126,2018-10-23T16:00:02Z,"The R source code is made up of 32% C, 24% Fortran, and 37% R. You can find a read-only mirror of the sources on Github at https://t.co/FPrucBJCcy #rstats",55,11,77
+1054401996185321472,2018-10-22T16:00:00Z,Use the SAScii package to run an existing SAS script for importing ASCII data into R -- without needing SAS: https://t.co/lwvRNvU8Sf  #rstats,11,2,15
+1053314835692294144,2018-10-19T16:00:01Z,"If you are using R and think you're in hell, this is a map for you. ""The R Inferno"", a classic by @burnsstat: https://t.co/yRroUrffeZ #rstats",85,22,129
+1052952448837537792,2018-10-18T16:00:01Z,"Add row sums, column sums and grand total to a table with addmargins(my.table) #rstats htthttps://www.rdocumentation.org/packages/stats/versions/3.5.1/topics/addmargins",71,14,99
+1052590057255780352,2018-10-17T16:00:00Z,How to manage R packages in Microsoft ML Server https://t.co/kG3IuXZoKu #rstats,12,3,18
+1052227670040354816,2018-10-16T16:00:00Z,anova(model) will compute and print Analysis of Variance tables for models fitted with lm() and glm(). #rstats https://t.co/7Hh1PeKKzZ,34,11,56
+1051865280740085761,2018-10-15T16:00:00Z,List of R packages and functions for Cluster Analysis &amp; Finite Mixture Models: https://t.co/pl3R7WAW3Q #rstats,41,11,63
+1050778119903293440,2018-10-12T16:00:00Z,"Type ?""?"" or ?Question at the command line to get help with help in R https://t.co/DGnSLfvXZu #rstats",16,2,20
+1050415734487019520,2018-10-11T16:00:01Z,"Use a vector second argument to rep() to replicate *within* a vector. Example: 
+  rep(1:3, 1:3) 
+returns 
+  c(1,2,2,3,3,3) https://t.co/kgQ7WbDhSN #rstats",56,16,88
+1050053341819142147,2018-10-10T16:00:00Z,Online Pluralsight course presented by @_StaciaV_: Getting Started with R in the Microsoft Data Platform https://t.co/ROIB5X9n04 #rstats,11,2,15
+1049690957552082944,2018-10-09T16:00:01Z,List of R packages and functions for high-performance and parallel computing with R: https://t.co/oLEOlAXQCr #rstats,59,20,99
+1049328565936738310,2018-10-08T16:00:00Z,"Use xtabs(formula,data) {stats} to create a contingency table from cross-classifying factors https://t.co/nKJDOC62KC #rstats",37,10,57
+1048241414625083392,2018-10-05T16:00:03Z,"Train support vector machines with the ""svm"" function from the e1071 package: https://t.co/vz4PnPX3Mr #rstats",15,0,15
+1047879018932973569,2018-10-04T16:00:01Z,"List of 100+ probability distributions (densities, quantiles, simulation) supported in R: https://t.co/Hxph06HPIY #rstats",75,26,127
+1047516636427800578,2018-10-03T16:00:02Z,"How to call R functions via a RESTful API, at scale, with Microsoft ML Server https://t.co/UGJTUV7S05 #rstats",22,3,28
+1047154246586699778,2018-10-02T16:00:02Z,Use the gganimate package to create smooth animations with ggplot2 https://t.co/oh9i7zf0kR #rstats,93,38,169
+1046791852903432193,2018-10-01T16:00:00Z,"The behaviour of diag() depends on the length of its argument: diag(5) construct the 5x5 identity matrix, but diag(1:5) places 1:5 on the diagonal https://t.co/73AI3zkRmV #rstats",21,10,41
+1045704694717284352,2018-09-28T16:00:02Z,Got time to kill waiting for an R computation? Play games like Tetris and Pacman in RStudio with Rcade https://t.co/vZAhi5wqRq #rstats,91,30,151
+1045342311679504385,2018-09-27T16:00:03Z,"How to include non-standard fonts (Chinese, Cyrillic, CM Math etc) in PDF/Postscript charts: https://t.co/EgZTVrZAVs (p41) #rstats",19,7,33
+1044979917069389824,2018-09-26T16:00:01Z,"R developer's guide to Azure, documentation for Azure services supporting R https://t.co/Ij4XvatvgI #rstats",22,5,32
+1044617528406929410,2018-09-25T16:00:01Z,"Basic R syntax gotchas, from aRrgh: a newcomer’s (angry) guide to R https://t.co/sMYqwiJmYu #rstats",43,16,75
+1044255141249998849,2018-09-24T16:00:01Z,"options(stringsAsFactors=FALSE) forces R to import character data as character objects, but avoid the temptation to add it to your .Rprofile file: your code may not work for others if you do #rstats",51,13,77
+1043167974872506368,2018-09-21T16:00:00Z,Show a progress bar for in R console only when running interactively: if(interactive) {pb &lt;- txtProgressBar(…)} https://t.co/fCw32MlrUz #rstats,53,16,85
+1042820684085264384,2018-09-20T17:00:00Z,"A list of free courses, books, tutorials and cheat sheets for R https://t.co/kqOZvTMrIw #rstats",527,237,1001
+1042443201343188993,2018-09-19T16:00:01Z,How to publish R functions as Web services with Microsoft ML Server https://t.co/35myNyYGku #rstats,25,5,35
+1042095912884023296,2018-09-18T17:00:01Z,"Use the ""shiny"" package to easily create web-based applications with R. Get started with video and written tutorials at https://t.co/rSS4b88bxh #rstats",85,30,145
+1041718420494938112,2018-09-17T16:00:00Z,The arules package provides functions for mining itemsets and discovering association rules https://t.co/n3MrYVEd4H #rstats,23,4,31
+1040631261788745728,2018-09-14T16:00:01Z,Add a zero imaginary part to a number for complex arguments. sqrt(-1) returns NaN; sqrt(-1+0i) returns 1i #rstats,34,5,44
+1040268871653965830,2018-09-13T16:00:00Z,inSide() {mgcv} may help you determine if points are inside a boundary. https://t.co/4dV8HIjhUl #rstats,31,7,45
+1039906488532127744,2018-09-12T16:00:02Z,"To get the very latest versions of R packages with Microsoft R Open, run chooseCRANmirror() before calling install.packages #rstats",35,7,49
+1039544093406154752,2018-09-11T16:00:00Z,"Export a data frame to Excel with the writexl package: write_xlsx(mydata, ""mydata.xlsx"") https://t.co/xKJ4qQYh87 #rstats",61,26,113
+1039181711903518720,2018-09-10T16:00:01Z,Run-length encoding: count the number of times sequential repeats appear with rle(x) #rstats https://t.co/UzIfSANXG4,24,6,36
+1038094543030239232,2018-09-07T16:00:00Z,"Search R-help mailing list archives, help pages, vignettes and task views with RSiteSearch(""keyword"") https://t.co/W7TXC3ekl2 #rstats",18,9,36
+1037732155831382016,2018-09-06T16:00:00Z,"Packages for importing financial, sports and weather data into R https://t.co/NrygnpE7Ti #rstats",137,43,223
+1037369774123245568,2018-09-05T16:00:02Z,Tutorial: Use RevoScaleR R functions with SQL Server data https://t.co/eEJTJNQaB1,7,1,9
+1037007386215632901,2018-09-04T16:00:02Z,"Time how long your R code takes to run: #rstats
+
+tic &lt;- print(Sys.time()) 
+##
+## R code goes here
+##
+toc &lt;- print(Sys.time()) 
+print(toc-tic)",197,52,301
+1036826187342008320,2018-09-04T04:00:01Z,List of R functions and packages related to internet technologies and services https://t.co/ya8v2qFxBg #rstats,41,21,83
+1035557827148955654,2018-08-31T16:00:00Z,Five ways to subscript data in R https://t.co/tNBB7Y6E1Q #rstats,33,7,47
+1035195439119654912,2018-08-30T16:00:00Z,"Review and update selected packages to the latest version: update.packages(ask=""graphics"")  #rstats",21,7,35
+1034833052269203456,2018-08-29T16:00:00Z,"Installing R Packages in SQL Server ML Services, a tutorial series by @nielsberglund https://t.co/cl6FacvYas #rstats",17,2,21
+1034470664508506117,2018-08-28T16:00:00Z,"How to install R with multi-core acceleration, RStudio and tidyverse on Windows, Mac and Ubuntu https://t.co/qjSFVzjJVa #rstats",95,21,137
+1034108277674725376,2018-08-27T16:00:00Z,"In base graphics, change the direction of plot axis labels with las.  
+  plot(x,y,las=2)  
+makes all labels perpendicular to the axis #rstats https://t.co/ycPbnIj93y",57,16,89
+1033021115923193858,2018-08-24T16:00:01Z,Need to put R output in a book or paper? Use options(width=60) to limit output to a narrow column. https://t.co/rPryoPckBF #rstats,96,18,132
+1032658726379913216,2018-08-23T16:00:00Z,"Get the upper triangular elements of a matrix: M[upper.tri(M,diag=TRUE)] https://t.co/ant2hTPCsc #rstats",21,5,31
+1032356738580791297,2018-08-22T20:00:01Z,"A list of companies, officials and NGOs using R, curated by @jumpingrivers https://t.co/zs2uuTXoDW #rstats",31,14,59
+1031571563726991361,2018-08-20T16:00:01Z,"Use the xtable package to convert a table or matrix to HTML: print(xtable(X), type=""html"") https://t.co/AM1AExyhgD #rstats",64,24,112
+1030484396757811200,2018-08-17T16:00:00Z,"Use the lubridate package to easily manipulate dates, times and time zones https://t.co/t7cFs1VRuL #rstats",44,12,68
+1030122014059593728,2018-08-16T16:00:01Z,Advanced documentation on how S4 methods work in R https://t.co/fjrS6zq2Gy #rstats,26,7,40
+1029759623857750017,2018-08-15T16:00:00Z,Tutorial: Learn in-database analytics using R in SQL Server https://t.co/dDA6yZ2ZJr #rstats,50,17,84
+1029397234201374721,2018-08-14T16:00:00Z,"Useful operator from the rlang package: 
+  a %||% b %||% c 
+returns the first of the objects a, b, c that is not NULL https://t.co/9QvIqsSPht #rstats",119,26,171
+1029034849372262401,2018-08-13T16:00:01Z,The list of R operators: https://t.co/g7WR97QEbH #rstats,49,18,85
+1027947688938024960,2018-08-10T16:00:02Z,Use apropos() to find a function or variable when you can only remember part of its name https://t.co/HL37rwufk5 #rstats,92,40,172
+1027585300552286208,2018-08-09T16:00:01Z,Compute a kernel density estimate of a variable's distribution with density(x) https://t.co/HFJHyE6d3Q #rstats,19,6,31
+1027222911613063169,2018-08-08T16:00:01Z,How to use R packages with the online Power BI service https://t.co/fb1HFTvQcB #rstats,22,11,44
+1026860524510670854,2018-08-07T16:00:01Z,Count the number of rows in a data frame that have missing values with sum(!complete.cases(dF)) https://t.co/xPq9DFMrrr #rstats,111,25,161
+1026498131368837126,2018-08-06T16:00:00Z,"Print numbers as currency in a 6-character wide field: sprintf(""$%6.2f"",mean(LifeCycleSavings$sr))",30,7,44
+1025410977280319488,2018-08-03T16:00:02Z,"If two packages define functions with the same name, use :: to call the one you want: https://t.co/R5jqllgn1o #rstats",53,20,93
+1025048586831228928,2018-08-02T16:00:02Z,"Watch the keynotes, talks and tutorials from the user!2018 (courtesy @RConsortium) https://t.co/Bzw3um72hX #rstats",51,19,89
+1024686190857924608,2018-08-01T16:00:00Z,"Open data sets, curated by Microsoft Research for computer vision, NLP and scientific analysis, available for download from https://t.co/pEWR5Xdc8t #rstats",67,25,117
+1024323811737513992,2018-07-31T16:00:02Z,"""Learning Statistics with R"", course notes for teaching R to Psychology students by @djnavarro https://t.co/4OBLyeajCw #rstats",143,56,255
+1023961417429524482,2018-07-30T16:00:00Z,List of R packages for the analysis of medical images: https://t.co/vqSp0eIyNK #rstats,46,27,100
+1022874259025276929,2018-07-27T16:00:02Z,deviance(fit) returns the deviance of a fitted model object https://t.co/7jP7YCeeN4 #rstats,19,11,41
+1022511875492401152,2018-07-26T16:00:03Z,"Handling Strings with R, a free e-book: https://t.co/maopCvY23h #rstats",90,41,172
+1022149477124075520,2018-07-25T16:00:00Z,How to use R to create custom visualizations in Power BI Service https://t.co/RZVjBM0qgL #rstats,34,9,52
+1021787088210014208,2018-07-24T16:00:00Z,Use str(obj) to display the components of any object in human-readable format https://t.co/roxxjU88As #rstats,28,14,56
+1021424707415883776,2018-07-23T16:00:02Z,"Use ""deriv"" to create a function that returns the derivative and hessian of an algebraic expression: https://t.co/2wWoqJZN7O #rstats",38,14,66
+1020337537011863552,2018-07-20T16:00:00Z,"Use 'substitute' to include the variable's name in a plot title, e.g.: hist(var,main=substitute(paste(""Dist of "", var))) https://t.co/sqRolnCCzc #rstats",69,16,101
+1019975159925665794,2018-07-19T16:00:03Z,alias(lm_object) will find linearly dependent terms in analysis of variance models https://t.co/1jvQte1pda #rstats,30,5,40
+1019612764958932992,2018-07-18T16:00:01Z,"The Data Science Virtual Machine is an Azure instance preinstalled with Microsoft R, Rstudio, Rattle, Tensorflow and more: https://t.co/PaDJXjljia #rstats",35,19,73
+1019250375738527744,2018-07-17T16:00:00Z,Use sample_n (in the dplyr package) to select random rows from a data frame or tbl https://t.co/tCLOgSs2mN #rstats,78,28,134
+1018887993271115776,2018-07-16T16:00:02Z,Comparing floating-point numbers with == is unwise. Use all.equal to avoid errors from rounding: https://t.co/8TS7j3p17S #rstats,83,27,137
+1017800832144805889,2018-07-13T16:00:02Z,"tapply(x, groups) applies a function to each non-empty group in a ""ragged"" array. Example: https://t.co/l8dMyKvuRK #rstats",33,8,49
+1017438438528651264,2018-07-12T16:00:01Z,Over 750 people who blog about R https://t.co/CTGSo8qXQm #rstats,15,4,23
+1017076050092625920,2018-07-11T16:00:01Z,A %x% B calculates the kronecker product of matrices A and B https://t.co/3blsgcuO90 #rstats,28,10,48
+1016713670469017601,2018-07-10T16:00:03Z,"You can define your own operators in R #rstats. Example (via @neuwirthe):
+
+`%divisible_by%` &lt;- function(x,y) x %% y == 0
+
+6 %divisible_by% 3
+6 %divisible_by% 4",137,45,227
+1016351272847400960,2018-07-09T16:00:00Z,Side by side comparisons of analysis tasks done in SAS and R: https://t.co/0KHTTuLF8I #rstats,30,14,58
+1015264119635808256,2018-07-06T16:00:03Z,"Efficiency tip: When selecting from a data frame, df$a[1] is much faster than df[1,""a""] #rstats https://t.co/ckj3lpaduv #rstats",163,53,269
+1014901725705236480,2018-07-05T16:00:02Z,Free self-paced edX course: Analyzing Big Data with Microsoft R Server https://t.co/F6c1TOFERV! #rstats,42,10,62
+1014539336308715520,2018-07-04T16:00:01Z,"Draw a map of the United States with R: 
+  library(maps)
+  map('usa') 
+#rstats https://t.co/wbiGuzs7xU",59,13,85
+1014176950296989696,2018-07-03T16:00:02Z,Extract data from tables in PDF documents with the pdftools package https://t.co/LDbeg9XDnG #rstats,173,56,285
+1013814566235660289,2018-07-02T16:00:03Z,"Display information about your R session including R version, platform and attached packages with sessionInfo() #rstats",39,7,53
+1012727401762222080,2018-06-29T16:00:02Z,"SQL Server 2017 Machine Learning Services with R, an e-book by @tomaz_tsql and @MsSQLGirl by https://t.co/x8tkFkPAQm #rstats",30,11,52
+1012365017163993088,2018-06-28T16:00:03Z,Meet other R users at a local R user group in your area: https://t.co/3LrfnJzfGJ #rstats,37,16,69
+1012002625682694145,2018-06-27T16:00:02Z,ESS (Emacs Speaks Statistics) is a popular add-on for working with R inside Emacs https://t.co/9sXtzmYiSw #rstats,14,4,22
+1011640228602187777,2018-06-26T16:00:00Z,Tutorials on various machine learning and statistical forecasting techniques in the @UC_Rstats Business Analytics R Programming Guide https://t.co/MOEzz4Gc7Q #rstats,107,36,179
+1011277848236060672,2018-06-25T16:00:02Z,"For rpart classification trees, residuals(fit,type=""deviance"") returns the deviance residuals https://t.co/R34i0WrkXU #rstats",14,7,28
+1010190680860307456,2018-06-22T16:00:01Z,Run an R script from the command line in batch mode with R CMD BATCH: https://t.co/Ec0XwAR7tv #rstats,31,7,45
+1009828289299574784,2018-06-21T16:00:00Z,"Format numbers ""v"" as currency, like $2,101,944: 
+gsub(""^ *"",""$"",prettyNum(v, big.mark="","")) 
+https://t.co/40fB4bf5Im #rstats",40,9,58
+1009465902272638976,2018-06-20T16:00:00Z,"You can call any R operator as a function. For example
+  x + y
+can be written as 
+  `+`(x, y) 
+https://t.co/g7WR97QEbH",179,42,263
+1009103520597831680,2018-06-19T16:00:02Z,if(isTRUE(condition)) may be preferable to if(condition) https://t.co/71r3Z2nrpe #rstats,85,25,135
+1008741133193658369,2018-06-18T16:00:02Z,"An online Introduction to R with some R history, linear models, glm and more #rstats https://t.co/yUPTUTXoUH",115,35,185
+1007653970452463616,2018-06-15T16:00:02Z,The number of people you need to gather for a 95% probability of at least one shared birthday: qbirthday(0.95) https://t.co/grJ29lTqYX #rstats,57,18,93
+1007291585418158086,2018-06-14T16:00:03Z,"seq(n1,n2,m) will generate a sequence of numbers from n1 to n2 counting by m https://t.co/WoOXEb9PZe #stats",27,8,43
+1006929194545057792,2018-06-13T16:00:02Z,na.omit(df) returns all rows of a data frame except those containing any missing values https://t.co/K9Qy3kQb0R #rstats,84,18,120
+1006566799830278145,2018-06-12T16:00:00Z,"A list of over 1,000 datasets available in R packages, curated by @VincentAB (via @mf_viz) https://t.co/oR2ngOA5xl #rstats",99,38,175
+1006204420558688257,2018-06-11T16:00:02Z,"Explanations of lexical scope, function closures and environments in R: https://t.co/zw8nRR9659 #rstats",27,6,39
+1005117251882758150,2018-06-08T16:00:01Z,CrossTable() in {gmodels} produces crosstabulations modeled after SAS's PROC FREQ https://t.co/oFKKMf6Itb #rstats,38,4,46
+1004754858287611906,2018-06-07T16:00:00Z,"To speed up your R code, use Rprof() to turn on profiling, and summaryRprof() to find the slow parts: https://t.co/NYPiDbL05g #rstats",128,32,192
+1004392481432064000,2018-06-06T16:00:02Z,The @Rstudio cheat sheet for data visualization with ggplot2 (PDF): https://t.co/nbGPxktxy5 #rstats,112,39,190
+1004030085031256069,2018-06-05T16:00:00Z,"When reading data from files, R will accept ""infinity"", ""inf"" and ""nan"" as a valid numeric values https://t.co/1OBV1OAyFr #rstats",41,14,69
+1003667700852244482,2018-06-04T16:00:01Z,"Calculate the differences between every nth value of a vector x with diff(x,n) https://t.co/YtBplSVL5B #rstats",40,13,66
+1002580532771713030,2018-06-01T16:00:00Z,Convenience features of the fread function in the data.table package for reading small and large data sets into R https://t.co/2DDxkUW1S7 #rstats,43,12,67
+1002218145719844865,2018-05-31T16:00:00Z,"auto.arima() {forecast} will return the best ARIMA fit to a time series using the AIC, AICc or BIC criterion https://t.co/rvR9E6nlYv #rstats",68,25,118

@@ -15,7 +15,10 @@ Suggests:
     rmarkdown
 VignetteBuilder: knitr
 Imports: 
+    googlesheets,
     here,
-    rtweet
-    tidyr
+    rtweet,
+    tidyr,
+    spelling,
+    stringdist
 RoxygenNote: 6.1.1
