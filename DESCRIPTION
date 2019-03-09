@@ -10,8 +10,13 @@ Description: What the package does (one paragraph).
 License: What license it uses
 Encoding: UTF-8
 LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
 Imports: 
     googlesheets,
     here,
     rtweet
     tidyr
+RoxygenNote: 6.1.1
