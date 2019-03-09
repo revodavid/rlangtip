@@ -17,6 +17,6 @@ VignetteBuilder: knitr
 Imports: 
     googlesheets,
     here,
-    rtweet
+    rtweet,
     tidyr
 RoxygenNote: 6.1.1
