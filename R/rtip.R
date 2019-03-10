@@ -21,6 +21,19 @@ rtip <- function(id, cowsay = TRUE) {
   tiprow
 
   if (cowsay) {
+    on_windows <- function() {
+      os <- tolower(Sys.info()[["sysname"]])
+
+      "windows" %in% os
+    }
+
+    who_pool <- names(cowsay::animals)
+
+    if (on_windows()) {
+      no_windows <- c("shortcat", "longcat", "fish", "signbunny", "stretchycat", "anxiouscat", "longtailcat", "grumpycat", "mushroom")
+      who_pool <- names(cowsay::animals)[-which(names(cowsay::animals) %in% no_windows)]
+    }
+
     who <- names(sample(cowsay::animals, 1))
 
     display <- c(

@@ -5,7 +5,7 @@
 \title{Check spelling of tips}
 \usage{
 check_tip_spelling(tips, ignore = readLines(system.file("extdata",
-  "wordlist")))
+  "wordlist", package = "rlangtip")))
 }
 \arguments{
 \item{tips}{data.frame of tips}
