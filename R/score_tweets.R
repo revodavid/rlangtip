@@ -1,4 +1,5 @@
 
+utils::globalVariables(c("favorite_count", "retweet_count"))
 
 score_tweets <- function(tbl) {
   tbl %>%

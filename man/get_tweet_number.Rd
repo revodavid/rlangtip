@@ -12,6 +12,3 @@ get_tweet_number(buffer = 100)
 \description{
 Get tweet number
 }
-\examples{
-
-}

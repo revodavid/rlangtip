@@ -7,7 +7,7 @@
 get_tweets(save_number = TRUE)
 }
 \arguments{
-\item{save_number}{}
+\item{save_number}{Whether to save the numbers of the tweets or not}
 }
 \description{
 Get Tweets
