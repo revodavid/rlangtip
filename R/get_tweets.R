@@ -60,15 +60,14 @@ utils::globalVariables(c("status_id", "created_at", "text"))
 #' tibble::tibble(text = "foo #rstats") %>% add_rstats_hashtag(text)
 #'
 add_rstats_hashtag <- function(tbl, col) {
+  q_col <- enquo(col)
 
- q_col <- enquo(col)
-
- tbl %>%
-  mutate(
-   text =
-    case_when(
-     ! stringr::str_detect(!!q_col, "#rstats") ~ !!q_col %>% stringr::str_c(" #rstats"),
-     TRUE ~ text
+  tbl %>%
+    mutate(
+      text =
+        case_when(
+          !stringr::str_detect(!!q_col, "#rstats") ~ !!q_col %>% stringr::str_c(" #rstats"),
+          TRUE ~ text
+        )
     )
-  )
 }

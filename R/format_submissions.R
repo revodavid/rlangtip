@@ -7,11 +7,11 @@
 #' @export
 #'
 #' @examples
-#' 
-#' 
+#'
+#'
 
 format_submissions <- function(subs, tips) {
- 
+
  maxid <- max(tips$id, na.rm = T)
 
  x <- subs %>%
@@ -25,10 +25,5 @@ format_submissions <- function(subs, tips) {
  colnames(x) <- NULL
  
  write.csv(x, file("clipboard"), row.names=F)
- #write.csv(x, here::here("inst", "extdata", "NewTips.csv"), row.names=F, con)
- #cat(scan(here::here("inst", "extdata", "NewTips.csv"), character(), sep="\n"), sep="\n")
-
+ 
 }
-
-
-

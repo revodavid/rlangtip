@@ -49,5 +49,7 @@ filter_dupes <- function(tbl, cutoff = -3) {
       text = tweet_1
     )
 }
-utils::globalVariables(c("Var1", "Var2", "tweet_1", "tweet_2", "string_dist",
-    "string_dist_scaled"))
+utils::globalVariables(c(
+  "Var1", "Var2", "tweet_1", "tweet_2", "string_dist",
+  "string_dist_scaled"
+))

@@ -12,7 +12,8 @@ Encoding: UTF-8
 LazyData: true
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat
 VignetteBuilder: knitr
 Imports: 
     googlesheets,
@@ -27,5 +28,6 @@ Imports:
     dplyr,
     magrittr,
     stringr,
-    cowsay
+    cowsay,
+    pluralize
 RoxygenNote: 6.1.1
