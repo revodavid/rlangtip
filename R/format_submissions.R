@@ -18,11 +18,17 @@ format_submissions <- function(subs, tips) {
   mutate(id = seq(maxid+1, maxid+nrow(subs)),
          Tip = `Suggested Tweet`, 
          Author = `Your Name or Twitter Handle`, 
-         Last.Sent = NA,
+         Last.Sent = "",
          Category = "Uncategorized") %>% 
   select(id, Tip, Author, Last.Sent, Category) 
- write.csv(x, here::here("inst", "extdata", "NewTips.csv"), row.names=F)
  
- ## add double quotes
+ colnames(x) <- NULL
  
+ write.csv(x, file("clipboard"), row.names=F)
+ #write.csv(x, here::here("inst", "extdata", "NewTips.csv"), row.names=F, con)
+ #cat(scan(here::here("inst", "extdata", "NewTips.csv"), character(), sep="\n"), sep="\n")
+
 }
+
+
+
