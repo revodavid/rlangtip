@@ -33,8 +33,7 @@ rtip <- function(id, cowsay = TRUE, color = FALSE,
   if (!is.null(keyword)) {
     if (!is.character(keyword)) stop("keyword must be of class character.")
     
-    keyword <- pluralize::pluralize(keyword) %>% 
-      c(pluralize::singularize(keyword)) %>% 
+    keyword <- keyword %>% 
       unique() %>% 
       tolower()
     
