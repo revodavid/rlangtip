@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
-# rlangtip
+# rlangtip <img src="./man/img/logo.png" alt="rtip" height="225px" align="right">
 
 An R package to print out a useful tip in R. Based on the history of the [@RLangTip](http://twitter.com/RLangTip) Twitter account.
 
