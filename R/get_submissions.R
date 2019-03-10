@@ -4,12 +4,11 @@
 #' @param tab Character. Name of the google sheet tab with the form responses.
 #'
 #' @export
-#' 
-#' Run googlesheets:gs_ls() to initiate authentication 
+#'
+#' Run googlesheets:gs_ls() to initiate authentication
 
 get_submissions <- function(key, tab) {
- rLangSheet <- googlesheets::gs_key(key)
- rLangSheet %>% 
-  googlesheets::gs_read(ws = tab) 
- }
-
+  rLangSheet <- googlesheets::gs_key(key)
+  rLangSheet %>%
+    googlesheets::gs_read(ws = tab)
+}

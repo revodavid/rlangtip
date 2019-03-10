@@ -16,6 +16,13 @@ knitr::opts_chunk$set(
 
 An R package to print out a useful tip in R. Based on the history of the [@RLangTip](http://twitter.com/RLangTip) Twitter account.
 
+Interactions
+
+```{r}
+
+```
+
+
 ## Installation
 
 This package isn't yet on CRAN. To install, use

@@ -1,5 +1,5 @@
 ## good tweets to test
-## 366
+## 366 573
 
 ## TODO
 ## Don't import file each time -- use an object created on load
@@ -11,7 +11,7 @@
 #'
 #' @return Table of tips in tibble format
 read_tips <- function() {
- readr::read_csv(here::here("inst", "extdata", "tips.csv"), col_types = "icc?c")
+  readr::read_csv(system.file("extdata/tips.csv", package = "rlangtip"), col_types = "icc?c")
 }
 
 #' Display an R tip
@@ -19,13 +19,31 @@ read_tips <- function() {
 #' @param id numeric ID of tip to display. If not provided, display a randomly-selected tip.
 #' @param cowsay if TRUE, a random cowsay animal will present the tip
 #' @param color if TRUE, use a colorful cowsay display. Ignored if cowsay=FALSE
-#' @param excluded categories excluded for random tip selection 
+#' @param excluded categories excluded for random tip selection
+#' @param keyword character vector keywords contained in tips to search for. 
 #'
 #' @return the tip, as a 3-element vector (tip number and category; tip text; author and date)
 #' @export
-rtip <- function(id, cowsay = TRUE, color = FALSE, excluded = c("deprecated","Uncategorized")) {
+rtip <- function(id, cowsay = TRUE, color = FALSE, 
+                 excluded = c("deprecated", "Uncategorized"),
+                 keyword = NULL) {
   ## Print a random tweet from tips.csv
   tips <- read_tips()
+  
+  if (!is.null(keyword)) {
+    if (!is.character(keyword)) stop("keyword must be of class character.")
+    
+    keyword <- pluralize::pluralize(keyword) %>% 
+      c(pluralize::singularize(keyword)) %>% 
+      unique() %>% 
+      tolower()
+    
+    keyword <- stringr::str_c(keyword, collapse = "|")
+    
+    tips <- tips %>% 
+      dplyr::filter(str_detect(tolower(Tip), keyword))
+  }
+  
   N <- NROW(tips)
   if (missing(id)) {
     candidates <- (1:N)[!(tips$Category %in% excluded)]
@@ -38,11 +56,11 @@ rtip <- function(id, cowsay = TRUE, color = FALSE, excluded = c("deprecated","Un
   tiprow
 
   display <- c(
-   paste0("Tip #", tiprow$id, " in category ", tiprow$Category, sep = ""),
-   tiprow$Tip,
-   paste0("      -- ", tiprow$Author, ", ", tiprow$"Last Sent")
+    paste0("Tip #", tiprow$id, " in category ", tiprow$Category, sep = ""),
+    tiprow$Tip,
+    paste0("      -- ", tiprow$Author, ", ", tiprow$"Last Sent")
   )
-  
+
   if (cowsay) {
     on_windows <- function() {
       os <- tolower(Sys.info()[["sysname"]])
@@ -58,22 +76,20 @@ rtip <- function(id, cowsay = TRUE, color = FALSE, excluded = c("deprecated","Un
     }
 
     who <- sample(who_pool, 1)
-    
+
     display_cat <- display %>% paste(collapse = "\n")
 
-    if(color) { 
-    cowsay::say(display_cat, by_color = "rainbow", by = who, type = "string") %>%
-      cat()
+    if (color) {
+      cowsay::say(display_cat, by_color = "rainbow", by = who, type = "string") %>%
+        cat()
     } else {
-     cowsay::say(display_cat, by = who, type = "string") %>%
-      cat()
-     
-     return(invisible(display_cat))
+      cowsay::say(display_cat, by = who, type = "string") %>%
+        cat()
     }
   } else {
     cat(display, sep = "\n")
 
   }
 
-  invisible(display)  
+  invisible(display)
 }
