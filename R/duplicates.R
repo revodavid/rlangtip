@@ -38,7 +38,7 @@ filter_dupes <- function(tbl, cutoff = -3) {
     filter(tweet_1 != tweet_2) %>%
     mutate(
       string_dist = stringdist::stringdist(tweet_1, tweet_2),
-      string_dist_scaled = z_score(string_dist)
+      string_dist_scaled = dobtools::z_score(string_dist)
     ) %>%
     filter(
       string_dist_scaled > cutoff
