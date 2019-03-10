@@ -55,11 +55,10 @@ get_tweets <- function(save_number = TRUE) {
 }
 
 
-
-
-#' Title
+#' Add #rstats
 #'
 #' @param txt Tip text.
+#' @param col Column to add hashtags to.
 #'
 #' @return
 #' @export
@@ -69,7 +68,7 @@ get_tweets <- function(save_number = TRUE) {
 #' tibble(text = "foo") %>% add_rstats_hashtag()
 #' tibble(text = "foo #rstats") %>% add_rstats_hashtag
 #' 
-add_rstats_hashtag <- function(tbl, col) {
+add_rstats_hashtag <- function(tbl, col = text) {
  
  q_col <- enquo(col)
  
