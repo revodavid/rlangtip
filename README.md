@@ -5,6 +5,14 @@ rlangtip
 
 An R package to print out a useful tip in R. Based on the history of the \[@RLangTip\](<http://twitter.com/RLangTip>) Twitter account.
 
+Interactions
+
+<img src="man/figures/README-unnamed-chunk-1-1.png" width="100%" />
+
+    #> A list of free courses, books, tutorials and cheat sheets for R
+
+<img src="man/figures/README-unnamed-chunk-1-2.png" width="100%" />
+
 Installation
 ------------
 
@@ -21,7 +29,7 @@ After loading the package, use:
 
 to generate a random tip. See `help(rtip)` for more options.
 
-Would you like to contribute a tip to this package? See [Contributions.md](Contributions.md) for details.
+Would you like to contribute a tip to this package? See [Contributions.md](Contributions.md) for details or run the `submit_tip` function 😄.
 
 Contributors
 ------------
