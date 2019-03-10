@@ -67,6 +67,8 @@ rtip <- function(id, cowsay = TRUE, color = FALSE, excluded = c("deprecated","Un
     } else {
      cowsay::say(display_cat, by = who, type = "string") %>%
       cat()
+     
+     return(invisible(display_cat))
     }
   } else {
     cat(display, sep = "\n")
