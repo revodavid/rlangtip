@@ -7,11 +7,8 @@
 save_tweet_number(val)
 }
 \arguments{
-\item{val}{}
+\item{val}{the vector of tweet numbers}
 }
 \description{
 Save tweet number
-}
-\examples{
-
 }

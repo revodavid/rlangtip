@@ -7,7 +7,7 @@
 save_tweets(tbl)
 }
 \arguments{
-\item{tbl}{}
+\item{tbl}{a tibble of tweets}
 }
 \description{
 Save Tweets

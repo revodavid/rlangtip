@@ -2,12 +2,12 @@ Package: rlangtip
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "David",
+           family = "Smith",
            role = c("aut", "cre"),
            email = "first.last@example.com")
 Description: What the package does (one paragraph).
-License: What license it uses
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: 
@@ -21,6 +21,11 @@ Imports:
     tidyr,
     spelling,
     stringdist,
+    tibble,
     readr,
-    tibble
+    readxl,
+    dplyr,
+    magrittr,
+    stringr,
+    cowsay
 RoxygenNote: 6.1.1
