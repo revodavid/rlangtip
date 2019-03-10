@@ -19,15 +19,17 @@ read_tips <- function() {
 #' @param id numeric ID of tip to display. If not provided, display a randomly-selected tip.
 #' @param cowsay if TRUE, a random cowsay animal will present the tip
 #' @param color if TRUE, use a colorful cowsay display. Ignored if cowsay=FALSE
+#' @param excluded categories excluded for random tip selection 
 #'
-#' @return
+#' @return the tip, as a 3-element vector (tip number and category; tip text; author and date)
 #' @export
-rtip <- function(id, cowsay = TRUE, color = FALSE) {
+rtip <- function(id, cowsay = TRUE, color = FALSE, excluded = c("deprecated","Uncategorized")) {
   ## Print a random tweet from tips.csv
   tips <- read_tips()
   N <- NROW(tips)
   if (missing(id)) {
-    rownum <- sample(1:N, 1)
+    candidates <- (1:N)[!(tips$Category %in% excluded)]
+    rownum <- sample(candidates, 1)
   } else {
     rownum <- which(tips$id == id)
     if (length(rownum) == 0) stop("No such tip")
@@ -35,6 +37,12 @@ rtip <- function(id, cowsay = TRUE, color = FALSE) {
   tiprow <- tips[rownum, ]
   tiprow
 
+  display <- c(
+   paste0("Tip #", tiprow$id, " in category ", tiprow$Category, sep = ""),
+   tiprow$Tip,
+   paste0("      -- ", tiprow$Author, ", ", tiprow$"Last Sent")
+  )
+  
   if (cowsay) {
     on_windows <- function() {
       os <- tolower(Sys.info()[["sysname"]])
@@ -50,13 +58,7 @@ rtip <- function(id, cowsay = TRUE, color = FALSE) {
     }
 
     who <- sample(who_pool, 1)
-
-    display <- c(
-      paste0("Tip #", tiprow$id, " in category ", tiprow$Category, sep = ""),
-      tiprow$Tip,
-      paste0("      -- ", tiprow$Author, ", ", tiprow$"Last Sent")
-    )
-
+    
     display_cat <- display %>% paste(collapse = "\n")
 
     if(color) { 
@@ -69,14 +71,9 @@ rtip <- function(id, cowsay = TRUE, color = FALSE) {
      return(invisible(display_cat))
     }
   } else {
-    display <- c(
-      paste0("Tip #", tiprow$id, " in category ", tiprow$Category, sep = ""),
-      tiprow$Tip,
-      paste0("      -- ", tiprow$Author, ", ", tiprow$"Last Sent")
-    )
-
     cat(display, sep = "\n")
-    
-    return(invisible(display))
-  } 
+
+  }
+
+  invisible(display)  
 }
