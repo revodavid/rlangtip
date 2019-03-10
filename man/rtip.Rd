@@ -4,7 +4,8 @@
 \alias{rtip}
 \title{Display an R tip}
 \usage{
-rtip(id, cowsay = TRUE, color = FALSE)
+rtip(id, cowsay = TRUE, color = FALSE, excluded = c("deprecated",
+  "Uncategorized"), keyword = NULL)
 }
 \arguments{
 \item{id}{numeric ID of tip to display. If not provided, display a randomly-selected tip.}
@@ -12,6 +13,13 @@ rtip(id, cowsay = TRUE, color = FALSE)
 \item{cowsay}{if TRUE, a random cowsay animal will present the tip}
 
 \item{color}{if TRUE, use a colorful cowsay display. Ignored if cowsay=FALSE}
+
+\item{excluded}{categories excluded for random tip selection}
+
+\item{keyword}{character vector keywords contained in tips to search for.}
+}
+\value{
+the tip, as a 3-element vector (tip number and category; tip text; author and date)
 }
 \description{
 Display an R tip

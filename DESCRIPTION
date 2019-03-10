@@ -28,5 +28,6 @@ Imports:
     dplyr,
     magrittr,
     stringr,
-    cowsay
+    cowsay,
+    pluralize
 RoxygenNote: 6.1.1
