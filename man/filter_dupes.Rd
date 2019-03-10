@@ -7,7 +7,9 @@
 filter_dupes(tbl, cutoff = -3)
 }
 \arguments{
-\item{cutoff}{}
+\item{tbl}{A tibble}
+
+\item{cutoff}{The Z-score cutoff to use for filtering}
 }
 \description{
 Filter Dupes
