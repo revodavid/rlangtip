@@ -15,7 +15,7 @@ format_submissions <- function(subs, tips) {
  maxid <- max(tips$id, na.rm = T)
 
  subs %>%
-  mutate(id = seq(maxid+1, maxid+nrow(subtest)),
+  mutate(id = seq(maxid+1, maxid+nrow(subs)),
          Tip = `Suggested Tweet`, 
          Author = `Your Name or Twitter Handle`, 
          Last.Sent = NA,
