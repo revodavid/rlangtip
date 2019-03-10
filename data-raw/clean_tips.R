@@ -2,7 +2,7 @@
 ## to ascii inst/extdata/tips.csv
 
 library(readxl)
-tips <- read_excel(here::here("data-raw","Daily R Language Tips for RLangTip.xlsx"))
+tips <- read_excel(here::here("data-raw", "Daily R Language Tips for RLangTip.xlsx"))
 
 library(dplyr)
 readr::write_csv(tips, here::here("inst", "extdata", "tips.csv"))
