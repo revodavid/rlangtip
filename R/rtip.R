@@ -66,7 +66,7 @@ rtip <- function(id, cowsay = TRUE, color = FALSE) {
      cowsay::say(display_cat, by = who, type = "string") %>%
       cat()
      
-     # return(invisible(display_cat))
+     return(invisible(display_cat))
     }
   } else {
     display <- c(
@@ -76,6 +76,7 @@ rtip <- function(id, cowsay = TRUE, color = FALSE) {
     )
 
     cat(display, sep = "\n")
-    # return(invisible(display_cat))
-  }
+    
+    return(invisible(display_cat))
+  } 
 }
