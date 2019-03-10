@@ -12,5 +12,5 @@ get_submissions(key, tab)
 \item{tab}{Character. Name of the google sheet tab with the form responses.}
 }
 \description{
-Import Google Sheets Data
+Run googlesheets:gs_ls() to initiate authentication
 }

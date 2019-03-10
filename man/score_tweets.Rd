@@ -7,7 +7,7 @@
 score_tweets(tbl)
 }
 \arguments{
-\item{tbl}{}
+\item{tbl}{the tibble to import}
 }
 \description{
 Score tweets

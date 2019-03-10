@@ -3,13 +3,7 @@
 #' @param subs Tibble. Name of tibble containing submission data (output of get_submissions)
 #' @param tips Tibble. Name of tips table (inst/extdata/tips.csv). Used to identify id ID range.
 #'
-#' @return
 #' @export
-#'
-#' @examples
-#'
-#'
-
 format_submissions <- function(subs, tips) {
 
  maxid <- max(tips$id, na.rm = T)
@@ -24,6 +18,8 @@ format_submissions <- function(subs, tips) {
  
  colnames(x) <- NULL
  
- write.csv(x, file("clipboard"), row.names=F)
+ readr::write_csv(x, file("clipboard"))
  
 }
+
+utils::globalVariables(c("Suggested Tweet", "Your Name or Twitter Handle", "id", "Tip", "Author", "Last.Sent", "Category"))
