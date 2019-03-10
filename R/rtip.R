@@ -7,9 +7,24 @@
 ## Allow filtering by category
 ## Word wrap tweet to width of display
 
-rtip <- function(id, cowsay = TRUE) {
+#' Return the tips database
+#'
+#' @return Table of tips in tibble format
+read_tips <- function() {
+ readr::read_csv(here::here("inst", "extdata", "tips.csv"), col_types = "icc?c")
+}
+
+#' Display an R tip
+#'
+#' @param id numeric ID of tip to display. If not provided, display a randomly-selected tip.
+#' @param cowsay if TRUE, a random cowsay animal will present the tip
+#' @param color if TRUE, use a colorful cowsay display. Ignored if cowsay=FALSE
+#'
+#' @return
+#' @export
+rtip <- function(id, cowsay = TRUE, color = FALSE) {
   ## Print a random tweet from tips.csv
-  tips <- readr::read_csv(here::here("inst", "extdata", "tips.csv"), col_types = "icc?c")
+  tips <- read_tips()
   N <- NROW(tips)
   if (missing(id)) {
     rownum <- sample(1:N, 1)
@@ -34,7 +49,7 @@ rtip <- function(id, cowsay = TRUE) {
       who_pool <- names(cowsay::animals)[-which(names(cowsay::animals) %in% no_windows)]
     }
 
-    who <- names(sample(who_pool, 1))
+    who <- sample(who_pool, 1)
 
     display <- c(
       paste0("Tip #", tiprow$id, " in category ", tiprow$Category, sep = ""),
@@ -44,8 +59,13 @@ rtip <- function(id, cowsay = TRUE) {
 
     display_cat <- display %>% paste(collapse = "\n")
 
+    if(color) { 
     cowsay::say(display_cat, by_color = "rainbow", by = who, type = "string") %>%
       cat()
+    } else {
+     cowsay::say(display_cat, by = who, type = "string") %>%
+      cat()
+    }
   } else {
     display <- c(
       paste0("Tip #", tiprow$id, " in category ", tiprow$Category, sep = ""),

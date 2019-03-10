@@ -1,25 +1,17 @@
-
-
 #' Save Tweets
 #'
-#' @param tbl
+#' @param tbl a tibble of tweets
 #'
-#' @return
 #' @export
-#'
-#' @examples
 save_tweets <- function(tbl) {
   # Will be whatever format Jim decides
-  write_csv(tbl, tips_path)
+  readr::write_csv(tbl, tips_path)
 }
 
 
 #' Get, score, and save tweets
 #'
-#' @return
 #' @export
-#'
-#' @examples
 run_tweet_pipeline <- function() {
   get_tweets() %>%
     score_tweets() %>%
