@@ -4,7 +4,7 @@
 # rlangtip <img src="./man/img/logo.png" alt="rtip" height="225px" align="right">
 
 An R package to print out a useful tip in R. Based on the history of the
-\[@RLangTip\](<http://twitter.com/RLangTip>) Twitter account.
+[@RLangTip](<http://twitter.com/RLangTip>) Twitter account.
 
 <img src="man/figures/README-unnamed-chunk-1-1.png" width="100%" /><img src="man/figures/README-unnamed-chunk-1-2.png" width="100%" />
 
