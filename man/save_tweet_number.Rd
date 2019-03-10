@@ -12,3 +12,6 @@ save_tweet_number(val)
 \description{
 Save tweet number
 }
+\examples{
+
+}

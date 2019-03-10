@@ -4,7 +4,6 @@
 #' @inheritParams spelling::spell_check_text
 #' @export
 check_tip_spelling <- function(tips, ignore = readLines(system.file("extdata", "wordlist", package = "rlangtip"))) {
-
   tip_text <- tips$Tip
 
   # Remove links

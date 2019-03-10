@@ -7,8 +7,6 @@
 filter_dupes(tbl, cutoff = -3)
 }
 \arguments{
-\item{tbl}{}
-
 \item{cutoff}{}
 }
 \description{

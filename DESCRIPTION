@@ -20,5 +20,7 @@ Imports:
     rtweet,
     tidyr,
     spelling,
-    stringdist
+    stringdist,
+    readr,
+    tibble
 RoxygenNote: 6.1.1
