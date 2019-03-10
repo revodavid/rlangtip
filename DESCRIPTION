@@ -29,5 +29,7 @@ Imports:
     magrittr,
     stringr,
     cowsay,
-    pluralize
+    pluralize,
+    fuzzyjoin,
+    textclean
 RoxygenNote: 6.1.1

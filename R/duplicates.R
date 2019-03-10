@@ -8,12 +8,13 @@
 similar_text <- function(text, cutoff = -3, method = "jw", ...) {
   diffs <- stringdist::stringdistmatrix(text, text, method = method)
   diffs[lower.tri(diffs, diag = TRUE)] <- NA
+  diffs <- z_score(diffs)
   close <- which(diffs < cutoff)
 
   tibble::tibble(
     tip_1_id = col(diffs)[close],
     tip_2_id = row(diffs)[close],
-    score = z_score(diffs)[close],
+    score = diffs[close],
     tip_1 = text[tip_1_id],
     tip_2 = text[tip_2_id]
   )
