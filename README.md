@@ -34,8 +34,9 @@ Unconference](https://chirunconf.github.io/), March 9-10 2019 by:
 Benjamin Crary (@benjamincrary)  
 Amanda Dobbyns (@aedobbyn)  
 Jim Hester (@jimhester)  
-Caroline Kinnen (@carolinekinnen) E. Auden Krauska (@krauskae) David
-Smith (@revodavid)  
+Caroline Kinnen (@carolinekinnen)  
+E. Auden Krauska (@krauskae)  
+David Smith (@revodavid)  
 Belinda Zo (@belindazo)  
 … and everyone who contributed a tip to this package.
 
