@@ -1,5 +1,5 @@
 ## good tweets to test
-## 366
+## 366 573
 
 ## TODO
 ## Don't import file each time -- use an object created on load
@@ -67,8 +67,6 @@ rtip <- function(id, cowsay = TRUE, color = FALSE, excluded = c("deprecated","Un
     } else {
      cowsay::say(display_cat, by = who, type = "string") %>%
       cat()
-     
-     return(invisible(display_cat))
     }
   } else {
     cat(display, sep = "\n")
