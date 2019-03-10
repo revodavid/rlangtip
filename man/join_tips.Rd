@@ -7,7 +7,9 @@
 join_tips(tweets, fuzzy = TRUE)
 }
 \arguments{
-\item{fuzzy}{}
+\item{tweets}{tweet dataset}
+
+\item{fuzzy}{join fuzzily}
 }
 \description{
 Join tips

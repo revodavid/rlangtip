@@ -14,7 +14,3 @@ format_submissions(subs, tips)
 \description{
 Add google sheet form data to csv file
 }
-\examples{
-
-
-}

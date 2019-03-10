@@ -7,7 +7,7 @@
 clean_tweets(x)
 }
 \arguments{
-\item{x}{Tweet}
+\item{x}{Tweet tweets to include}
 }
 \description{
 Clean tweets

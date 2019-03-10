@@ -3,12 +3,9 @@ utils::globalVariables(c("favorite_count", "retweet_count"))
 
 #' Score tweets
 #'
-#' @param tbl
+#' @param tbl the tibble to import
 #'
-#' @return
 #' @export
-#'
-#' @examples
 score_tweets <- function(tbl) {
   tbl %>%
     mutate(
@@ -18,12 +15,9 @@ score_tweets <- function(tbl) {
 
 #' Clean tweets
 #'
-#' @param x Tweet
+#' @param x Tweet tweets to include
 #'
-#' @return
 #' @export
-#'
-#' @examples
 clean_tweets <- function(x) {
   x %>%
     stringr::str_remove_all("https?://\\S+") %>%
@@ -34,18 +28,17 @@ clean_tweets <- function(x) {
 
 #' Join tips
 #'
-#' @param tweets
-#' @param fuzzy
-#'
-#' @return
+#' @param tweets tweet dataset
+#' @param fuzzy join fuzzily
+#' @importFrom dplyr group_by summarise left_join
+#' @importFrom stringr str_detect
+#' @importFrom readxl read_excel
 #' @export
-#'
-#' @examples
 join_tips <- function(tweets, fuzzy = TRUE) {
   joiner_fun <- ifelse(fuzzy, fuzzyjoin::stringdist_left_join, dplyr::left_join)
 
   tips <-
-    read_csv(here("inst", "extdata", "tips.csv")) %>%
+    readr::read_csv(system.file("extdata/tips.csv", package = "rlangtip")) %>%
     # rename(text = Tip) %>%
     mutate(is_canonical = TRUE) %>%
     mutate(
@@ -90,7 +83,7 @@ join_tips <- function(tweets, fuzzy = TRUE) {
     select(-id.x, -id.y)
 
   scores <- joined %>%
-    dplyr::group_by(id) %>%
+    group_by(id) %>%
     score_tweets() %>%
     group_by(id) %>%
     summarise(
@@ -102,3 +95,5 @@ join_tips <- function(tweets, fuzzy = TRUE) {
     dplyr::distinct(id, .keep_all = TRUE) %>%
     left_join(scores)
 }
+
+utils::globalVariables(c("id.x", "id.y", "score"))
