@@ -7,7 +7,7 @@
 get_tweet_number(buffer = 100)
 }
 \arguments{
-\item{buffer}{}
+\item{buffer}{Numeric. The number to add to the last number of tweets pulled in such that we always ask for more tweets than necessary the next time the script is run.}
 }
 \description{
 Get tweet number

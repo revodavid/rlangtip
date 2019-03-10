@@ -1,3 +1,11 @@
-^data-raw$
-^rlangtip\.Rproj$
+^.*\.xlsx$
+^.*\.zip$
+^CODE_OF_CONDUCT\.md$
+^Categories\.md$
+^Contributions\.md$
+^LICENSE\.md$
 ^\.Rproj\.user$
+^\.httr-oauth$
+^data-raw$
+^n_tweets\.txt$
+^rlangtip\.Rproj$

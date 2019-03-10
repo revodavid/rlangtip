@@ -1,28 +1,28 @@
 id,Tip,Author,Last Sent,Category
 1,Use as.dendrogram() to prepare hierarchical clusters or trees for plotting #rstats http://bit.ly/1sshY0I,@RStudioJoe,2010-06-09T00:00:00Z,Uncategorized
-2,as.numeric() takes a string representation of a number and returns a number,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
-3,Calling R from Python with RPy http://rpy.sourceforge.net/,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
-4,Efficiency tip: pre-allocate large vectors to their final size rather than letting them grow dynamically.,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
-5,Evaluate a buffer of R code in ESS (Emacs Speaks Statistics): C-c C-b,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
-6,Evaluate a region of R code in ESS (Emacs Speaks Statistics): C-c C-r,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
-7,"In Emacs, you can embed R code in org-mode files analogous to the way Sweave lets you embed R in LaTeX.",@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
-8,"R ranges are closed, e.g. 3:5 includes 3, 4, and 5. (Other languages, such as Python, would not include the 5.)",@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
-9,R uses a caret (^) for exponentiation. e.g. 2^10 = 1024.,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
-10,RExcel lets you integrate R and Microsoft Excel http://rcom.univie.ac.at/,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
-11,Step through R code in ESS (Emacs Speaks Statistics): C-c C-n,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
-12,Sweave is a tool for embedding R code inside a LaTeX document. Introduction to Sweave: http://bit.ly/9JG6WH,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
-13,"Thesaurus of Mathematical Languages: R, Matlab, Python http://mathesaurus.sourceforge.net/",@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
-14,Troubleshooting Sweave http://bit.ly/bLEcCe,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
-15,Using R with the Apache web server http://biostat.mc.vanderbilt.edu/rapache/,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
-16,Writing an R package that uses Rcpp http://bit.ly/oB7oeL,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
-17,Evaluate a buffer of R code in ESS (Emacs Speaks Statistics): C-c C-b,@JohnDCook,2011-08-03T00:00:00Z,Uncategorized
-18,The Art of R Programming by Norman Matloff http://ow.ly/5UKg6,@JohnDCook,2011-08-03T00:00:00Z,Uncategorized
-19,Advanced R development http://ow.ly/5UKow by @hadleywickham,@JohnDCook,2011-08-04T00:00:00Z,Uncategorized
-20,"In Emacs, you can embed R code in org-mode files analogous to the way Sweave lets you embed R in LaTeX.",@JohnDCook,2011-08-04T00:00:00Z,Uncategorized
-21,Learning R for Researchers in Psychology http://ow.ly/5UKmX by @JeromyAnglim,@JohnDCook,2011-08-04T00:00:00Z,Uncategorized
-22,Higher-order functions in R http://ow.ly/5UKju by @johnmyleswhite,@JohnDCook,2011-08-05T00:00:00Z,Uncategorized
+2,as.numeric() takes a string representation of a number and returns a number #rstats,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
+3,Calling R from Python with RPy http://rpy.sourceforge.net/ #rstats,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
+4,Efficiency tip: pre-allocate large vectors to their final size rather than letting them grow dynamically. #rstats,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
+5,Evaluate a buffer of R code in ESS (Emacs Speaks Statistics): C-c C-b #rstats,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
+6,Evaluate a region of R code in ESS (Emacs Speaks Statistics): C-c C-r #rstats,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
+7,"In Emacs, you can embed R code in org-mode files analogous to the way Sweave lets you embed R in LaTeX. #rstats",@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
+8,"R ranges are closed, e.g. 3:5 includes 3, 4, and 5. (Other languages, such as Python, would not include the 5.) #rstats",@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
+9,R uses a caret (^) for exponentiation. e.g. 2^10 = 1024. #rstats,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
+10,RExcel lets you integrate R and Microsoft Excel http://rcom.univie.ac.at/ #rstats,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
+11,Step through R code in ESS (Emacs Speaks Statistics): C-c C-n #rstats,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
+12,Sweave is a tool for embedding R code inside a LaTeX document. Introduction to Sweave: http://bit.ly/9JG6WH #rstats,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
+13,"Thesaurus of Mathematical Languages: R, Matlab, Python http://mathesaurus.sourceforge.net/ #rstats",@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
+14,Troubleshooting Sweave http://bit.ly/bLEcCe #rstats,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
+15,Using R with the Apache web server http://biostat.mc.vanderbilt.edu/rapache/ #rstats,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
+16,Writing an R package that uses Rcpp http://bit.ly/oB7oeL #rstats,@JohnDCook,2011-07-28T00:00:00Z,Uncategorized
+17,Evaluate a buffer of R code in ESS (Emacs Speaks Statistics): C-c C-b #rstats,@JohnDCook,2011-08-03T00:00:00Z,Uncategorized
+18,The Art of R Programming by Norman Matloff http://ow.ly/5UKg6 #rstats,@JohnDCook,2011-08-03T00:00:00Z,Uncategorized
+19,Advanced R development http://ow.ly/5UKow by @hadleywickham #rstats,@JohnDCook,2011-08-04T00:00:00Z,Uncategorized
+20,"In Emacs, you can embed R code in org-mode files analogous to the way Sweave lets you embed R in LaTeX. #rstats",@JohnDCook,2011-08-04T00:00:00Z,Uncategorized
+21,Learning R for Researchers in Psychology http://ow.ly/5UKmX by @JeromyAnglim #rstats,@JohnDCook,2011-08-04T00:00:00Z,Uncategorized
+22,Higher-order functions in R http://ow.ly/5UKju by @johnmyleswhite #rstats,@JohnDCook,2011-08-05T00:00:00Z,Uncategorized
 23,Search for #rstats on Twitter for conversations about R: http://bit.ly/n60XJM,@revodavid,2011-08-31T00:00:00Z,Uncategorized
-24,Installing R and packages on a linux box without root acess http://onertipaday.blogspot.com/2008/04/r-installing-on-unixlinux-no-root.html,Saar Golde,2011-09-09T00:00:00Z,Uncategorized
+24,Installing R and packages on a linux box without root acess http://onertipaday.blogspot.com/2008/04/r-installing-on-unixlinux-no-root.html #rstats,Saar Golde,2011-09-09T00:00:00Z,Uncategorized
 25,"To create a custom plot, set up axes with plot(...,type=""n""), then annotate with points, lines, text etc. #rstats",@revodavid,2011-09-23T00:00:00Z,Uncategorized
 26,"You can use Google Spreadsheets as a data editor, and import the data into R: http://bit.ly/nEZQk2 #rstats",@revodavid,2011-11-01T00:00:00Z,Uncategorized
 27,List of R functions and packages for Computational Econometrics: http://bit.ly/oeWdui #rstats,@revodavid,2011-11-21T00:00:00Z,Task View
@@ -35,7 +35,7 @@ id,Tip,Author,Last Sent,Category
 34,How to install R on an Android device: http://bit.ly/waAR5v #rstats,@revodavid,2012-02-08T00:00:00Z,Uncategorized
 35,"In R for MacOS X, Command-Enter sends the selected commands from the script window to the command line #rstats",@revodavid,2012-02-10T00:00:00Z,Uncategorized
 36,List of R packages for comparative phylogenetics (evolutionary relatedness in ancestral family trees): http://bit.ly/wEsIlS #rstats,@revodavid,2012-02-20T00:00:00Z,Uncategorized
-37,"Good for journals, etc: create EPS graphics file: setEPS(); postscript(""mychart.eps""); plot( <whatever> ); dev.off() # http://bit.ly/AcyE6T",@revodavid,2012-03-06T00:00:00Z,function
+37,"Good for journals, etc: create EPS graphics file: setEPS(); postscript(""mychart.eps""); plot( <whatever> ); dev.off() # http://bit.ly/AcyE6T #rstats",@revodavid,2012-03-06T00:00:00Z,function
 38,"RT @civilstat For quick edits to shapefile .dbf, Excel is finicky; thank goodness for R's write.dbf() http://bit.ly/Ap6TbH #rstats",@civilstat,2012-03-07T00:00:00Z,tip
 39,List of R packages for design of experiments and analysis of experimental data: http://bit.ly/wSwsQA #rstats,@revodavid,2012-03-26T00:00:00Z,packages
 40,List of R packages for the analysis of pharmacokinetic (drug dose/response) data: http://bit.ly/wp6kZo #rstats,@revodavid,2012-04-02T00:00:00Z,packages
@@ -72,7 +72,7 @@ id,Tip,Author,Last Sent,Category
 71,#rstats For an example of some slick plotting code click on the graphic at www.r-project.org,@RStudioJoe,2013-07-01T00:00:00Z,Uncategorized
 72,How to create animated graphics in R: http://bit.ly/NcjzyZ (see p23) #rstats,@revodavid,2013-07-10T00:00:00Z,check
 73,"List of R functions and packages for clinical trial design, monitoring and analysis: http://bit.ly/pe0KO2 #rstats",@revodavid,2013-07-26T00:00:00Z,Task View
-74,"An R user's case for Emacs: ""Emacs has no learning curve"" (http://bit.ly/16kc9Ry)",@revodavid,2013-07-29T00:00:00Z,Uncategorized
+74,"An R user's case for Emacs: ""Emacs has no learning curve"" (http://bit.ly/16kc9Ry) #rstats",@revodavid,2013-07-29T00:00:00Z,Uncategorized
 75,"Search the ‪#rstats‬ NEWS file from the command line: db <- news(); news(grepl(""<topic>"", Text), db=db)",@joshua_ulrich,2013-08-01T00:00:00Z,Uncategorized
 76,"Handy for interactive use, you can set up packages to automatically load when a function is used: http://bit.ly/M6mPOW #rstats",@revodavid,2013-08-16T00:00:00Z,Uncategorized
 77,"Automated variable selection for regressions: ""step"" http://bit.ly/orRZFu and ""leaps"" http://bit.ly/oMhDcj #rstats",@RStudioJoe,2013-09-06T00:00:00Z,Uncategorized
@@ -167,7 +167,7 @@ id,Tip,Author,Last Sent,Category
 166,Look at the partykit package for tools to visualize classification tree models. http://bit.ly/1yugeVU #rstats,@RStudioJoe,2014-10-01T00:00:00Z,Uncategorized
 167,"In base graphics, use segments(x0,y0,x1,y1) to draw a line between two points on a plot(x,y) http://bit.ly/1vDE7GR #rstats",@RStudioJoe,2014-10-06T00:00:00Z,Uncategorized
 168,Conditional indexing. For vectors X and Y: Y[X > 5]  yields elements of Y for which X > 5. http://bit.ly/1pxOcze #rstats,@RStudioJoe,2014-10-07T00:00:00Z,Uncategorized
-169,Get a quick visual overview of your data with the tabplot package: http://bit.ly/KGRu37 (via @JacquelynGill),@JacquelynGill,2014-10-09T00:00:00Z,Uncategorized
+169,Get a quick visual overview of your data with the tabplot package: http://bit.ly/KGRu37 (via @JacquelynGill) #rstats,@JacquelynGill,2014-10-09T00:00:00Z,Uncategorized
 170,Some tips for dealing with missing values: http://www.ats.ucla.edu/stat/r/faq/missing.htm #rstats,@RStudioJoe,2014-10-13T00:00:00Z,Uncategorized
 171,"Include .progress=""text"" as an argument to many plyr functions to display a progress bar during computation: http://bit.ly/WzSaeR #rstats",@revodavid,2014-10-15T00:00:00Z,Uncategorized
 172,"If the #rstats list ""x"" is a train carrying objects, then x[[5]] is the object in car 5; x[4:6] is a train of cars 4-6",@revodavid,2014-10-16T00:00:00Z,Uncategorized
@@ -249,20 +249,20 @@ id,Tip,Author,Last Sent,Category
 248,"Avoid extrapolating beyond the data, use clip to draw the abline just in the data region #rstats http://bit.ly/18DAoic via @ibartomeus",@revodavid,2015-04-29T00:00:00Z,Uncategorized
 249,"as.data.frame(x) {base} to turn lists, matrices, tables and more data structures into data frames http://bit.ly/1Fm53R7 #rstats",@RStudioJoe,2015-05-04T00:00:00Z,Uncategorized
 250,The function t() {base} will transpose a matrix http://bit.ly/1dBKJAA #rstats,@JohnDCook,2015-05-08T00:00:00Z,Uncategorized
-251,"Read a .csv file from a website into a data frame: fp <- file.path(""URL"",""filename.csv""); df <- read.csv(fp) http://bit.ly/16wTl6t",@RStudioJoe,2015-05-20T00:00:00Z,Uncategorized
+251,"Read a .csv file from a website into a data frame: fp <- file.path(""URL"",""filename.csv""); df <- read.csv(fp) http://bit.ly/16wTl6t #rstats",@RStudioJoe,2015-05-20T00:00:00Z,Uncategorized
 252,How to create or catch warnings and errors in R code: http://bit.ly/Lpx9Q7 #rstats,@revodavid,2015-05-21T00:00:00Z,Uncategorized
 253,"Look here (http://bit.ly/1RaHmiy) for documentation on ""Model Training and Tuning"" with the caret package.  #rstats",@RStudioJoe,2015-05-25T00:00:00Z,Uncategorized
 254,shapiro.test(x) performs the Shapiro-Wilk Normality Test on the vector x. http://bit.ly/1SpvhaQ #rstats,@RStudioJoe,2015-05-26T00:00:00Z,Uncategorized
 255,Spell check a file from R with aspell(file_name) http://bit.ly/1HZpKon #rstats,@RStudioJoe,2015-06-01T00:00:00Z,Uncategorized
 256,How to create interactive #rstats charts on the web with RGoogleVis: http://bit.ly/LpG9Vs #rstats,@revodavid,2015-06-02T00:00:00Z,Uncategorized
-257,Read an HTML table from a website with readHTMLTable(url)  in the XML package http://bit.ly/1IpNpyw #stats,@RStudioJoe,2015-06-09T00:00:00Z,Uncategorized
+257,Read an HTML table from a website with readHTMLTable(url)  in the XML package http://bit.ly/1IpNpyw #stats #rstats,@RStudioJoe,2015-06-09T00:00:00Z,Uncategorized
 258,Correlated variables? Try principal components regression with the pca() function in the pls package http://bit.ly/1QTroHu #rstats,@RStudioJoe,2015-06-16T00:00:00Z,Uncategorized
 259,rotationForest() is a new ensemble classifier available in R http://bit.ly/1JOPtPq #rstats,@RStudioJoe,2015-06-17T00:00:00Z,Uncategorized
 260,Use the RMySQL package to read data from MySQL into R using SQL queries: http://bit.ly/zBaVM4 #rstats,@revodavid,2015-06-18T00:00:00Z,Uncategorized
 261,available.packages() {utils} returns details about packages currently available on CRAN http://bit.ly/1H48G0L #rstats,@RStudioJoe,2015-06-22T00:00:00Z,Uncategorized
 262,Get a confidence interval for the median of a vector x with wilcox.test(x)  http://bit.ly/1H48G0L #rstats cf(Teetor R CookbooK p206),@RStudioJoe,2015-06-24T00:00:00Z,Uncategorized
 263,Look at the installr package to obtain package download counts from the RStudio CRAN logs  http://bit.ly/1LrHfOf #rstats,@RStudioJoe,2015-06-29T00:00:00Z,Uncategorized
-264,methods(generic.function) {utils} lists all methods for a generic function http://bit.ly/1KATJCy,@RStudioJoe,2015-07-07T00:00:00Z,Uncategorized
+264,methods(generic.function) {utils} lists all methods for a generic function http://bit.ly/1KATJCy #rstats,@RStudioJoe,2015-07-07T00:00:00Z,Uncategorized
 265,"If x is a list, then x[2] <- NULL removes the second element, whereas x[2] <- list(NULL) replaces it with NULL. #rstats",@revodavid,2015-07-09T00:00:00Z,Uncategorized
 266,args(function) {base} will display the argument names and default values of a function http://bit.ly/1eNYQD9 #rstats,@RStudioJoe,2015-07-14T00:00:00Z,Uncategorized
 267,"To see the output when running a script file, use source(""myscript.R"", echo=TRUE) #rstats http://bit.ly/M6mig1",@revodavid,2015-07-15T00:00:00Z,Uncategorized
@@ -282,7 +282,7 @@ id,Tip,Author,Last Sent,Category
 281,"Tutorial on lattice graphics, from the National Park Service http://bit.ly/163DWYo #rstats (via @zachstednick)",@revodavid,2015-09-02T00:00:00Z,Uncategorized
 282,"Plot ellipse for confidence region: plot(ellipse(0.8),type=""l"") In package {ellipse}bit.ly/1JHnNLD #rstats",@RStudioJoe,2015-09-07T00:00:00Z,Uncategorized
 283,"Use the dygraph() function in the package {dygraphs} for interactive, javascript-based time series plots bit.ly/1JHnNLD #rstats",@RStudioJoe,2015-09-09T00:00:00Z,Uncategorized
-284,Write map-reduce tasks for big data in #Hadoopwith the rmr package: bit.ly/qCEtn7 #rstat,@RStudioJoe,2015-09-11T00:00:00Z,Uncategorized
+284,Write map-reduce tasks for big data in #Hadoopwith the rmr package: bit.ly/qCEtn7 #rstat #rstats,@RStudioJoe,2015-09-11T00:00:00Z,Uncategorized
 285,"foo <- capture.output( bar <- suppressWarnings( {print( ""hello, world"" ); warning(""eeek"" )} ) ) bit.ly/1XqJS8w #rstats",@RStudioJoe,2015-09-14T00:00:00Z,Uncategorized
 286,"Use getSymbols() from the quantmod package to fetch ""OHLC"" stock data from multiple sources http://bit.ly/1KxiIHl #rstats",@RStudioJoe,2015-09-22T00:00:00Z,Uncategorized
 287,How to use the ifelse function to dichotomize a variable [video]: http://bit.ly/N1IVBw #rstats,@revodavid,2015-10-02T00:00:00Z,Uncategorized
@@ -318,7 +318,7 @@ id,Tip,Author,Last Sent,Category
 317,You may find debug(fun) {base} helpful in debugging an R function. http://bit.ly/21NLOZZ #rstats,@RStudioJoe,2016-03-07T00:00:00Z,Uncategorized
 318,"Use rep(x,n_times) {base} to replicate elements of vectors and lists http://bit.ly/21KCLfO #rstats",@RStudioJoe,2016-03-08T00:00:00Z,Uncategorized
 319,Use readOGR() (gets the projection) rather than readShapeSpatial() (that doesn't) to open .shp shapefiles #rstats http://bit.ly/Nm81FJ,@joelgombin,2016-03-09T00:00:00Z,Uncategorized
-320,cv.glm() {boot} will calculate cross validation prediction error for glm models http://bit.ly/1WfICD1 #rstata,@RStudioJoe,2016-03-15T00:00:00Z,Uncategorized
+320,cv.glm() {boot} will calculate cross validation prediction error for glm models http://bit.ly/1WfICD1 #rstata #rstats,@RStudioJoe,2016-03-15T00:00:00Z,Uncategorized
 321,Search the documentation for any function in base R or any CRAN package at http://bit.ly/O8Qg3A #rstats,@revodavid,2016-03-16T00:00:00Z,Uncategorized
 322,Start planning for Easter next year: library(timeDate); Easter(2017) #rstats http://bit.ly/H9C2Xp,@revodavid,2016-03-28T00:00:00Z,packages
 323,Function to find the peaks in a time series: http://bit.ly/PIZFgJ #rstats (via @therealprotonk),@therealprotonk,2016-03-31T00:00:00Z,Uncategorized
@@ -413,11 +413,11 @@ id,Tip,Author,Last Sent,Category
 411,"Use help.search to find documentation, vignettes and demos on a specific topic, e.g. help.search(""time series"") #rstats",@RStudioJoe,2017-01-02T00:00:00Z,help
 412,Two-minute video tutorials for R beginners #rstats http://www.twotorials.com/,@revodavid,2017-01-03T00:00:00Z,resource
 413,An R tutorial in 25 functions (including some Microsoft R packages): https://msdn.microsoft.com/en-us/microsoft-r/microsoft-r-getting-started-tutorial #rstats,@revodavid,2017-01-04T00:00:00Z,Microsoft
-414,Launch R as a clean session with no extension packages or saved objects: R --vanilla https://www.rdocumentation.org/packages/base/versions/3.3.2/topics/Startup,@revodavid,2017-01-05T00:00:00Z,reproducibility
+414,Launch R as a clean session with no extension packages or saved objects: R --vanilla https://www.rdocumentation.org/packages/base/versions/3.3.2/topics/Startup #rstats,@revodavid,2017-01-05T00:00:00Z,reproducibility
 415,List of R functions and packages to support reproducible research http://cran.r-project.org/web/views/ReproducibleResearch.html #rstats,@revodavid,2017-01-06T00:00:00Z,reproducibility
 416,"Use the magrittr pkg %$% operator to extract and process a column from a data frame:
 mtcars %$% mean(mpg)
-https://www.rdocumentation.org/packages/magrittr/versions/1.5/topics/%25%24%25 via @drob",@revodavid,2017-01-10T00:00:00Z,packages
+https://www.rdocumentation.org/packages/magrittr/versions/1.5/topics/%25%24%25 via @drob #rstats",@revodavid,2017-01-10T00:00:00Z,packages
 417,Install an R package directly from GitHub with devtools package: https://www.rdocumentation.org/packages/devtools/versions/1.12.0/topics/install_github #rstats,@revodavid,2017-01-12T00:00:00Z,function
 418,Tutorial introduction to time series in #rstats (4th edition): http://www.stat.pitt.edu/stoffer/tsa4/R_toot.htm,@revodavid,2017-01-13T00:00:00Z,statistics
 419,"Perform a keyword search for help at the #rstats console:
@@ -489,7 +489,7 @@ for a single backslash, use \\
 482,"For int'l number formats: parse_number(""123.456,789"", locale=locale(grouping_mark=""."", decimal_mark="","")) #rstats https://www.rdocumentation.org/packages/readr/versions/1.1.0/topics/parse_number",@revodavid,2017-04-11T00:00:00Z,packages
 483,Use dput to archive an R object to a file; load into another R session with dget https://www.rdocumentation.org/packages/base/versions/3.3.3/topics/dput http://bit.ly/NOuduT #rstats,@revodavid,2017-04-12T00:00:00Z,base
 484,Try out the %>% operator in the magrittr package https://mran.microsoft.com/package/magrittr/ to avoid nested function calls #rstats,@RStudioJoe,2017-04-13T00:00:00Z,packages
-485,"kruskal.test(list(x,y)) performs the Kruskal-Wallis Rank Sum Test to compare the distributions of x and y https://www.rdocumentation.org/packages/stats/versions/3.3.3/topics/kruskal.test  #stats",@revodavid,2017-04-14T00:00:00Z,statistics
+485,"kruskal.test(list(x,y)) performs the Kruskal-Wallis Rank Sum Test to compare the distributions of x and y https://www.rdocumentation.org/packages/stats/versions/3.3.3/topics/kruskal.test  #stats #rstats",@revodavid,2017-04-14T00:00:00Z,statistics
 486,Use the odbc package to download data from ODBC-compliant databases into R https://mran.microsoft.com/package/odbc/ #rstats,@revodavid,2017-04-17T00:00:00Z,packages
 487,Find extensions for the ggplot2 graphics system at http://www.ggplot2-exts.org/ #rstats,@revodavid,2017-04-18T00:00:00Z,graphics
 488,A two-page handout with info on the Azure Data Science Virtual Machine (includes #rstats) http://aka.ms/dsvm/handout,@revodavid,2017-04-19T00:00:00Z,Microsoft
@@ -600,11 +600,11 @@ http://blog.revolutionanalytics.com/2016/03/16-years-of-r-history.html #rstats",
 582,"%/% is the integer division operator. e.g. 15 %/% 4 returns 3, not 3.75 https://www.rdocumentation.org/packages/base/versions/3.4.1/topics/Arithmetic #rstats",@JohnDCook,2017-09-04T00:00:00Z,base
 583,The glmnet package fits the entire lasso or elastic-net regularization path for linear models https://mran.microsoft.com/package/glmnet/ #rstats,@RStudioJoe,2017-09-05T00:00:00Z,statistics
 584,Better R console fonts https://www.johndcook.com/blog/2008/10/31/changing-the-r-console-fonts/ #rstats,@JohnDCook,2017-09-06T00:00:00Z,Microsoft
-585,"If you've having trouble using a variable name with odd characters (like $, ! or space), wrap it in back quotes: `odd-name`",@revodavid,2017-09-07T00:00:00Z,base
+585,"If you've having trouble using a variable name with odd characters (like $, ! or space), wrap it in back quotes: `odd-name` #rstats",@revodavid,2017-09-07T00:00:00Z,base
 586,Use miniCRAN to create an offline repository with a subset of CRAN of packages and their dependencies https://mran.microsoft.com/package/miniCRAN/ #rstats,@RStudioJoe,2017-09-08T00:00:00Z,packages
 587,"Use embed(x,3) to embed a time series in 3-dimensional space https://www.rdocumentation.org/packages/stats/versions/3.4.1/topics/embed #rstats",@RStudioJoe,2017-09-11T00:00:00Z,base
 588,The trans3d function projects 3-D coordinates into 2 dimensions; use to add points to perspective plots: https://www.rdocumentation.org/packages/grDevices/versions/3.4.1/topics/trans3d #rstats,@revodavid,2017-09-12T00:00:00Z,graphics
-589,The free Microsoft R Client distribution includes the RevoScaleR package for analysis of out-of-memory data https://docs.microsoft.com/en-us/r-server/r-client/what-is-microsoft-r-client #rtats,@revodavid,2017-09-13T00:00:00Z,Microsoft
+589,The free Microsoft R Client distribution includes the RevoScaleR package for analysis of out-of-memory data https://docs.microsoft.com/en-us/r-server/r-client/what-is-microsoft-r-client #rtats #rstats,@revodavid,2017-09-13T00:00:00Z,Microsoft
 590,"is.finite(x) is a useful test for ""proper"" data: it returns FALSE for NA, NaN and Inf: https://www.rdocumentation.org/packages/base/versions/3.4.1/topics/is.finite #rstats",@revodavid,2017-09-14T00:00:00Z,base
 591,"convolve(x,y) uses the Fast Fourier Transform to convolve two sequences of the same length https://www.rdocumentation.org/packages/stats/versions/3.4.1/topics/convolve #rstats",@RStudioJoe,2017-09-15T00:00:00Z,base
 592,"To enumerate every possible combination of levels in multiple factors, use expand.grid: https://www.rdocumentation.org/packages/base/versions/3.4.1/topics/expand.grid #rstats",@revodavid,2017-09-18T00:00:00Z,base
@@ -667,7 +667,7 @@ say(""Happy Thanksgiving!"", by=""turkey"")
 642,"The survreg() function in the survival package fits parametric, survival regression models https://www.rdocumentation.org/packages/survival/versions/2.41-2/topics/survreg #rstats",@RStudioJoe,2017-12-04T00:00:00Z,statistics
 643,"Generate a ""Secret Santa"" giving list from a vector of names:
 p <- sample(team)
-cbind(santa=p, recipient=c(tail(p,-1),p[1]))",@revodavid,2017-12-05T00:00:00Z,base
+cbind(santa=p, recipient=c(tail(p,-1),p[1])) #rstats",@revodavid,2017-12-05T00:00:00Z,base
 644,Explore R packages from the past with the CRAN Time Machine https://mran.microsoft.com/timemachine/ #rstats,@revodavid,2017-12-06T00:00:00Z,Microsoft
 645,"Don't forget about the ""car"" and ""MASS"" packages when looking for sample data: data(package=c(""MASS"",""car"")) #rstats",@RStudioJoe,2017-12-07T00:00:00Z,packages
 646,Check availability status of CRAN mirrors: https://cran.r-project.org/mirmon_report.html #rstats,@revodavid,2017-12-08T00:00:00Z,resource
@@ -679,7 +679,7 @@ cbind(santa=p, recipient=c(tail(p,-1),p[1]))",@revodavid,2017-12-05T00:00:00Z,ba
 652,Interpolation and smoothing functions in base R: http://blog.revolutionanalytics.com/2015/09/interpolation-and-smoothing-functions-in-base-r.html #rstats,@revodavid,2017-12-19T00:00:00Z,base
 653,"The ""break"" statement immediately exits from a ""for"" or ""while"" loop: https://www.rdocumentation.org/packages/base/versions/3.4.3/topics/Control #rstats",@revodavid,2017-12-20T00:00:00Z,base
 654,"The story behind R release names like ""Very Secure Dishes"" http://livefreeordichotomize.com/2017/09/28/r-release-names/ #rstats",@revodavid,2017-12-21T00:00:00Z,community
-655,Don't expect any CRAN package updates or new releases until after January 3. The CRAN system is offline for maintenance.,@revodavid,2017-12-22T00:00:00Z,announcements
+655,Don't expect any CRAN package updates or new releases until after January 3. The CRAN system is offline for maintenance. #rstats,@revodavid,2017-12-22T00:00:00Z,announcements
 656,A data-driven Christmas card animation https://www.data-imaginist.com/2016/data-driven-x-mas-card/ #rstats,@revodavid,2017-12-25T00:00:00Z,holiday
 657,The Box-Cox transformation is a useful technique for transforming data to be more Normal https://www.rdocumentation.org/packages/MASS/versions/7.3-47/topics/boxcox #rstats,@revodavid,2017-12-26T00:00:00Z,statistics
 658,is.na() tests for missing (NA) values. is.null() tests for NULL values. https://www.r-bloggers.com/r-na-vs-null/ #rstats,@JohnDCook,2017-12-27T00:00:00Z,base
@@ -688,7 +688,7 @@ cbind(santa=p, recipient=c(tail(p,-1),p[1]))",@revodavid,2017-12-05T00:00:00Z,ba
 661,Support the R project by making a donation to the R Foundation @_R_Foundation https://www.r-project.org/foundation/donations.html #rstats,@revodavid,2018-01-01T00:00:00Z,community
 662,"List all tests in R: apropos(""\\.test$"") https://www.rdocumentation.org/packages/utils/versions/3.4.3/topics/apropos #rstats",@RStudioJoe,2018-01-02T00:00:00Z,help
 663,Use the animation package to create videos and animated GIFs from R graphics https://yihui.name/animation/ #rstats,@revodavid,2018-01-03T00:00:00Z,graphics
-664,The Cauchy distribution has no Expectation! Use rcauchy() to generate pseudorandom samples https://www.rdocumentation.org/packages/stats/versions/3.4.3/topics/Cauchy #stats,@RStudioJoe,2018-01-04T00:00:00Z,statistics
+664,The Cauchy distribution has no Expectation! Use rcauchy() to generate pseudorandom samples https://www.rdocumentation.org/packages/stats/versions/3.4.3/topics/Cauchy #stats #rstats,@RStudioJoe,2018-01-04T00:00:00Z,statistics
 665,Regular expressions in R https://www.johndcook.com/blog/r_language_regex/ #rstats (by @johndcook),@johndcook,2018-01-05T00:00:00Z,base
 666,"Schedule an R function to run sometime in the future with the ""later"" package https://github.com/r-lib/later #rstats",@revodavid,2018-01-08T00:00:00Z,packages
 667,Detect human tampering with numerical data. Check the digits follow Benford's Law: https://www.rdocumentation.org/packages/benford.analysis/versions/0.1.2.1/topics/benford #rstats,@revodavid,2018-01-09T00:00:00Z,packages
@@ -702,7 +702,7 @@ cbind(santa=p, recipient=c(tail(p,-1),p[1]))",@revodavid,2017-12-05T00:00:00Z,ba
 675,"A ten-hour video introduction to R, presented by @rdpeng http://blog.revolutionanalytics.com/2012/12/coursera-videos.html #rstats",@revodavid,2018-01-23T00:00:00Z,tutorial
 676,range(x) returns the minimum and maximum values of x https://www.rdocumentation.org/packages/base/versions/3.4.3/topics/range #rstats,@revodavid,2018-01-24T00:00:00Z,base
 677,How to launch R in the Data Science Virtual Machine cda.ms/6t #rstats,@revodavid,2018-01-25T00:00:00Z,Microsoft
-678,library(oz); oz() creates a map of Australia https://www.rdocumentation.org/packages/oz/versions/1.0-21/topics/oz,@revodavid,2018-01-26T00:00:00Z,graphics
+678,library(oz); oz() creates a map of Australia https://www.rdocumentation.org/packages/oz/versions/1.0-21/topics/oz #rstats,@revodavid,2018-01-26T00:00:00Z,graphics
 679,"Don't know the full name of a function? Perform a fuzzy search with the apropos function: apropos(""summary"") #rstats https://www.rdocumentation.org/packages/utils/versions/3.4.3/topics/apropos #rstats",@revodavid,2018-01-29T00:00:00Z,base
 680,"Find curated Docker images for R-based workloads at https://hub.docker.com/r/rocker, and see this R Journal article for more background: https://journal.r-project.org/archive/2017/RJ-2017-065/RJ-2017-065.pdf #rstats",@revodavid,2018-01-30T00:00:00Z,ecosystem
 681,Overview of the RevoScaleR package for data science at scale (part of Microsoft ML Server) cda.ms/6r #rstats,@revodavid,2018-01-31T00:00:00Z,Microsoft
@@ -730,7 +730,7 @@ cbind(santa=p, recipient=c(tail(p,-1),p[1]))",@revodavid,2017-12-05T00:00:00Z,ba
 703,"Determine whether two integers m and n are relatively prime or coprime with coprime(m,n) #rstats https://www.rdocumentation.org/packages/numbers/versions/0.6-6/topics/coprime",@RStudioJoe,2018-03-02T00:00:00Z,packages
 704,Use prop.test to compare incidences within groups: https://www.rdocumentation.org/packages/stats/versions/3.4.3/topics/prop.test #rstats,@revodavid,2018-03-05T00:00:00Z,statistics
 705,"sample(vec, n) will randomly select elements n elements from a vector #rstats https://www.rdocumentation.org/packages/base/versions/3.4.3/topics/sample",@RStudioJoe,2018-03-06T00:00:00Z,base
-706,"Microsoft R Open installs packages from an static CRAN archive by default. Get the latest with install.packages(""thepackage"", repos=""https://cran.microsoft.com"") or just change the default CRAN repository.",@revodavid,2018-03-07T00:00:00Z,Microsoft
+706,"Microsoft R Open installs packages from an static CRAN archive by default. Get the latest with install.packages(""thepackage"", repos=""https://cran.microsoft.com"") or just change the default CRAN repository. #rstats",@revodavid,2018-03-07T00:00:00Z,Microsoft
 707,"Avoid namespace clashes! Use :: to specify an object within a specific package, e.g. MASS::mvnorm https://www.rdocumentation.org/packages/base/versions/3.4.3/topics/ns-dblcolon #rstats",@revodavid,2018-03-08T00:00:00Z,base
 708,"""One-hot encoding"" in R: model.matrix converts factors into binary indicator columns in a matrix: https://www.rdocumentation.org/packages/stats/versions/3.4.3/topics/model.matrix #rstats",@revodavid,2018-03-09T00:00:00Z,statistics
 709,"Check out CRAN Task Views for curated lists of R packages by topic area (Bayesian, Finance, Web Technologies etc) https://cran.r-project.org/web/views/ #rstats",@revodavid,2018-03-12T00:00:00Z,help
@@ -778,7 +778,7 @@ https://www.rdocumentation.org/packages/base/versions/3.5.0/topics/Last.value #r
 749,"match(x,y) returns a vector of the positions of 1st matches of x in y: https://www.rdocumentation.org/packages/base/versions/3.5.0/topics/match #rstats",@JohnDCook,2018-05-07T00:00:00Z,base
 750,An overview of the new ALTREP representation of objects in R 3.5.0 and later #rstats https://svn.r-project.org/R/branches/ALTREP/ALTREP.html,@revodavid,2018-05-08T00:00:00Z,base
 751,"By launching the RStudio Server service on the Ubuntu Data Science Virtual Machine, you can log in and access R and the terminal from your browser https://cda.ms/s0 #rstats",@revodavid,2018-05-09T00:00:00Z,Microsoft
-752,"Benchmark how long it takes R code to run with system.time({ expr }). The ""elapsed"" value is usually the most relevant. https://www.rdocumentation.org/packages/base/versions/3.5.0/topics/system.time",@revodavid,2018-05-10T00:00:00Z,performance
+752,"Benchmark how long it takes R code to run with system.time({ expr }). The ""elapsed"" value is usually the most relevant. https://www.rdocumentation.org/packages/base/versions/3.5.0/topics/system.time #rstats",@revodavid,2018-05-10T00:00:00Z,performance
 753,"In R scripts, use invisible() to prevent functions from generating unwanted output: http://www.rdocumentation.org/packages/base/versions/3.3.1/topics/invisible #rstats",@revodavid,2018-05-11T00:00:00Z,tip
 754,Create perceptive color-blind-safe scales for heatmap charts with the viridis package https://mran.microsoft.com/package/viridis/ #rstats,@revodavid,2018-05-14T00:00:00Z,graphics
 755,Posting guide for the official R mailing lists: How to ask good questions that prompt useful answers https://www.r-project.org/posting-guide.html #rstats,@revodavid,2018-05-15T00:00:00Z,community
@@ -796,18 +796,18 @@ https://www.rdocumentation.org/packages/base/versions/3.5.0/topics/Last.value #r
 767,"auto.arima() {forecast} will return the best ARIMA fit to a time series using the AIC, AICc or BIC criterion http://www.rdocumentation.org/packages/forecast/versions/8.3/topics/auto.arima #rstats",@RStudioJoe,2018-05-31T00:00:00Z,statistics
 768,Convenience features of the fread function in the data.table package for reading small and large data sets into R https://github.com/Rdatatable/data.table/wiki/Convenience-features-of-fread #rstats,@revodavid,2018-06-01T00:00:00Z,packages
 769,"Calculate the differences between every nth value of a vector x with diff(x,n) https://www.rdocumentation.org/packages/base/versions/3.5.0/topics/diff #rstats",@RStudioJoe,2018-06-04T00:00:00Z,base
-770,"When reading data from files, R will accept ""infinity"", ""inf"" and ""nan"" as a valid numeric values https://www.rdocumentation.org/packages/base/versions/3.5.0/topics/NumericConstants",@revodavid,2018-06-05T00:00:00Z,base
+770,"When reading data from files, R will accept ""infinity"", ""inf"" and ""nan"" as a valid numeric values https://www.rdocumentation.org/packages/base/versions/3.5.0/topics/NumericConstants #rstats",@revodavid,2018-06-05T00:00:00Z,base
 771,The @Rstudio cheat sheet for data visualization with ggplot2 (PDF): https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf #rstats,@revodavid,2018-06-06T00:00:00Z,graphics
 772,"To speed up your R code, use Rprof() to turn on profiling, and summaryRprof() to find the slow parts: https://www.rdocumentation.org/packages/utils/versions/3.5.0/topics/summaryRprof #rstats",@revodavid,2018-06-07T00:00:00Z,tip
 773,CrossTable() in {gmodels} produces crosstabulations modeled after SAS's PROC FREQ https://www.rdocumentation.org/packages/gmodels/versions/2.16.2/topics/CrossTable #rstats,@RStudioJoe,2018-06-08T00:00:00Z,reporting
 774,"Explanations of lexical scope, function closures and environments in R: https://darrenjw.wordpress.com/2011/11/23/lexical-scope-and-function-closures-in-r/ #rstats",@erwtokritos,2018-06-11T00:00:00Z,base
 775,"A list of over 1,000 datasets available in R packages, curated by @VincentAB (via @mf_viz) https://vincentarelbundock.github.io/Rdatasets/datasets.html #rstats",@revodavid,2018-06-12T00:00:00Z,datasets
 776,na.omit(df) returns all rows of a data frame except those containing any missing values https://www.rdocumentation.org/packages/stats/versions/3.5.0/topics/na.fail #rstats,@RStudioJoe,2018-06-13T00:00:00Z,base
-777,"seq(n1,n2,m) will generate a sequence of numbers from n1 to n2 counting by m https://www.rdocumentation.org/packages/base/versions/3.5.0/topics/seq #stats",@RStudioJoe,2018-06-14T00:00:00Z,base
+777,"seq(n1,n2,m) will generate a sequence of numbers from n1 to n2 counting by m https://www.rdocumentation.org/packages/base/versions/3.5.0/topics/seq #stats #rstats",@RStudioJoe,2018-06-14T00:00:00Z,base
 778,The number of people you need to gather for a 95% probability of at least one shared birthday: qbirthday(0.95) https://www.rdocumentation.org/packages/stats/versions/3.5.0/topics/birthday #rstats,@revodavid,2018-06-15T00:00:00Z,statistics
 779,"An online Introduction to R with some R history, linear models, glm and more #rstats http://data.princeton.edu/R/default.html",@RStudioJoe,2018-06-18T00:00:00Z,tutorial
 780,if(isTRUE(condition)) may be preferable to if(condition) http://www.win-vector.com/blog/2018/06/r-tip-use-istrue/ #rstats,@revodavid,2018-06-19T00:00:00Z,tip
-781,"You can call any R operator as a function. For example, x + y can be written as `+`(x, y) https://cran.r-project.org/doc/manuals/r-release/R-lang.html#Operators",@revodavid,2018-06-20T00:00:00Z,syntax
+781,"You can call any R operator as a function. For example, x + y can be written as `+`(x, y) https://cran.r-project.org/doc/manuals/r-release/R-lang.html#Operators #rstats",@revodavid,2018-06-20T00:00:00Z,syntax
 782,"Format numbers ""v"" as currency, like $2,101,944: gsub(""^ *"",""$"",prettyNum(v, big.mark="","")) https://www.rdocumentation.org/packages/base/versions/3.5.0/topics/formatC #rstats",@revodavid,2018-06-21T00:00:00Z,reporting
 783,Run an R script from the command line in batch mode with R CMD BATCH: https://www.rdocumentation.org/packages/utils/versions/3.5.0/topics/BATCH #rstats,@revodavid,2018-06-22T00:00:00Z,system
 784,"For rpart classification trees, residuals(fit,type=""deviance"") returns the deviance residuals https://www.rdocumentation.org/packages/rpart/versions/4.1-13/topics/residuals.rpart #rstats",@RStudioJoe,2018-06-25T00:00:00Z,statistics
@@ -845,7 +845,7 @@ https://www.rdocumentation.org/packages/base/versions/3.5.0/topics/Last.value #r
 811,"Open data sets, curated by Microsoft Research for computer vision, NLP and scientific analysis, available for download from https://msropendata.com/ #rstats",@revodavid,2018-08-01T00:00:00Z,Microsoft
 812,"Watch the keynotes, talks and tutorials from the user!2018 conference (courtesy @RConsortium) https://www.youtube.com/channel/UC_R5smHVXRYGhZYDJsnXTwg/videos #rstats",@revodavid,2018-08-02T00:00:00Z,community
 813,"If two packages define functions with the same name, use :: to call the one you want: https://stackoverflow.com/questions/39137110/what-does-the-following-object-is-masked-from-packagexxx-mean #rstats",@revodavid,2018-08-03T00:00:00Z,syntax
-814,"Print numbers as currency in a 6-character wide field: sprintf(""$%6.2f"",mean(LifeCycleSavings$sr))",@revodavid,2018-08-06T00:00:00Z,base
+814,"Print numbers as currency in a 6-character wide field: sprintf(""$%6.2f"",mean(LifeCycleSavings$sr)) #rstats",@revodavid,2018-08-06T00:00:00Z,base
 815,Count the number of rows in a data frame that have missing values with sum(!complete.cases(dF)) https://www.rdocumentation.org/packages/stats/versions/3.5.1/topics/complete.cases #rstats,@RStudioJoe,2018-08-07T00:00:00Z,tip
 816,How to use R packages with the online Power BI service https://cda.ms/zj #rstats,@revodavid,2018-08-08T00:00:00Z,Microsoft
 817,Compute a kernel density estimate of a variable's distribution with density(x) https://www.rdocumentation.org/packages/stats/versions/3.5.1/topics/density #rstats,@RStudioJoe,2018-08-09T00:00:00Z,statistics
@@ -875,8 +875,8 @@ tic <- print(Sys.time())
 ## R code goes here
 ##
 toc <- print(Sys.time()) 
-print(toc-tic)",@revodavid,2018-09-04T00:00:00Z,tip
-836,Tutorial: Use RevoScaleR R functions with SQL Server data https://docs.microsoft.com/en-us/sql/advanced-analytics/tutorials/deepdive-data-science-deep-dive-using-the-revoscaler-packages?view=sql-server-2017&WT.mc_id=RLangTip-twitter-davidsmi,@revodavid,2018-09-05T00:00:00Z,Microsoft
+print(toc-tic) #rstats",@revodavid,2018-09-04T00:00:00Z,tip
+836,Tutorial: Use RevoScaleR R functions with SQL Server data https://docs.microsoft.com/en-us/sql/advanced-analytics/tutorials/deepdive-data-science-deep-dive-using-the-revoscaler-packages?view=sql-server-2017&WT.mc_id=RLangTip-twitter-davidsmi #rstats,@revodavid,2018-09-05T00:00:00Z,Microsoft
 837,"Packages for importing financial, sports and weather data into R https://www.computerworld.com/article/3109890/data-analytics/these-r-packages-import-sports-weather-stock-data-and-more.html #rstats",@revodavid,2018-09-06T00:00:00Z,packages
 838,"Search R-help mailing list archives, help pages, vignettes and task views with RSiteSearch(""keyword"") https://www.rdocumentation.org/packages/utils/versions/3.5.1/topics/RSiteSearch #rstats",@revodavid,2018-09-07T00:00:00Z,help
 839,Run-length encoding: count the number of times sequential repeats appear with rle(x) #rstats https://www.rdocumentation.org/packages/base/versions/3.5.1/topics/rle,@nimrodpriell,2018-09-10T00:00:00Z,base
@@ -1011,3 +1011,10 @@ print(toc-tic)",@revodavid,2018-09-04T00:00:00Z,tip
 968,Some examples of using get() to retrieve an R object by name using a character string: http://rfunction.com/archives/2105 #rstats,@RStudioJoe,2019-03-08T00:00:00Z,base
 969,"getwd() returns the current working directory, the place where R reads and write relative filenames in this session: https://www.rdocumentation.org/packages/base/versions/3.5.2/topics/getwd #rstats",@revodavid,2019-03-11T00:00:00Z,function
 970,"Generate the sequence 0 1 2 3 4 5 6 7 8 9 10 with: `c`<-function(...){list(...)[[-1]];}->>`c`;`[`=0;`]`=10;c(c,c)(c,c)(c,invisible)(`[`[]:`]`[])[]; https://codegolf.stackexchange.com/questions/4010/whats-the-ugliest-line-of-r-code-that-still-parses/4011#4011 #rstats",@revodavid,2019-04-01T00:00:00Z,holiday
+NA,dplyr pull #rstats,NA,NA,NA
+NA,Quickstart: Using R in Azure SQL Database (preview): https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query-r #rstats,NA,NA,NA
+NA,https://blogs.msdn.microsoft.com/mlserver/2017/07/07/set-up-an-auto-scale-environment-to-operationalize-your-r-analytics-with-just-one-click/ #rstats,NA,NA,NA
+NA,R on Kubernetes https://code.markedmondson.me/r-on-kubernetes-serverless-shiny-r-apis-and-scheduled-scripts/ #rstats,NA,NA,NA
+NA,janitor package #rstats,NA,NA,NA
+NA,Instructions for building R with multithreaded OpenBLAS on Windows: https://www.avrahamadler.com/r-tips/build-openblas-for-windows-r64/ #rstats,NA,NA,NA
+NA,reticulate #rstats,NA,NA,NA
