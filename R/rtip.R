@@ -93,6 +93,7 @@ rtip <- function(id, cowsay = TRUE, color = FALSE,
     }
   } else {
     cat(display, sep = "\n")
+
   }
 
   invisible(display)

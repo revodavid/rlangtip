@@ -1,3 +1,4 @@
+^README\.Rmd$
 ^.*\.xlsx$
 ^.*\.zip$
 ^CODE_OF_CONDUCT\.md$
