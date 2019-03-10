@@ -1,0 +1,935 @@
+text,favorite_count,retweet_count,id,score
+Some examples of using get() to retrieve an R object by name using a character string:,36,8,968,52
+Use skim_tee (in the skimr package) data to inspect data in a  pipe chain:,96,20,967,136
+How to deploy R as a service in Azure with Kubernetes and the plumber package,34,10,966,54
+How to make color-coded calendars in R:,54,6,965,66
+"Just because you *can* redefine built-in functions in R doesn't mean it's a good idea. Avoid function names like c, t, sum etc.",51,7,964,145
+"Free book by @ClausWilke: ""Fundamentals of Data Visualization"". R code linked in ""Technical Notes"" section.",146,48,963,242
+Keep up with R by reading the R Journal:,53,20,962,321
+"Introduction to AzureStor, a package to manage Blob storage, File storage, and Data Lake Storage in Azure",18,4,961,26
+"Use library() to see all packages installed, search() to see all packages loaded",67,23,960,223
+"In base graphics, use rug() to add a rug representation (1-d plot) of the data to a plot",11,4,959,19
+The function dpih() {KernSmooth} uses the direct plug-in methodology to automatically select the bin width of a histogram,21,5,957,31
+"Free e-book by @nbrgraphs and @jtrnyc ""Effective Graphs with Microsoft R Open""",43,16,956,75
+BBC Visual and Data Journalism cookbook for R graphics,75,24,955,123
+"Use mapply to call a multi-argument function repeatedly, e.g. mapply(sample, list(1:56, 1:46), c(5,1))",33,11,954,117
+Use unname() to remove the names of an R object,39,9,953,86
+Send an R valentine,16,5,952,64
+Walkthroughs of data analyses using SQL Server and R under the Team Data Science Process,28,8,951,44
+Getting started with Tensorflow Probability from R,58,12,950,82
+agnes() (in the cluster package) implements 6 methods of agglomerative clustering,17,5,949,27
+"Use saveRDS(obj,""myfile"") and readRDS(obj,""myfile"") to save / read an R object to / from a file",35,9,948,81
+"xor(x,y) (element wise exclusive OR) is one of R's logical operators",18,6,947,59
+Free hosted Jupyter notebooks with R support: Azure Notebooks,28,8,946,44
+Use containers for reproducibility: Introduction to Docker for R users,63,21,945,105
+Locate the largest number in a vector with which.max(mydata),28,10,944,48
+"If ch is a character vector, then noquote(ch) prints it without the usual quotes surrounding each element",57,7,943,88
+How to generate Outlook email notifications from R:,72,14,941,100
+"Hydrology Data and Modeling, a CRAN task view listing packages for the analysis of movement, distribution and quality of water and water resources",16,5,940,26
+"tail(x, n) shows the last n elements of x if n is positive, all but the first |n| elements if n is negative",26,7,939,42
+Get started debugging by adding a browser() call to your function,20,4,938,28
+"""How do I?..."": 200 R idioms for common tasks from @sharon000, author of Practical R for Mass Communication and Journalism",147,46,937,239
+"A free, 4-week online course for beginners: ""Introduction to R for Data Science""",65,25,936,301
+Online help for the ggplot2 graphics package,77,29,935,135
+Get financial data and more from Quandl with R,30,9,934,128
+"Compute or estimate the condition number of a matrix: 
+kappa(M)",18,6,933,35
+"Got duration data, but some of the events are incomplete? Fit a Cox Proportional Hazards Regression Model with the coxph() function in the survival package",33,9,932,51
+How to use R in an Azure VM with Microsoft ML Server:,21,5,931,31
+"Lightweight, dependency-free package for installing R packages from Github, etc: remotes",24,3,930,30
+"Calculate running 30-day means of daily values in vector x: filter(x,rep(1/30,30))",51,15,929,81
+"Leave out the mth column of a data frame: 
+dF[,-m]",24,6,928,84
+Use clusterboot() in the fpc package to help assess the stability of cluster classifications,27,7,927,41
+An architecture for deploying real-time predictive models trained with R:,28,8,926,44
+This vignette for the showtext package explains how to display non-standard fonts in R graphics,28,8,925,44
+"Use setdiff(x,y) to find the values that appear in x but not in y",122,27,924,176
+"Introduction to Empirical Bayes: Examples from Baseball Statistics, a name-your-own-price book by @drob",54,24,923,102
+A suite of R packages for quantitative risk management in finance:,48,15,922,78
+New YeaR's resolution: Join a local R user group:,56,14,920,110
+Try demo('graphics') ... and type demo() to see other demos available in attached packages,22,4,919,81
+"write.matrix(M) in the built-in ""MASS"" package will print out a matrix, M, without the row and column index labels",40,13,918,66
+"getOption(""defaultPackages"") lists the packages (in addition to base) loaded at startup",45,6,917,57
+Plot sample with error bars and color coded legend,45,9,915,157
+"The official ""Introduction to R"" manual, updated with every R release",95,39,914,173
+"rle(x) (""run-length encoding"") computes the lengths of runs of equal values in a vector",10,2,913,14
+Tutorial: Run a parallel R simulation in an Azure cluster with the doAzureParallel package,35,14,912,63
+"To select a column from a matrix and keep it as a column matrix, not a vector: X[,1,drop=FALSE]",56,19,911,201
+How to generate random numbers in R:,30,13,910,221
+The scan() function is useful for reading short sequences of data into a vector or list from the console or from a file,27,11,909,49
+Index of datasets included with R,27,10,908,202
+"Introduction to AzureRMR, a package for managing Azure resources from R",37,8,907,53
+"Use readr::parse_datetime to convert text representations of dates and times (e.g. ""4:30 PM"") to a POSIXct vector",48,11,906,70
+"The ""round"" function uses the ""round-to-even"" rule. round(3.5) and round(4.5) are both 4",50,15,905,213
+Find the smallest positive floating-point number x such 1 + x != 1 on your computer with the variable .Machine,9,1,904,11
+"Free text: ""Practical Regression and ANOVA with R"":",69,23,903,115
+RTVS is a free extension for Visual Studio for R programming and debugging,16,3,902,53
+"If you want to create animated charts, check out this overview of the gganimate package with lots of examples",135,40,901,215
+Guidance for use of  in regulated clinical trial environments (incl. for FDA):,24,10,900,90
+Use any() and all() to test if any or all of a vector of logical conditions are true,33,12,899,57
+Look at under help(par) for options you can use to customize plot(),20,4,898,28
+How to set up a data science client for R development on SQL Server:,26,5,897,36
+A guide to making a reproducible data science environment with R and Docker,52,17,896,86
+"Introduction to Rcpp, an R module for integrating C and C++ code:",31,5,895,53
+"Hands-On Programming with R, a book to teach programming in R by @StatGarrett, available in its entirety at",228,102,894,432
+"Thanks to the R Core Group, for volunteering their time and expertise to create, improve and support R",92,16,893,258
+"Use checkpoint(""2018-11-21"") to make the current project always use today's package versions from now on",61,14,892,89
+"Some  Linear Algebra: For a matrix M, Null(M) {MASS package} finds a matrix giving a basis for the left null space",15,4,889,23
+How to run RStudio on Azure Databricks,19,0,887,19
+"Chromebook Data Science, a free course on Data Science with R from the Johns Hopkins Data Science lab",58,18,886,94
+Use the || and && operators when working with scalar booleans; use | and & when working with vectors,44,14,885,164
+Tutorial: Analysis of Variance (ANOVA) for comparing the means,66,22,884,277
+Want to fit a generalized additive model to a large data set? Try the bam() function in the mgcv package,38,8,883,87
+How to connect to Azure Databricks from R,13,5,882,23
+"The fs package provides a unified, consistent, and cross-platform set of function for interacting with files and directories in R:",62,16,881,94
+"Info on getting data from databases, spreadsheets, binary files and APIs into , from the official R data import/export manual:",50,19,880,88
+"nchar(string) finds the length of a string, whereas length(string) finds the length of the vector containing the string(s)",34,9,879,52
+How to schedule R jobs as batch tasks with Microsoft ML Server,14,6,877,26
+"Get docker containers with specific versions of R, RStudio, tidyverse and more from the rocker project",27,5,876,37
+rm(list=ls()) will remove almost everything from your working environment. Be careful! Be sure!,49,16,875,134
+"Use ""gnls"" in the nlme package to fit a nonlinear model using generalized least squares",34,10,874,54
+Robust function writing tip: use seq_len(N) instead of 1:N (it handles the N<1 case appropriately),56,21,873,330
+"RT @MikeKSmith Looking for older versions of R packages, but don’t want to have to compile from source? You need the MRAN TimeMachine:",23,7,872,37
+"The R source code is made up of 32% C, 24% Fortran, and 37% R. You can find a read-only mirror of the sources on Github at",55,11,871,77
+Use the SAScii package to run an existing SAS script for importing ASCII data into R -- without needing SAS:,11,2,870,15
+"If you are using R and think you're in hell, this is a map for you. ""The R Inferno"", a classic by @burnsstat:",85,22,869,129
+"Add row sums, column sums and grand total to a table with addmargins(my.table)  htt",71,14,868,99
+How to manage R packages in Microsoft ML Server,12,3,867,18
+anova(model) will compute and print Analysis of Variance tables for models fitted with lm() and glm().,34,11,866,56
+List of R packages and functions for Cluster Analysis & Finite Mixture Models:,41,11,865,190
+"Type ?""?"" or ?Question at the command line to get help with help in R",16,2,864,20
+Online Pluralsight course presented by @_StaciaV_: Getting Started with R in the Microsoft Data Platform,11,2,862,15
+List of R packages and functions for high-performance and parallel computing with R:,59,20,861,278
+"Use xtabs(formula,data) {stats} to create a contingency table from cross-classifying factors",37,10,860,109
+"Train support vector machines with the ""svm"" function from the e1071 package:",15,0,859,36
+"List of 100+ probability distributions (densities, quantiles, simulation) supported in R:",75,26,858,405
+"How to call R functions via a RESTful API, at scale, with Microsoft ML Server",22,3,857,28
+Use the gganimate package to create smooth animations with ggplot2,93,38,856,169
+"The behaviour of diag() depends on the length of its argument: diag(5) construct the 5x5 identity matrix, but diag(1:5) places 1:5 on the diagonal",21,10,855,41
+Got time to kill waiting for an R computation? Play games like Tetris and Pacman in RStudio with Rcade,91,30,854,151
+"How to include non-standard fonts (Chinese, Cyrillic, CM Math etc) in PDF/Postscript charts:  (p41)",19,7,853,100
+"R developer's guide to Azure, documentation for Azure services supporting R",22,5,852,32
+"Basic R syntax gotchas, from aRrgh: a newcomer’s (angry) guide to R",43,16,851,75
+"options(stringsAsFactors=FALSE) forces R to import character data as character objects, but avoid the temptation to add it to your .Rprofile file: your code may not work for others if you do",51,13,850,77
+Show a progress bar for in R console only when running interactively: if(interactive) {pb <- txtProgressBar(…)},53,16,849,85
+"A list of free courses, books, tutorials and cheat sheets for R",527,237,848,1001
+How to publish R functions as Web services with Microsoft ML Server,25,5,846,35
+"Use the ""shiny"" package to easily create web-based applications with R. Get started with video and written tutorials at",85,30,845,145
+The arules package provides functions for mining itemsets and discovering association rules,23,4,844,52
+Add a zero imaginary part to a number for complex arguments. sqrt(-1) returns NaN; sqrt(-1+0i) returns 1i,34,5,843,83
+inSide() {mgcv} may help you determine if points are inside a boundary.,31,7,842,59
+"To get the very latest versions of R packages with Microsoft R Open, run chooseCRANmirror() before calling install.packages",35,7,841,49
+"Export a data frame to Excel with the writexl package: write_xlsx(mydata, ""mydata.xlsx"")",61,26,840,113
+Run-length encoding: count the number of times sequential repeats appear with rle(x),24,6,839,36
+"Search R-help mailing list archives, help pages, vignettes and task views with RSiteSearch(""keyword"")",18,9,838,36
+"Packages for importing financial, sports and weather data into R",137,43,837,223
+Tutorial: Use RevoScaleR R functions with SQL Server data,7,1,836,9
+List of R functions and packages related to internet technologies and services,41,21,834,83
+Five ways to subscript data in R,33,7,832,102
+"Review and update selected packages to the latest version: update.packages(ask=""graphics"")",21,7,831,35
+"Installing R Packages in SQL Server ML Services, a tutorial series by @nielsberglund",17,2,830,21
+"How to install R with multi-core acceleration, RStudio and tidyverse on Windows, Mac and Ubuntu",95,21,829,137
+"In base graphics, change the direction of plot axis labels with las.  
+  plot(x,y,las=2)  
+makes all labels perpendicular to the axis",57,16,828,89
+Need to put R output in a book or paper? Use options(width=60) to limit output to a narrow column.,96,18,827,401
+"Get the upper triangular elements of a matrix: M[upper.tri(M,diag=TRUE)]",21,5,826,86
+"A list of companies, officials and NGOs using R, curated by @jumpingrivers",31,14,825,59
+"Use the xtable package to convert a table or matrix to HTML: print(xtable(X), type=""html"")",64,24,824,272
+"Use the lubridate package to easily manipulate dates, times and time zones",44,12,823,148
+Advanced documentation on how S4 methods work in R,26,7,822,40
+Tutorial: Learn in-database analytics using R in SQL Server,50,17,821,84
+The list of R operators:,49,18,819,85
+Use apropos() to find a function or variable when you can only remember part of its name,92,40,818,172
+Compute a kernel density estimate of a variable's distribution with density(x),19,6,817,31
+How to use R packages with the online Power BI service,22,11,816,44
+Count the number of rows in a data frame that have missing values with sum(!complete.cases(dF)),111,25,815,161
+"Print numbers as currency in a 6-character wide field: sprintf(""$%6.2f"",mean(LifeCycleSavings$sr))",30,7,814,77
+"If two packages define functions with the same name, use :: to call the one you want:",53,20,695,208
+"If two packages define functions with the same name, use :: to call the one you want:",53,20,813,208
+"Open data sets, curated by Microsoft Research for computer vision, NLP and scientific analysis, available for download from",67,25,811,117
+"""Learning Statistics with R"", course notes for teaching R to Psychology students by @djnavarro",143,56,810,255
+List of R packages for the analysis of medical images:,46,27,809,195
+deviance(fit) returns the deviance of a fitted model object,19,11,808,41
+"Handling Strings with R, a free e-book:",90,41,807,172
+How to use R to create custom visualizations in Power BI Service,34,9,806,52
+Use str(obj) to display the components of any object in human-readable format,28,14,805,141
+"Use ""deriv"" to create a function that returns the derivative and hessian of an algebraic expression:",38,14,804,66
+"Use 'substitute' to include the variable's name in a plot title, e.g.: hist(var,main=substitute(paste(""Dist of "", var)))",69,16,803,101
+alias(lm_object) will find linearly dependent terms in analysis of variance models,30,5,802,40
+"The Data Science Virtual Machine is an Azure instance preinstalled with Microsoft R, Rstudio, Rattle, Tensorflow and more:",35,19,801,73
+Use sample_n (in the dplyr package) to select random rows from a data frame or tbl,78,28,800,134
+Comparing floating-point numbers with == is unwise. Use all.equal to avoid errors from rounding:,83,27,476,525
+Comparing floating-point numbers with == is unwise. Use all.equal to avoid errors from rounding:,83,27,799,525
+"tapply(x, groups) applies a function to each non-empty group in a ""ragged"" array. Example:",33,8,798,49
+Over 750 people who blog about R,15,4,797,76
+A %x% B calculates the kronecker product of matrices A and B,28,10,796,90
+Side by side comparisons of analysis tasks done in SAS and R:,30,14,794,162
+"Efficiency tip: When selecting from a data frame, df$a[1] is much faster than df[1,""a""]",163,53,793,519
+Free self-paced edX course: Analyzing Big Data with Microsoft R Server,42,10,792,144
+Extract data from tables in PDF documents with the pdftools package,173,56,790,285
+"Display information about your R session including R version, platform and attached packages with sessionInfo()",39,7,789,53
+"SQL Server 2017 Machine Learning Services with R, an e-book by @tomaz_tsql and @MsSQLGirl by",30,11,788,52
+Meet other R users at a local R user group in your area:,37,16,787,130
+ESS (Emacs Speaks Statistics) is a popular add-on for working with R inside Emacs,14,4,786,87
+Tutorials on various machine learning and statistical forecasting techniques in the @UC_Rstats Business Analytics R Programming Guide,107,36,785,179
+"For rpart classification trees, residuals(fit,type=""deviance"") returns the deviance residuals",14,7,784,67
+Run an R script from the command line in batch mode with R CMD BATCH:,31,7,783,96
+"Format numbers ""v"" as currency, like $2,101,944: 
+gsub(""^ *"",""$"",prettyNum(v, big.mark="",""))",40,9,782,136
+if(isTRUE(condition)) may be preferable to if(condition),85,25,780,135
+"An online Introduction to R with some R history, linear models, glm and more",115,35,779,413
+The number of people you need to gather for a 95% probability of at least one shared birthday: qbirthday(0.95),57,18,778,93
+"seq(n1,n2,m) will generate a sequence of numbers from n1 to n2 counting by m  #stats",27,8,777,43
+na.omit(df) returns all rows of a data frame except those containing any missing values,84,18,776,120
+"A list of over 1,000 datasets available in R packages, curated by @VincentAB (via @mf_viz)",99,38,775,175
+"Explanations of lexical scope, function closures and environments in R:",27,6,774,39
+CrossTable() in {gmodels} produces crosstabulations modeled after SAS's PROC FREQ,38,4,773,76
+"To speed up your R code, use Rprof() to turn on profiling, and summaryRprof() to find the slow parts:",128,32,772,568
+The @Rstudio cheat sheet for data visualization with ggplot2 (PDF):,112,39,771,386
+"When reading data from files, R will accept ""infinity"", ""inf"" and ""nan"" as a valid numeric values",41,14,770,69
+"Calculate the differences between every nth value of a vector x with diff(x,n)",40,13,769,134
+Convenience features of the fread function in the data.table package for reading small and large data sets into R,43,12,768,67
+"auto.arima() {forecast} will return the best ARIMA fit to a time series using the AIC, AICc or BIC criterion",68,25,767,215
+"You can use hexadecimal numbers in R by starting with 0x, eg 0xDEADBEEF",12,4,766,47
+Use unlist() to flatten out a list of lists into a single vector:,28,11,765,117
+Syntax for mathematical annotation in R:,44,13,764,70
+Publish R functions to the cloud as a Web service with the AzureML package,24,8,762,85
+Use the SASxport package to read/write data in the XPORT file format (req by FDA for clinical submissions),14,1,761,40
+List of R packages for data access and scientific analysis developed by @ROpenSci,62,25,760,251
+"Object names in R usually contain letters, numbers, periods and underscores, but other names are possible:",17,6,759,65
+"Find out what files are in your working directory with dir(), also list.files()",35,7,758,106
+You can create a local library by setting R_LIBS_USER in your .Renviron configuration file,28,2,757,67
+How to add interactive R-based visualizations to Power BI,33,13,756,59
+Posting guide for the official R mailing lists: How to ask good questions that prompt useful answers,21,9,755,39
+Create perceptive color-blind-safe scales for heatmap charts with the viridis package,34,9,754,132
+"In R scripts, use invisible() to prevent functions from generating unwanted output:",51,14,753,265
+"Benchmark how long it takes R code to run with system.time({ expr }). The ""elapsed"" value is usually the most relevant.",42,11,752,64
+"By launching the RStudio Server service on the Ubuntu Data Science Virtual Machine, you can log in and access R and the terminal from your browser",21,8,751,37
+An overview of the new ALTREP representation of objects in R 3.5.0 and later,8,5,750,18
+"match(x,y) returns a vector of the positions of 1st matches of x in y:",57,11,749,79
+"Get the set of distinct values in a vector, x, with unique(x)",30,9,748,48
+Use the ratelimitr package on CRAN to slow down requests to rate-limited APIs:,29,11,747,51
+Microsoft R Open links  with multi-threaded libraries for faster performance:,18,6,746,30
+"Forgot to save the output from the last R command? Retrieve it with
+ 
+v <- .Last.value",234,65,745,364
+You can use the Rcpp package to convert simple R loops into fast C++ code:,58,16,744,182
+"In a ""for"" loop — for(var in seq) expr — seq can be *any* vector. e.g. seq <- c(100,12,1000)",27,9,743,45
+Package TTR contains EMA() (exponential moving average) and 8 other moving average functions,32,8,742,91
+"A free, 80-page excerpt of the book ""R for SAS and SPSS"" users , by @BobMuenchen",35,22,741,79
+"Download R from (and set your CRAN mirror to)  It automatically chooses a fast, nearby mirror for you.",33,11,740,118
+"An overview of R formulas for statistical models, from the National Park Service",58,16,739,90
+"format(x, scientific=TRUE) prints numeric data in exponential format, so 0.0001 prints as 1e-04",61,11,738,194
+How to launch a container with R using Azure Container Instances,19,6,736,31
+"Use the ""beep"" function (in the beepr package) to make R play a sound when a long computation finishes",172,45,735,262
+Use textConnection() to import data that's already stored in an R character object (rather than a file):,29,6,734,41
+"Many functions, like ""plot"", are generic. Use methods(plot) to see all the object types that can be visualized",54,17,733,112
+Can't find a package binary on CRAN? Check its build status on all platforms here:,8,4,732,16
+"SQL Server R tutorials: Data science deep dive, and in-database R",61,27,731,115
+"Normalize accented words to their plain ASCII equivalents with the stringi package: stri_trans_general(""Lützowstraße"",""latin-ascii"") becomes Lutzowstrasse",50,13,730,76
+"Use head() to quickly check the first few rows/elements of a large data frame, vector, list, etc.",18,11,729,88
+Try data.table as a substitute for data frames when working with big data,53,17,728,258
+"The paste0 function concatenates strings back-to-back, without any separating characters",41,11,727,165
+R extension for Visual Studio @code,26,4,726,34
+Convert character strings to their all-lower-case equivalents with tolower,23,7,725,37
+"Print a human-readable version of a matrix: write.table(format(X), row.names=F, col.names=F, quote=F)",41,14,723,180
+Extracting data from PDF graphics with . Vector Image Processing  (PDF),149,58,722,265
+Tips on computing with big data in R,62,19,721,100
+"Text Mining with R, a book by @juliasilge and @drob",100,33,720,166
+Know the difference between complete.cases() and na.omit() when handling missing values in data frames,87,27,719,141
+Check which packages you have installed with row.names(installed.packages()),70,24,718,118
+"A list of R's base and recommended packages, and the extra packages bundled with Microsoft R Open",22,4,717,30
+"vcov(obj) returns the variance-covariance matrix for the parameters of lm, glm, nls, lme and several other model types",44,11,716,66
+Functions and packages for model deployment with R: a CRAN Task View,5,4,715,13
+"abbreviate(x,n) returns readable and unique abbreviations of the strings in x, of length n or more",94,14,714,122
+"You can use single-quotes to delimit a string. Handy for including double-quotes, 'like ""this"" trick'",37,8,713,53
+"How to build a local subset of CRAN, and access R packages behind a corporate firewall",20,7,712,34
+"The Rmpfr package provides arbitrary-precision floating point calculations in R. Here's π with 3321 bits of precision Pi <- Const(""pi"", 1000 *log2(10))",24,10,711,44
+"""R for data science"", a book on tidy data analysis by @hadleywickham and @StatGarrett",116,52,710,220
+"Check out CRAN Task Views for curated lists of R packages by topic area (Bayesian, Finance, Web Technologies etc)",32,14,709,60
+"""One-hot encoding"" in R: model.matrix converts factors into binary indicator columns in a matrix:",48,17,708,82
+"Avoid namespace clashes! Use :: to specify an object within a specific package, e.g. MASS::mvnorm",21,6,707,107
+"Microsoft R Open installs packages from an static CRAN archive by default. Get the latest with install.packages(""thepackage"", repos="" or just change the default CRAN repository.",21,9,706,39
+"sample(vec, n) will randomly select elements n elements from a vector",31,14,705,89
+"Determine whether two integers m and n are relatively prime or coprime with coprime(m,n)",20,3,703,35
+Get a quick overview of a data set with the skimr package,63,23,702,109
+"A five-minute explanation of tidy evaluation in R, from @hadleywickham",68,27,701,122
+"cummax(x) returns a vector whose ith element is the maximum of the first i elements of x. cf cumsum, cumprod",36,9,700,121
+Be aware: the $ operator uses partial matching. mylist$el returns the contents of mylist$element if there's no exact match,52,10,699,72
+R Markdown Cheat Sheet,77,24,698,125
+"You can compute row sums of a matrix M with apply(M, 1, sum) ... but rowSums(x) is faster",39,9,697,57
+"List of R functions and packages for graphic displays, dynamic graphics, graphic devices and visualization:",76,19,694,147
+"return() is a function, so there must be parentheses around the value being returned",22,4,693,30
+A curated list of some recently-released and updated R packages:,29,10,692,49
+"Cheer yourself up in R with getXKCD(which=""random"",html=TRUE)",63,25,691,113
+"find() tells what package a function came from. e.g. find(""find"")",75,16,690,185
+"Read SAS, SPSS and Stata data files into R with the haven package",56,24,689,104
+"Use methods(class='lm') to list all the special operations available on ""lm"" regression objects",57,19,688,248
+Use sink() to direct R's output to a file,58,25,687,174
+A Field Guide to the R Ecosystem:,40,12,685,64
+Get eigenvalues and eigenvectors in R with eigen(mymatrix),42,21,684,148
+"RStudio: a complete, open-source interactive development environment for R",17,7,683,31
+The Quick-R guide to Resampling Statistics in R:,41,20,682,173
+Find curated Docker images for R-based workloads at  and see this R Journal article for more background:,37,9,680,55
+"Don't know the full name of a function? Perform a fuzzy search with the apropos function: apropos(""summary"")",46,11,679,117
+library(oz); oz() creates a map of Australia,25,7,678,39
+range(x) returns the minimum and maximum values of x,45,11,676,67
+"A ten-hour video introduction to R, presented by @rdpeng",151,42,675,445
+The %>% operator from the magrittr package pipes data from function to function for more readable R code,69,17,674,228
+Use jitter(x) to add some noise to your data. Very useful for dealing with overplotting in scatterplots.,68,19,673,106
+"Use the diffobj package to compare the results of analysis outputs, for reproducibility",40,13,672,66
+How to run R in the Windows Subsystem for Linux,45,29,671,103
+Fit a nonlinear mixed-effects model with the nlme package,60,23,670,106
+"head(x, n) shows the first n elements of x; head(x, -n) shows all but the last n elements",43,13,669,69
+"Use the Matrix package for efficient linear algebra with sparse, symmetric, positive semidefinite and general matrices",32,10,668,52
+Detect human tampering with numerical data. Check the digits follow Benford's Law:,57,22,667,101
+"Schedule an R function to run sometime in the future with the ""later"" package",83,24,666,131
+Regular expressions in R   (by @johndcook),53,5,665,183
+The Cauchy distribution has no Expectation! Use rcauchy() to generate pseudorandom samples  #stats,25,6,664,69
+Use the animation package to create videos and animated GIFs from R graphics,100,31,663,162
+Support the R project by making a donation to the R Foundation @_R_Foundation,16,13,661,42
+"You can plot a function object to create a chart of its equation, e.g. plot(dnorm, xlim=c(-4,4))",67,15,660,206
+Improve your R coding skills with Advanced R Programming by @hadleywickham,143,45,659,233
+is.na() tests for missing (NA) values. is.null() tests for NULL values.,76,25,658,164
+The Box-Cox transformation is a useful technique for transforming data to be more Normal,95,35,657,165
+A data-driven Christmas card animation,40,10,656,60
+"The story behind R release names like ""Very Secure Dishes""",29,13,654,55
+"The ""break"" statement immediately exits from a ""for"" or ""while"" loop:",27,4,653,71
+Interpolation and smoothing functions in base R:,74,30,652,134
+"One line, Two Way Factorial Design ANOVA: fit <- aov(y ~ A + B + A:B, data=mydataframe)",61,14,651,133
+Use the datapasta package to easily cut-and-paste tables from web pages into R objects,122,39,650,200
+There is a Wikipedia page for R at,30,8,649,130
+"R indexes arrays from 1 like Fortran, not from 0 like C or Python",46,12,648,70
+A collection of tips for R beginners:,98,36,647,412
+Check availability status of CRAN mirrors:,10,4,646,45
+"Don't forget about the ""car"" and ""MASS"" packages when looking for sample data: data(package=c(""MASS"",""car""))",31,8,645,47
+Explore R packages from the past with the CRAN Time Machine,14,6,644,52
+"The survreg() function in the survival package fits parametric, survival regression models",38,11,642,99
+R Weekly: a weekly bulletin of curated R-related blog posts,17,8,641,33
+"Use R Markdown to generate HTML, PDF, Word documents (and more) with R graphics and output",79,27,640,228
+Tutorial: Getting started with R Tools for Visual Studio,27,8,639,43
+"Descend recursively through lists with a vector index: x[[c(5,3)]] is the same as x[[5]][[3]]",46,10,638,66
+Efficiency tip: TRUE || (x <-3) will never evaluate the right hand side. Using && and || can save cycles,38,8,637,114
+List of R packages for analysis of spatial and geocoded data:,90,39,636,199
+"library(cowsay)
+say(""Happy Thanksgiving!"", by=""turkey"")",211,113,635,437
+"The holiday function in the timeDate package looks up holiday dates, e.g. holiday(2017,""USThanksgivingDay"")",36,5,634,143
+List of environment variables that can be used to configure R:,48,13,633,74
+The pracma package contains a number of functions for linear algebra and numerical analysis,29,10,632,83
+R interprets literal numbers like 4 as floating-point; use 4L for the integer 4,44,11,631,130
+optim() a general-purpose function in R to find the maximum of a function,46,18,630,82
+"Microsoft R Open includes MKL multi-threaded math libraries, to improve R performance",18,4,629,59
+"Use replicate to generate multiple simulations. Example: ts.plot(replicate(10, cumsum(rnorm(5)))",60,15,628,90
+"Concatenate elements of a vector to a single comma-separated string: paste(letters, collapse="", "")",55,12,627,158
+Get started with foreach and parallel programming:,57,21,626,155
+Type data(package = .packages(all.available = TRUE)) to find data sets available in R,73,21,625,115
+"The Data Science VM is a GPU-enabled Azure instance with R, Rattle, RStudio, Jupyter and more",36,13,624,62
+Use the Filter function to find the values of x for which a logical function f(x) is TRUE,32,13,623,58
+The function diana() in library(cluster) computes a divisive hierarchial cluster of a data set,38,8,622,54
+"Strip non-ASCII characters from a string with iconv(bad.text, to=""ASCII"", sub="""")",34,9,621,129
+"Three free books on R for Multivariate Analysis, Biomedical Statistics and Time Series",176,73,620,322
+How to monitor performance of R scripts running in SQL Server 2016,30,11,619,52
+"A reproducibility horror story, with a happy ending: R",43,14,618,71
+Consider partial least sqares (PLS) for regresssion problems with many predictors,58,22,616,167
+The official specification of the R language:,23,10,615,43
+R packages by topic area: explore packages included in CRAN Task Views at,25,5,614,35
+"All about using pronouns, quasiquotation and quosures with dplyr:",43,7,613,57
+Try: tryCatch(...) to allow R code to continue to run in the event of errors,48,12,612,72
+clusterApply() in {parallel} is a parallel version of apply() that uses clusters,29,10,610,105
+A handy alias for  to prevent saving or loading workspaces: R --no-save --no-restore-data --quiet,22,5,608,32
+"Use R to add text, tables and charts to a Word or Powerpoint template with the officer package",100,45,607,190
+Getting started with Markov chains in R:,150,57,606,264
+Serialization: save a single R object to disk with saveRDS; restore in a new session with readRDS,23,10,605,145
+tidyverse: a collection of essential packages for working with data in R,71,31,604,282
+Whats the difference between :: and ::: ?,27,10,603,86
+List of R functions and packages for robust statistics:,83,40,602,322
+Find rational approximations to real numbers: x <- rnorm(4); library(MASS); fractions(x),14,6,601,26
+Step-by-step guide for launching a Spark cluster with R on Azure:,29,14,600,57
+"A curated list of R packages and tools, by category",125,62,599,249
+The difference between the order and rank functions in  (by @portfolioprobe):,28,12,598,148
+Optical illusions made with R,46,19,597,164
+"Use the digits option to display a number to desired precision. e.g. print(pi, digits=16)",27,13,596,94
+Highlights of R packages released May-August 2017:,16,3,595,22
+R equivalents for #SAS and #SPSS modules:,51,33,594,272
+"Test if a file exists (and is not a directory) with file_test(""-f"", path)   (via @RobLanfear)",28,6,593,40
+"To enumerate every possible combination of levels in multiple factors, use expand.grid:",45,10,592,65
+"convolve(x,y) uses the Fast Fourier Transform to convolve two sequences of the same length",24,8,591,40
+"is.finite(x) is a useful test for ""proper"" data: it returns FALSE for NA, NaN and Inf:",44,14,590,206
+The free Microsoft R Client distribution includes the RevoScaleR package for analysis of out-of-memory data  #rtats,13,5,589,74
+The trans3d function projects 3-D coordinates into 2 dimensions; use to add points to perspective plots:,23,11,588,45
+"Use embed(x,3) to embed a time series in 3-dimensional space",25,9,587,43
+Use miniCRAN to create an offline repository with a subset of CRAN of packages and their dependencies,26,10,586,102
+"If you've having trouble using a variable name with odd characters (like $, ! or space), wrap it in back quotes: `odd-name`",44,13,585,72
+Better R console fonts,36,10,584,118
+The glmnet package fits the entire lasso or elastic-net regularization path for linear models,27,8,583,43
+"%/% is the integer division operator. e.g. 15 %/% 4 returns 3, not 3.75",55,19,582,98
+"For reproducible simulations, use set.seed to start the random number sequence from a fixed point",36,13,581,132
+The rio package provides a simple interface to import a wide variety of data formats,42,23,580,88
+How to programatically generate an R client for a Swagger API,11,4,579,19
+"A workflow for reproducible data analysis in R, from @grssnbchr",84,34,578,152
+"A single index can be used to select from a matrix. For example, X[row(X)==col(X)] is the same as diag(X)",36,9,577,107
+"Collection of cheatsheets on data import, visualization, Markdown and more from @Rstudio",124,62,575,248
+How to create a code snippet in R Tools for Visual Studio,17,5,574,27
+"To get help on some R operators, use quotes, e.g. ?""%*%"", ?""if"", ?""!"" etc. If in doubt, add quotes.",41,15,572,140
+fitdistr fits a univariate probability distribution to a vector of data using maximum likelihood estimation:,35,14,571,167
+Find the maximum amount of memory available to R (in Mb) with memory.limit(),56,24,570,104
+Interactively execute R functions on a remote Microsoft R Server with remoteLogin(),21,3,569,27
+Use lengths(x) to find the length of every element in a list   via @kearneymw,44,12,568,68
+"In R, NA represents missing values. To check for NAs, use the is.na function, not the == operator",56,15,567,203
+For some really good  reading have a look at the Journal of Statistical Software,34,15,566,106
+R has nine different algorithms for computing quantiles,51,21,565,93
+"R automatically prints most expressions evaluated at the command line, as explained by @xieyihui",16,8,564,32
+Use missing(x) to test whether an argument x was supplied when a function was invoked:,24,10,563,63
+daisy(df) computes all pairwise dissimilarities between observations in a data frame,40,14,562,68
+"On Windows, you can substitute forward slashes for backslashes in filenames (for convenience or portability)",16,4,561,47
+"Parallel group-by operations on clusters, SQL Server or Spark with rExecBy in Microsoft R Server",20,3,560,26
+It's usually best *not* to save and reload your R workspace. Unexpected objects in the environment can be a source of bugs,107,48,559,203
+List of R functions and packages for Time Series Analysis,84,30,558,358
+Find the list of changes in the forthcoming release of R (R-devel) here:,14,7,557,63
+Many zeroes in your data? Fit a Tweedie GLM with tweedie() function in the statmod package,38,17,556,72
+"Capture errors, warning and functions by wrapping the call in safely( ) from the purrr package",45,22,554,89
+Create Tufte-inspired graphics in R,55,16,553,87
+See help(par) for many options for controlling the appearance of base graphics in R,17,8,552,33
+"List row/col matrix indices, from largest value to smallest: cbind(row(x)[order(-x)],col(x)[order(-x)])",22,9,551,40
+Use the AzureDSVM package to spin up and use Data Science VM clusters from R,13,7,550,27
+Find R-ladies meetups in your area. Visit  and follow @RLadiesGlobal,20,15,549,50
+"file.path is a fast, platform-independent function to create paths to filenames",35,15,548,126
+"X %in% Y tests whether elements of X can be found in Y -- same as !is.na(match(X,Y))",95,32,547,159
+"Add ""user:cran"" to a search query on Github to search the code of all R packages on CRAN",44,15,546,74
+"Package developers: add
+ByteCompile:yes
+to the DESCRIPTION file to have your package compiled on install",16,4,545,24
+Use hclust() for hierarchical clustering,32,19,544,70
+"NA's have special handling for logical comparisons. NA & FALSE is always FALSE, NA | TRUE is TRUE",28,9,543,107
+You can use a two-column matrix of integers to select disjoint values in a matrix by row/column,13,5,542,23
+The checkpoint function automatically finds and installs all packages required by the current project,58,22,541,102
+Add options(error=utils::recover) to .Rprofile to make it easier to debug errors thrown by R functions:,38,7,539,120
+.libPaths() will show the directories where R looks for packages,34,16,538,66
+"The useR! conference @UseR_Brussels takes place next week. Watch presentations from last year, here:",27,5,537,37
+"With the expm package, M %^% n is an efficient function for raising a matrix to a power",28,6,536,40
+Get started with Bayesian Survival Analysis with the bayesSurv package,36,10,535,106
+Some common pitfalls when working with floating-point numbers in :,25,12,534,105
+x[duplicated(x)] lists the repeated values in a vector x,55,18,533,91
+The doAzureParallel package  uses low-priority VMs for cost-efficient large-scale parallel computations,19,6,532,31
+Course notes for data journalists by @paldhous: Introduction to Data Visualization,38,20,531,78
+"Convert a comma-separated string to a vector: strsplit(""red,green,blue"","","")[[1]]",54,13,530,176
+"With base graphics, par(mfrow=c(2,2)) will let you put 4 plots on the same device",20,10,529,40
+cumprod(x) returns a vector containing the cumulative products of the vector x,18,5,528,28
+Use the rxNeuralNet function in Microsoft R to train deep neural networks with GPU acceleration,40,14,527,68
+"The ""margins"" package calculates partial effects for covariates in models (like Stata does)",38,13,526,64
+"New to R? Try the ""sample session"" in the Introduction to R Manual for a 10-min tour:",47,22,525,225
+"read.table(""clipboard"") can be a timesaver for quick copy-and-paste from spreadsheets into R",142,54,524,601
+Use biplot() to visualize principal components: biplot(princomp(USArrests)),40,16,523,72
+Getting started with RevoScaleR: package of big-data functions in Microsoft R Client & Server,10,4,522,51
+Use the testthat package to create a testing framework for R packages:,24,13,521,89
+You may find strptime() and strftime() useful for inputting and formatting dates,34,8,520,74
+"The r-help mailing list has beein going since April 1, 1997. Many thanks to all who have contributed!",16,4,519,24
+Publish R functions as SQL Server stored procedures with the sqlrutils package in Microsoft R:,39,8,518,55
+"A guide to collaborating with (and getting help from) other R users online, by @noamross",38,23,517,84
+"To debug warnings, options(warn=2) converts warnings into errors",32,11,516,97
+"Syntax trap: The ':' operator has higher precedence than '-' so 0:N-1 evaluates to (0:N)-1, not 0:(N-1) like you probably wanted",65,40,515,285
+One way to do a one-way analysis of variance: anova(lm(y ~ x)) where x is a factor,45,15,514,75
+Offload parallel processing jobs on partitioned data to remote clusters with rxExecBy in Microsoft R:,14,0,513,14
+Get notifications of new and updated R packages with @CRANberriesFeed,17,12,512,41
+simulate(obj) in {stats} will simulate one or more responses from the distribution of a fitted model object,44,17,511,127
+"Convert a numeric vector to a factor with ""cut"", e.g. cut(rnorm(100),3,c(""Low"",""Med"",""High""))",79,31,510,290
+Generate a data frame with detailed info on every package on CRAN: tools::CRAN_package_db(),28,11,509,50
+How to access data in Azure Blob Storage or Data Lake from R  on HDInsight,11,3,508,17
+Find an R conference or user group near you at,23,11,507,45
+"To include a quote character in a string, use \""""
+Use \\ for a single backslash",24,7,506,38
+rpart is an R function for CART-like classification and regression trees,16,6,505,28
+"Technical Foundations of Informatics: A modern introduction to R, by @mf_viz and @joelwross",39,12,504,63
+Tips and tricks for optimizing R applications deployed in SQL Server,23,8,503,39
+"To calculate the inverse of a square numeric matrix, use solve(X):",23,11,502,83
+"R functions and packages for differential equations: ODEs, SDEs, PDEs etc:",39,9,501,112
+Use NROW/NCOL instead of nrow/ncol to treat vectors as 1-column matrices,31,13,500,110
+The lubridate package simplifies operations on dates and times:,71,27,499,210
+The Plotly R library provides a way to plot and share interactive graphics on the web using ggplot2 syntax,89,43,498,175
+Use arima.sim() to simulate time series under an ARIMA model,25,11,497,47
+Use the gridExtra package to lay out multiple ggplot2 charts on a single page,87,43,496,173
+Use the gbm package to fit generalized boosted regression models,34,13,495,60
+R For Dummies helps with regular expressions,50,21,494,197
+Resources for getting started with Microsoft R Server,10,9,493,28
+Find interactive charts you can create with R at the htmlwidgets gallery,56,20,492,96
+"For base graphics, par(mfrow=c(m,n)) will divide a graphics window into a grid of m x n plots",32,20,491,95
+"cor.test(x,y) will test if the correlation between paired values in x and y is statistically significant",49,12,490,73
+"Yes, you can return more than one value from a function: use a list! return(list(val1, val2, val3))",73,32,489,218
+A two-page handout with info on the Azure Data Science Virtual Machine (includes ),21,3,488,27
+Find extensions for the ggplot2 graphics system at,65,37,487,139
+Use the odbc package to download data from ODBC-compliant databases into R,29,13,486,55
+"kruskal.test(list(x,y)) performs the  Kruskal-Wallis Rank Sum Test to compare the distributions of x and y   #stats",46,20,485,86
+Try out the %>% operator in the magrittr package  to avoid nested function calls,28,15,484,79
+Use dput to archive an R object to a file; load into another R session with dget,32,9,483,97
+"For int'l number formats: parse_number(""123.456,789"", locale=locale(grouping_mark=""."", decimal_mark="",""))",19,7,482,33
+Qualification and validation of R for 21CFR11 compliance and use in FDA clinical trials:,5,2,481,37
+Use train() in the caret package to evaluate models over a grid of tuning parameters,30,17,479,64
+"How to install and enable R Services for SQL Server 2016, by @nielsberglund",24,7,478,38
+Find the geographic location of an IP address with the rgeolocate package,59,26,477,111
+"If you have an active trans-temporal internet connection, you can use ???? for extra help, e.g. ????t.test  #easteregg",23,8,475,46
+List of R debugging tips:,42,20,474,220
+"uniroot(fun,c(a,b)) will find where fun(x) equals zero in the interval [a,b]",30,10,473,50
+Negative indexes remove elements from a vector. x[-1] is x without the first element,35,14,472,129
+Some handy tricks for handling columns in data frames with dplyr:,78,37,471,152
+Type ?Syntax to learn the precedence of operators in the R language:,27,13,470,110
+acf() computes the autocovariance or autocorrelation of a vector or time series,26,12,469,50
+as.hexmode(N) will convert integers into hexadecimal format,17,6,468,29
+Convert a scalar function to one thar operates on vectors with Vectorize,25,9,467,43
+Style guide for R programming by Graham Williams,60,23,466,206
+Use object.size() to estimate the amount of memory an R object is consuming,54,19,360,315
+Use object.size() to estimate the amount of memory an R object is consuming,54,19,465,315
+"Perform a likelihood ratio test for nested GLM models with lrtest(m1,m2)",41,17,464,75
+"The AzureSMR package provides R functions to control various Azure services, like VMs, blobs, and clusers",18,8,463,34
+basename(path) removes all of the file path up to and including the last (Windows or Unix) path separator,22,10,462,42
+"Trigonometric functions in R use radians. For example, cos(355) prints as -1 (and this is why:",20,8,461,36
+Try the rattle package for a GUI based introduction to machine learning using R,77,34,460,214
+"The operator <<- does global assignment. If you think you need <<-, think again. -- P Burns, The R Inferno",27,12,459,51
+"Find dates of many public holidays with the timeDate package: holiday(Holiday=""JPNationalCultureDay"")",32,8,458,48
+svd(X) will compute the singular value decomposition of a matrix,16,8,457,32
+Version control for R projects: Guide to using Git and Github with RStudio by @jennybc,102,52,456,206
+R.version.string is character string describing the version of R you are running,17,10,455,37
+"Reverse the elements of  a vector x with rev(x) -- works on lists, too",33,9,454,51
+"Robust regression in R (PDF, Fox & Weisberg):",30,11,453,160
+Publish R functions as web services with mrsdeploy in Microsoft R Server:,29,14,452,57
+An index to CRAN Task Views with some visual puns by @geospacedman,13,4,451,21
+Generate a LaTeX or HTML table from an R object with xtable,64,25,450,114
+Create a file called .Rprofile of commands to run each time R starts. Good for setting options etc. Example:,89,29,449,376
+Not sure where to add text or other annotations to your  chart? Use 'locator' to pinpoint with the mouse:,46,20,448,169
+Compare the distribution of two samples with the Kolmogorov-Smirnov Test: ks.test(),49,19,447,87
+Ways to find which namespace a function comes from,13,6,446,25
+Type ?regex in the console to get the R manual on regular expressions,44,17,445,107
+List of predictive model types supported by the caret package:,52,27,444,106
+"A basic ""working vocabulary"" for R (by @hadleywickham)",99,37,443,173
+Use colSums to quickly calculate totals from the columns of a large matrix or table:,22,8,442,73
+Jenny's constant in R: (7^(exp(1)-1/exp(1))-9)*pi^2  (via @xkcd  ) Happy V Day!,16,10,441,56
+"By default, sample(x) randomly permutes x. With the option replace=TRUE it samples with replacement.",18,8,440,68
+Try hclust() in the stats package for hierarchical clustering,33,14,439,98
+Write a book in the style of @edwardtufte with the tint package:,38,17,438,72
+List of R packages for survey design and official statistics:,66,38,437,217
+Make R pause for 3 seconds during a script or function: Sys.sleep(3),36,9,436,54
+Hunt for an object in all loaded namespaces with getAnywhere(object),16,7,435,57
+confint() in the MASS package will compute confidence intervals for glm models,72,29,434,179
+Use R Tools for Visual Studio @RT4VS to write R code as a SQL Server 2016 stored procedure,19,8,433,67
+The mice package can be used to impute missing values in a data set,71,26,432,123
+"To include a quote character in a string, use \""
+for a single backslash, use \\",15,4,431,23
+A list of data sets you can use with R:,102,40,426,182
+A list of data sets you can use with R:,102,40,430,182
+How to import 100 years of Eurpoean climate change data into R:,106,69,428,244
+rnoaa: @ROpenSci package to access many NOAA data sources including the NCDC climate API,31,23,427,77
+Visualize a 3-D surface with the persp function,22,11,424,93
+"Return the row/column indices of positive elements of matrix x: which(x>0, arr.ind=TRUE)",27,11,423,85
+which.min(x) and which.max(x) return the first index of the min and max of x,29,14,422,84
+How to optimize parallel algorithms using rExec in Microsoft R Server,15,12,421,39
+"Use the circlize package to create chord diagrams, phylogenetic trees and other circular charts",35,18,420,71
+"Perform a keyword search for help at the  console:
+??keyword",8,5,419,18
+Tutorial introduction to time series in  (4th edition):,67,26,418,119
+Install an R package directly from GitHub with devtools package:,23,11,417,141
+"Use the magrittr pkg %$% operator to extract and process a column from a data frame:
+mtcars %$% mean(mpg)
+ via @drob",85,34,416,153
+List of R functions and packages to support reproducible research,64,43,415,238
+Launch R as a clean session with no extension packages or saved objects: R --vanilla,27,14,414,55
+An R tutorial in 25 functions (including some Microsoft R packages):,72,25,413,122
+Two-minute video tutorials for R beginners,61,28,412,170
+"Use help.search to find documentation, vignettes and demos on a specific topic, e.g. help.search(""time series"")",50,21,411,92
+"An R ""Happy New Year"" greeting from Yihui Xie",10,4,410,55
+"Some fun, non-work things you can do you do with R",66,32,409,130
+Free R online R course starting January 1: Introduction to R,95,61,408,217
+"In scripts, wrap code in local({ }) to prevent temporary variables overwriting global data:",45,13,407,148
+Find many examples of R charts (with code) at the R Graph Gallery,203,96,406,395
+"A holiday wreath, created with R by @EEB_Flow",22,13,405,48
+Not sure why your R function threw an error? Use traceback() to find out where it occurred,87,28,404,263
+"List of R packages related to networks, graphs, Bayesian models, and flow diagrams:",63,33,402,308
+which(x > 0) returns the locations of positive elements in numeric vector x,28,9,401,93
+"Use rpois(n,lambda) to generate n random draws from a Poisson distribution with rate lambda",22,6,400,58
+Cheat sheet for machine learning functions in Microsoft R's MicrosoftML package,51,22,399,95
+How to create charts in the style of @edwardtufte with R:,157,50,398,257
+"The most useful R tricks, according to StackOverflow",131,59,397,249
+"Use combn(1:n,m) to find all combinations of the first n numbers taken m at a time",41,14,396,100
+"The ""tabular"" function generates crosstabs with summary stats a la SAS PROC TABULATE",29,5,395,39
+"See demo(plotmath) for examples of mathematics (exponents, greek symbols etc) in  plots",23,12,394,96
+"Calendar heat maps, stream graphs, and other ggplot2 extensions for time series",87,32,393,151
+%% is the integer modulus function. 12 %% 5 returns 2,20,4,392,28
+Search the web for information specific to R,23,7,391,37
+Explore the capabilities of your installed R packages with browseVignettes(),37,12,390,135
+How to write a book with R and the bookdown package,59,26,389,111
+"signif(x,digits=n) rounds x to n significant digits",23,10,387,67
+"To search for R-related FAQs on StackOverflow, precede your search query with [r] at",31,14,386,142
+"x$name and x[[""name""]] are equivalent, but the latter is a more robust programming style ($ uses partial matching)",107,51,385,228
+"Introduction to the caret package: select, train and optimize predictive models:",67,35,384,137
+E-book on using R with SQL Server 2016,46,26,383,98
+"Important distinction between [, [[ and $
+[ can select > 1 element but [[ and $ select a single element",70,29,382,128
+"For precise formatting of numbers (e.g. consistent decimal places for tables), use formatC:",37,14,381,130
+Tutorial: converting SAS routines to R,16,6,379,28
+Archive of all the R questions asked on StackOverflow (thanks to @drob),29,15,378,59
+Create a Halloween card with :,20,10,377,81
+"polygon(x,y) will draw a polygon whose vertices are given by the vectors x and y",27,11,376,49
+"Simple source code beautifier for HTML blog posts etc. Choose ""S"" for  code",12,4,375,20
+Browse the archive of R tips at,22,7,374,36
+"choose(n, r) returns the binomial coefficient; lchoose(n, r), the logarithm of the binomial coefficient",21,6,373,33
+List of R functions and packages for text analysis and natural language processing:,85,47,371,179
+Move data between R and Excel via the Windows clipboard:,48,21,370,90
+"To speed up an R function, use cmpfun to byte-compile it:",51,35,369,121
+Convert addresses to latitude/longitude and plot them on a map with the ggmap package,95,42,368,179
+You can include mathematical equations in R charts. Cheat sheet of math symbols you can use:,83,31,367,145
+"Use \n to embed a newline within a string, e.g. cat(""Line 1\nLine 2"")",16,10,366,71
+"pmin(x,y) and pmax(z,w) return the elementwise smallest/largest values of their arguments",23,5,365,33
+"The Data Science Virtual Machine includes R, Python, Rattle and other data science tools",46,26,364,98
+How to create an animated map of pirate attacks with R   #arrrr,47,21,363,89
+Reverse Polish notation calculator in 12 lines of R code   via @BrodieGaslam,15,11,362,37
+"Constants built into : letters, months and pi:",6,2,361,38
+"How to credit R in a manuscript or article: citation(). Works for packages, too: citation(""MASS"")",43,31,359,209
+"Collected wisdom from the R mailing list archives, via the fortunes package",15,12,358,39
+"The ""file"" argument to data import functions like read.table can be a URL, to read data from a website",29,12,357,53
+locpoly(x) {KernSmooth} estimates a probability distribution function from observed data,36,10,356,56
+"The standard random number generator in R is the Mersenne Twister, but other RNGs are available:",18,11,355,72
+Tips on managing memory in R:  (via @erwtokritos),43,13,354,161
+Topic coding and text classification for unstructured data: the RTextTools package,32,15,353,142
+Consider the mvtnorm package for calculating multivariate normal and t distribution probabilities.,17,11,576,39
+Use names(x) <- c to set the names of the elements of vector x to the values of the character vector c,23,7,352,56
+Type help(regex) to get started with regular expressions,18,9,351,71
+Use ellipse() in the mixtools package to draw a 95% confidence ellipse for a bivariate normal distribution,32,12,350,56
+See the vignette (  ) of the sparseM package for an introduction to sparse matrices in R,15,6,349,43
+The TSA package has a nice collection of data sets for getting started with ARIMA models,26,14,348,72
+bkde2D {KernSmooth} computes a binned kernel density estimate from samples of a 2 dim distribution,6,5,347,16
+Access or set the attributes of an R object with attributes(),12,3,346,24
+list.dirs() {base} will list the subdirectories in your working directory,15,4,345,23
+"Merge two data frames with merge(df1, df2) for an inner join and merge(df1,df2,all=TRUE) for an outer join.",45,18,344,162
+Use the tm package for basix text mining.,33,18,343,69
+use aperm() {base} to transpose an array by permuting its dimensions,8,5,342,31
+gregexpr() {base} finds all instances of a pattern,20,13,341,62
+Use lines() {graphics} to add connected line segments to base R plots,10,7,340,35
+Look at package infotheo to compute entropy measures from information theory,14,9,339,58
+"List all tests in R: apropos(""\\.test$"")",25,6,662,37
+Column of numbers read in as a factor? Convert it with as.numeric(as.character(df$num.col)),30,11,338,52
+Use rpart:::summary.rpart to look at the code in the hidden method summary.rpart (from Ecostudies),35,16,337,74
+An example of using R to confirm results of a JAMA paper from Kelly Black,23,11,336,62
+"Barplot of counts: ggplot(df, aes(x, counts, fill= factorVar)) + geom_bar(stat=""identity"", position=""dodge"")",33,25,335,97
+Use as.dendrogram() to prepare hierarchical clusters or trees for plotting,27,6,1,75
+Guide to density esttimation in R from Deng and Wickham,34,14,847,62
+logspline() {logspline} fits a density using splines to approximate the log-density,14,12,334,38
+"Cumulative multiplication: x <- 1:5; Reduce(""*"",x) Reduce{base] can do much more.",26,8,333,42
+"Find your R home directory from the command line with Sys.getenv(""R_Home"")",33,8,332,108
+When to use: apply vs lappy vs sapply vs mapply ...   (via @ThomasEvans),106,51,331,395
+Looking for health data? Try WHO package  for World Health Organization data,50,25,330,100
+"New to R? install.packages(""Rtutor""); library(RtutoR); launch_tutorial() for a basic R tutorial",73,45,329,163
+"dir.create(""dir_name"") will create a directory in your working directory",38,15,328,68
+Use stack() to stack the columns of a data frame into a single column,52,23,326,156
+Details of how method dispatch works for objects in R:,13,3,325,38
+Use read.csv2 to import ASCII data from countries that use the comma as a decimal point,33,31,324,160
+Function to find the peaks in a time series:   (via @therealprotonk),51,11,323,160
+Start planning for Easter next year: library(timeDate); Easter(2017),16,3,322,22
+Search the documentation for any function in base R or any CRAN package at,16,9,321,56
+cv.glm() {boot} will calculate cross validation prediction error for glm models  #rstata,27,11,320,49
+Use readOGR() (gets the projection) rather than readShapeSpatial() (that doesn't) to open .shp shapefiles,21,11,319,43
+"Use rep(x,n_times) {base} to replicate elements of vectors and lists",5,9,318,23
+You may find debug(fun) {base} helpful in debugging an R function.,12,11,317,34
+sessionInfo()$otherPkgs will print the details of non base R packages attached to your session.,20,9,316,38
+search() is an easy way to find out what packages are loaded and available for use:,19,14,315,67
+"Compare 2 R objects using compare(obj1,obj2) in the compare package",16,10,314,61
+"A collection of R ""cheet sheets"" (by @Mark_Graph):",108,53,313,214
+The function fromJSON() {RJSONIO} converts JSON content to R objects,11,8,312,27
+"Send plots to pdf file: run pdf(""myOut.pdf""), produce plots, turn off with dev.off()",22,13,311,60
+"Typing ""fix(foo)"" from {utils} package will bring up a template for creating a function named foo.",14,7,310,28
+Write professional looking code with Google's R style guide,102,51,309,299
+gam() in {mgcv} fits generalized additive models (any quadratically penalized GLM),20,2,308,24
+edit(object) {utils} will invoke a text editor for an R object,24,4,307,32
+"Learn or teach integration with area() {MASS} e.g. area(sin,0,pi) to integrate sin over [0,pi]",25,10,306,45
+"To convert dates/times from one timezone to another, use format() on a POSIXct object. Details:",24,7,305,57
+SANTA will help you quantify the association between a gene and a molecular network   #bioconductor,12,10,304,32
+"options(repos="" [or your local mirror] in .Rprofile prevents  prompting on package install",9,3,303,35
+condest(M) {Matrix} computes the approximate condition number and 1-Norm of large matrices,3,6,302,15
+Download and install new packages from the R command line with the install.packages function:,10,7,301,35
+body(fun) {base} will print the body of a function e.g. try body(lm),17,10,300,37
+"Fit a Bayesian regression model: mod <- MCMCregress(formula,data)",65,18,299,159
+"For a comparison of lapply(), Map() and do.call():",51,10,298,99
+"Use gl() in {base} to generate factors by a pattern. Eg: gl(2, 8, labels = c(""M"", ""F""))",26,12,297,50
+"Select only rows of a data frame without any missing values: df[complete.cases(df),]   (via @ibartomeus)",75,33,296,213
+getVignetteInfo() in the {tools} package will provide information on installed vignettes.,10,4,295,18
+Customize your R environment with these suggestions for your .Rprofile:,49,17,294,150
+"smooth.spline(x,y) in the stats package will fit a cubic smoothing spline to your data.",17,9,293,35
+"Use the function factor() to encode a variable as a ""factor"" or categorical variable.",11,12,292,53
+"Use cat() to show what your code is doing eg: cat(""iteration = "", iter <- iter + 1, ""\n"")",29,9,291,47
+Convert a design matrix (indicator matrix) back into a factor variable:   (via @therealprotonk),8,6,290,40
+"Use lsf.str(""package:foo"") to see a list all the functions in package foo:",26,11,289,92
+Get a list of the arguments for a function: formals(func),14,7,288,43
+How to use the ifelse function to dichotomize a variable [video]:,29,8,287,90
+"Use getSymbols() from the quantmod package to fetch ""OHLC"" stock data from multiple sources",12,2,286,16
+Write map-reduce tasks for big data in #Hadoop with the rmr package:,24,18,30,88
+"Tutorial on lattice graphics, from the National Park Service   (via @zachstednick)",34,15,281,103
+Making Publication-Ready Figures in R,78,39,280,179
+"Use is.atomic(v) NOT is.vector(v) to test if vector. Try v=9; attr(v,""A"") = ""attr"" See Wickham, Advanced R",23,9,878,41
+"Use the transform() function to add a new column to a data frame, using the data from existing columns:",29,10,279,59
+"Collecting results in a loop? Pre-allocate a vector res=rep(0,N) and assign res[i]=val. Avoid extending in the loop: res=c(res,val)",56,19,278,132
+"Add or modify the main title of a ggplot2 chart: myplot + ggtitle(""title"")",14,8,277,30
+Get started analyzing graphs and social networks with the igraph package,34,12,276,58
+The mi package is very helpful when dealing with missing values,31,17,275,65
+Use the sqldf package to select and merge data frames with SQL.,24,10,274,44
+table(x) {base} will build a contingency table,12,8,273,28
+Use factor(vector) {base} to work with categorical variables,6,3,272,12
+Guidance on how to create a reproducible example in R  (via Wickham: Advanced R),25,18,271,61
+Command-line tools for debugging and tracing R code:,26,12,270,107
+"The base package foreign contains functions to r/w data from SAS, SPSS and other stats formats",10,8,269,26
+coef(model.object) {stats} extracts the model coefficients from a model object,13,8,268,29
+"To see the output when running a script file, use source(""myscript.R"", echo=TRUE)",24,11,267,98
+args(function) {base} will display the argument names and default values of a function,11,8,266,27
+"If x is a list, then x[2] <- NULL removes the second element, whereas x[2] <- list(NULL) replaces it with NULL.",45,28,265,137
+methods(generic.function) {utils} lists all methods for a generic function,13,7,264,27
+Look at the installr package to obtain package download counts from the RStudio CRAN logs,7,5,263,17
+Get a confidence interval for the median of a vector x with wilcox.test(x)    cf(Teetor R CookbooK p206),28,9,262,46
+available.packages() {utils} returns details about packages currently available on CRAN,10,7,261,24
+Use the RMySQL package to read data from MySQL into R using SQL queries:,26,15,260,117
+rotationForest() is a new ensemble classifier available in R,36,13,259,62
+Correlated variables? Try principal components regression with the pca() function in the pls package,38,7,258,52
+Read an HTML table from a website with readHTMLTable(url)  in the XML package  #stats,32,17,257,66
+How to create interactive  charts on the web with RGoogleVis:,42,16,256,74
+Spell check a file from R with aspell(file_name),21,9,255,39
+"par(mfrow=c(2,2)); plot(lm(y~x)) will produce 4 nice plots of the regression residuals",59,18,890,95
+shapiro.test(x) performs the Shapiro-Wilk Normality Test on the vector x.,13,5,254,23
+"Look here ( for documentation on ""Model Training and Tuning"" with the caret package.",43,13,253,69
+How to create or catch warnings and errors in R code:,24,13,252,104
+"Read a .csv file from a website into a data frame: fp <- file.path(""URL"",""filename.csv""); df <- read.csv(fp)",35,15,251,92
+Draw a map of the United States: library(maps); map('usa'),25,12,791,49
+The function t() {base} will transpose a matrix,9,4,250,17
+"as.data.frame(x) {base} to turn lists, matrices, tables and more data structures into data frames",12,5,249,22
+"Avoid extrapolating beyond the data, use clip to draw the abline just in the data region   via @ibartomeus",25,9,248,43
+The tmaps package lets you display statistical data on geographical maps,78,30,247,138
+"boot(data,statistic,R) in the {boot} package will generate R bootstrap replicates of a statistic",32,19,246,70
+heatmap.2() {gplots} provides extensions to R's basic heatmap() {stats} with better parameter control,31,12,245,55
+Check out the tools in the dplyr package for working with data frames.,31,14,244,59
+"Use ggplot2 'Themes' to draw your  charts in the style of publications like ""The Economist"":",61,30,243,156
+"In an  function, return the list of arguments supplied in the call with: as.list(match.call())[-1]",18,6,242,43
+Type par(no.readonly=TRUE) to get al list of all parameters that can be set in a subsequent call to par(),11,7,241,25
+Use read.fwf to read a fixed-format data file (ASCII data without delimiters) into R:,10,8,240,46
+Use mode(obj) to determint the storage mode of an object.,6,4,239,14
+"Compare t-distribution with qnorm(.975) as df increases qt(.975, df = c(10,100,1000,10000))",21,4,237,29
+"To read a fixed width file: data <- read.fwf(""file"", widths=c(w1, w2, w3 . . . wn))",12,6,236,24
+Some R help for MatLab users,17,10,235,37
+"apropos(""lm"") will find all objects in your search path with ""lm"" in the name",12,5,234,22
+Add a vertical or horizontal line to a base graphics plot with abline(v=x) or abline(h=y),16,10,233,36
+You can use the readHTMLTable function to scrape data from a Web page:,38,16,232,90
+The number of bits in the mantissa of R double precision numbers: .Machine$double.digits (53),6,4,230,14
+How to source an R file from GitHub (or any other site via https):,30,11,229,109
+"Split x into groups defined by f where f is a factor or list: split(x,f)",34,9,228,52
+"To initialize an integer vector of length n: x <- vector(mode = ""integer"", length = n)",18,3,227,24
+"pack::fun will show the code for function, fun, in installed package, pack",9,3,225,15
+The function typeof(x) {base} determines the internal type or storage mode of an R object.,10,8,224,26
+Use pbapply {pbapply} to add progress bars to apply functions.,45,20,223,85
+"Use data(package=""foo"") to see a list of data sets included in package foo:",13,11,222,60
+agnes{cluster} is a clustering method that measures the amount of clustering structure found.,16,15,221,46
+Functions and packages for the analysis of spatio-temporal data:,35,19,220,107
+"Test for two vectors being the same: if(identical(x,y)) { ... }. Also works for data frames, lists, etc.",21,6,219,48
+"log(x, b) returns the log of x base b.",7,3,218,15
+Use the args() function to get a quick reminder of a function's argument names:,12,8,217,72
+Connect to the open-source SciDB array database with R's scidb package,6,3,215,12
+Work with massive matrices using the bigmemory package,23,11,214,45
+The subset() function is a convenient way of selecting rows from a data frame:,17,15,213,50
+lowess() {gplot} lets you plot a lowess smoother for your data,10,9,212,28
+The mclapply() function in the multicore  package is a parallelized version of lapply,19,6,211,31
+Learn the basics for building an R package,40,22,210,84
+A collection of free tutorials provided by R users:,73,44,209,284
+"Parameter pch in plot(x,y,pch=21) sets the plotting symbol. Look here:  for a list of symbols",11,5,208,21
+"Generate a random entry to a 56-ball, 6-draw lottery with R: sample(1:56,6)",7,5,207,17
+xts: an R package for handling financial time series.    #finance,18,9,206,42
+The function polyroot() {base} finds the zeros of a complex polynomial,14,4,205,22
+"Backtick,  ` , lets you get R's special functions into sapply eg sapply(1:5,`+`,3) Hadley Wickham, Advanced R",24,22,204,68
+The function dput() {base} writes an ASCII text representation of an R object to a file or connection.,18,4,203,26
+The tryCatch function lets an R programmer respond to an error without crashing back to the interpreter:,15,4,202,61
+Use the exists() function {base} to see if an R object is defined.,11,7,201,25
+Do maximum likelihood estimation directly with the mle() function from the stats4 package.,36,10,200,56
+You may find the function dpith() in the KernSmooth package useful for setting histogram bin widths.,11,5,199,21
+How to calculate Prob(X > Y) where X and Y are Gamma distributed:,11,4,198,35
+Download maps from Google Maps with get_map from the ggmap package,36,25,197,86
+"read.table() taking too long, try fread() from the data.table package",33,16,196,65
+Making sense of R's error messages when working with data frames (by @slawarokicki):,28,17,195,86
+log1p(x) computes log(1 + x). Why is such a function necessary?,19,16,194,100
+Go between lower and upper case characters and back again with toupper() and tolower().,6,6,193,18
+"setNames(1:3,c(""foo"",""bar"",""baz"") defines vector and assigns names all in one step",25,9,192,43
+"To profile R code, install the profr package and use the Rprof {base} function.",9,3,191,15
+The corner function in the BurnsMisc package is a convenient way to view a small part of a data frame,7,7,190,30
+"For a complete list of functions in a loaded package (eg Rcpp), use library(help=""Rcpp"")",18,5,189,28
+Extract the diagonal elements of a square matrix M with diag(M),8,4,188,16
+"keep from converting to factors with I() the inhibit function (dd <- cbind(d, char = I(letters[1:10])))",11,3,187,17
+Use the integrate function to calculate the area under a curve:,24,8,186,83
+Make data cleaning a bit easier with Hadley Wickham's Tidy Data Tools,29,25,185,79
+"ggplot2 examples of bar charts, scatterplots, histograms, density plots and more:",55,20,184,165
+When reading a file with read.table() or read.csv() use the na.strings argument to identify/set NAs,21,11,183,43
+Back up your work frequently by running save.image() from the console,12,8,182,43
+"Use ls(pattern=""^is"",baseenv()) to see all ""is"" functions in base package (R. Cotton: Learning R)",15,2,181,37
+"Determine the internal storage type, or storage mode, of any R object with typeof()",10,4,180,18
+"Create NAs of a specific type with NA_real_, NA_integer_ and NA_character_",10,11,179,32
+How R finds variables used in statistical models:,32,8,178,96
+Remove all objects from your current environment with rm(list=ls()) but be careful,12,5,177,39
+The function missing.pattern.plot() from the mi package let you see how NAs are distributed,33,11,176,55
+The # character introduces comments in R. Everything after the # character to end-of-line is ignored by the interpreter.,4,6,175,18
+"When selecting from vectors, repeated indexes are allowed. x[c(1,1,2,2,3,3)] duplicates the first 3 elements of x",11,7,174,43
+Install packages as they were on CRAN on a specified date with the checkpoint package time machine:,5,8,173,46
+"To speed an R function, use cmpfun to byte-compile it:",40,17,125,278
+"Include .progress=""text"" as an argument to many plyr functions to display a progress bar during computation:",23,6,171,59
+Some tips for dealing with missing values:,25,15,170,55
+Get a quick visual overview of your data with the tabplot package:  (via @JacquelynGill),33,14,169,148
+Conditional indexing. For vectors X and Y: Y[X > 5]  yields elements of Y for which X > 5.,12,8,168,28
+"In base graphics, use segments(x0,y0,x1,y1) to draw a line between two points on a plot(x,y)",13,10,167,33
+Look at the partykit package for tools to visualize classification tree models.,16,9,166,34
+Regular expressions in R:  and   and,30,12,165,54
+"Look here   for documentation on ""special functions"" like beta(a,b) or gamma(x)",5,2,163,9
+"To search for statistical tests in R start with help.search(keyword=""htest"")",20,6,162,32
+"ifelse(b,u,v) where b is a boolean expression, is a vectorized if-then-else construct:",17,9,161,41
+"Use the subset() function to select rows and columns from a data frame, based on the data it contains:",17,9,160,42
+Use formals(foo) to get the formal arguments of a function,10,3,159,16
+A compact ggplot2 tutorial:,57,31,158,119
+The xmlToDataFrame function can extract data from structured XML documents,25,8,157,54
+Use sqldf to select rows from a data frame using SQL syntax:,26,9,156,53
+To get the list of recommended packages for R version 3.0.3:,9,5,155,19
+Use the compactPDF function to make PDF files smaller:,31,7,154,56
+Use read.csv.sql() from the sqldf package  to read a file into R filtering it with SQL statements.,34,18,153,70
+Video introduction to object-oriented programming in R with S3 classes (by @mensurationist):,30,9,152,69
+Look at rggobi  and brand new ggvis  for interactive graphics,25,10,151,45
+Two packages for wavelets: wavelets  and wavethresh,6,5,149,16
+R for programmers coming from other languages  and,17,16,148,49
+A useful tutorial on producing simple R graphs from Frank McCown,47,15,147,77
+Use the recode() function in the car package to recode variables.,17,12,146,41
+"For complex optimization problems (e.g. mixed-integer programming), try the lpSolveAPI package:",21,11,145,68
+Google's style guide for R programmers:,60,34,144,281
+Type data() to see a list of all available data sets,14,11,143,36
+Get started with R's XML package with Duncan Temple Lang's introduction:,18,5,142,28
+.Library will give you the path to your devault R library,11,2,141,15
+a very nice discussion of R Environments from Hadley Wickham,14,5,139,24
+Some tips on using R to talk to Twitter from Raffael Vogler,29,3,140,35
+"Type objects() at the console to see what variables, funcions and data sets you have defined",10,4,138,18
+Look here ( for a fairly comprehensive list of R  resources.,34,15,137,107
+"Generate a sequence of dates: seq(as.Date(""2000/1/1""), as.Date(""2014/1/1""), ""years"")",23,9,921,41
+Get the current date with Sys.Date() and the time with Sys.time(),9,4,763,17
+sample(x) randomly shuffles the elements of a vector or list x,9,4,136,47
+"Reserved words that can't be used as object names: if, while, for, next, TRUE, and several others listed at",5,2,135,22
+"""An Introduction to Statistical Learning"" : (James et.al.) is full of R code and free to download",83,44,134,171
+Try glm2() {glm2} if your GLM model is having convergence problems,19,5,133,29
+Nice short list of useful R functions from Alastair Sanderson,52,32,132,116
+"as.data.frame(installed.packages()[,c(1,3)],row.names=F) : list of installed packages with version",25,6,131,37
+Run help file examples for a particular function using the 'example' function: example(plot) or example(lm),22,9,130,48
+Some nice R tutorials from Willian B. King,46,24,129,94
+"readHTMLTable(url,which=2) will read the 2nd table on the webpage specified by the url",38,8,128,54
+Indexing into a list: myList[[m]][n] will yield the nth element of the mth item in list myList,17,5,127,27
+The polypath function can be used to add a vector-based shape or symbol to a chart:,10,1,126,31
+"If x is a matrix, vector or list then x[]<-0 replaces all its values by 0. More uses of the empty bracket in :",25,10,124,69
+A tutorial on how the mboost package can help you use gradient boosting to fit a prediction model,15,5,123,25
+Do the bobyqa(minqa) for derivative free optimization,10,2,122,14
+"The rmongodb package - an interface to the open-source, NoSQL MongoDB database. Great vignettes",18,7,121,32
+The RSQLite package embeds the SQLite DB engine in R - great way to get started with DBMs,33,12,120,57
+The sqldf package lets you do sql queries on an R dataframe,22,5,119,32
+The RMySQL package is a database interface and MySQL driver for R,23,5,118,33
+The RODBC package provides access to SQL databases - Get started with the vignette,16,5,117,26
+"search() displays the ""search list"" of packages where R searches for functions and other objects",11,0,116,32
+Annotate ggplot2 graphs by creating an annotation layer with annotate(),41,13,115,67
+"Determine the class of every variable in a data frame: sapply(df,class)",29,8,114,45
+The WDI package provides access to the World Bank's World Development Indicators,22,11,113,44
+"How to unshorten a bit.ly, t.co or other short URL with R:",17,6,112,65
+"Use the plyr package to easily sort a data frame by a column: arrange(df, desc(colname))",35,12,111,167
+"Use findFn() from the sos package to get help on R topics, e.g. findFn(""glm"")",14,2,110,18
+Define your own binary operators,10,4,109,18
+A collection of resources for working with GLMs in R,35,17,108,69
+Use package XLConnect to read and write Excel files,30,5,107,40
+Deleting a function from a package will surprise your users. Deprecate it instead:  (via @TrestleJeff),8,5,106,30
+2 short tutorials for the reshape2 package:  and,34,19,105,72
+Type ?Startup for a description of R's initialization process and how to configure it:,20,4,99,56
+"Sort a vector into decreasing order: sort(x,decreasing=TRUE)",14,4,942,22
+"Use the with() function to write R code using variables in a data frame, without needing the $ syntax:",13,6,98,34
+Use the stringr package to make life easier when working with strings.,19,11,97,41
+"Every row of a data frame has a unique label, which you can set or retrieve with row.names:",14,9,96,50
+Build sliders and other interactive controls with the manipulate package in RStudio,37,13,95,63
+Use readLines() to read a text file line by line,18,7,94,32
+Use the bayesglm() function of the arm package to perform a Bayesian logistic regression,37,12,93,61
+"Use scale(x) to calculate the Z-scores of the entries in a numeric vector x,",20,7,92,34
+Get started with testing your R code (tips from Hadley Wickham)  and,35,12,91,59
+"Create a deck of cards in : expand.grid(rank=c(""A"",2:10,""J"",""Q"",""K""),suit=c(""S"",""H"",""D"",""C""))",36,10,425,114
+Use the ... syntax to pass arguments to a subfunction. Use this to simplify complex :  (via @burnsstat),6,5,90,16
+"Use strftime(date, format=""%m-%d"") to shorten a POSIXct date and convert to character string",10,3,89,16
+Type ?file to get help with R functions to manipulate connections,5,1,88,7
+is.na() finds NAs and NaNs. Use is.nan() to find only NaNs,10,5,87,20
+"For tables in R like those from SAS's PROC FREQ, use CrossTable from the gmodels package:",26,7,86,80
+ggplot2 viz of iris comparing a single variable across multiple categories Bradley Demarest   D,10,1,84,12
+Use as.Date( ) to convert strings to dates,14,4,327,22
+See the R Wiki for tips with code snippets.,29,8,83,45
+Some basic examples of sorting data frames with the order() function,18,8,81,34
+A collection R crib sheets and popular commands,40,14,80,68
+A collection of 20+ free R cheat sheets:,53,12,79,163
+"Get variable name y into plot title without quotes: plot(x,y,main=paste(""x vs "", deparse(substitute(y))))",17,1,78,19
+"Automated variable selection for regressions: ""step""  and ""leaps""",20,9,77,65
+"Handy for interactive use, you can set up packages to automatically load when a function is used:",17,9,76,50
+"An R user's case for Emacs: ""Emacs has no learning curve"" (",19,10,74,39
+"List of R functions and packages for clinical trial design, monitoring and analysis:",12,9,73,45
+How to create animated graphics in R:  (see p23),29,11,72,89
+Random input testing with R:  (PDF),9,1,70,11
+List of R functions and packages for Machine Learning & Statistical Learning:,38,20,69,153
+quantmod: An R package where quant traders can quickly and cleanly explore and build trading models:   #finance,10,4,68,56
+R resources for Econometrics and Psychometrics:,26,10,67,46
+Differences between R and S+:,4,1,66,19
+List of R packages for statistical genetics and genetic analysis:,14,15,64,67
+List of R functions and packages for visualization and analysis of multivariate data:,25,13,63,105
+List of R packages for analysis of ecological and environmental data:,31,25,61,123
+Free e-book on multilevel modeling with  using nlme and multilevel packages:,50,21,62,133
+"Access Bloomberg data from R with the Rbbg package. Get it with install.packages(""Rbbg"", repos = """,15,4,60,23
+"List of R packages for survival analysis, censored data, and failure time modeling:",26,9,59,51
+Google's style guide for writing maintainable R code:,40,23,102,117
+List of R functions and packages for finance and risk management:,14,11,32,79
+List of R functions and packages for finance and risk management:,14,11,58,79
+Download and install the latest versions of your R packages with the updates.packages() function:,10,7,104,31
+"R scripts for managing and processing data, with equivalent code in #SAS and #SPSS:",15,12,57,58
+"Many  packages have """"vignette"""" examples: use vignette() to see which installed packages have them:",9,4,85,22
+List of R functions and packages related to Statistics for the Social Sciences:,28,13,56,73
+Learn R through baseball with sab-R-metrics:,9,5,55,19
+Sync Rprofile across multiple machines with Dropbox:,13,4,54,21
+Free course on Computing for Data Analysis with  from @coursera starts today:,13,14,53,41
+List of R functions and packages for Optimization and Mathematical Programming:,22,5,52,52
+Cheat sheet for geospatial data analysis in  (by @geospacedman):,26,17,50,60
+"If the  list ""x"" is a train carrying objects, then x[[5]] is the object in car 5; x[4:6] is a train of cars 4-6.",24,14,172,70
+"In R scripts that access files, use relative (not absolute) file names to make the script portable.",2,5,49,16
+Resources for spatial data analysis with R:,24,8,48,40
+List of R functions and packages for Bayesian inference:,24,4,47,47
+"Create dynamic, interactive graphics for the Web with the gridSVG package:",16,8,46,32
+"On Windows, use odbcConnectExcel/sqlQuery from package RODBC to extract data from Excel worksheets via SQL",3,3,45,9
+The R Ecosystem:,17,4,44,25
+Example of using the twitteR package for sentiment analysis of tweets:,30,16,43,62
+List of R functions for chemometrics and computational physics:,5,3,65,11
+List of R packages for psychometrics (measurement of human characteristics):,10,10,42,30
+A list of funny Easter eggs in R packages:,9,2,41,13
+List of R packages for the analysis of pharmacokinetic (drug dose/response) data:,10,5,40,20
+List of R packages for design of experiments and analysis of experimental data:,9,3,39,15
+"RT @civilstat For quick edits to shapefile .dbf, Excel is finicky; thank goodness for R's write.dbf()",4,0,38,4
+"Send parameters to  script: ""R script.R --args myplot.png""; use commandArgs(trailingOnly=TRUE) in script.R #",2,2,226,6
+List of R packages for comparative phylogenetics (evolutionary relatedness in ancestral family trees):,5,4,36,13
+"In R for MacOS X, Command-Enter sends the selected commands from the script window to the command line",4,0,35,4
+How to install R on an Android device:,19,17,34,53
+"Common style for comments is # on a line of  code, ## within functions, and ### at the top level of scripts. ESS indents accordingly",6,1,33,8
+"R scripts for reading data from files, with equivalent code in #SAS and #SPSS:",11,6,29,23
+"Use the rasterimage function to insert images (imported from GIFs, etc) into an R chart:",9,4,28,17
+List of R functions and packages for Computational Econometrics:,8,5,27,18
+"You can use Google Spreadsheets as a data editor, and import the data into R:",18,7,26,32
+"To create a custom plot, set up axes with plot(...,type=""n""), then annotate with points, lines, text etc.",6,0,25,6
+Installing R and packages on a linux box without root access:,1,2,24,5
+Search for  on Twitter for conversations about R:,2,2,23,6
+Higher-order functions in R  by @johnmyleswhite,7,4,22,15
+Learning R for Researchers in Psychology   by @JeromyAnglim,6,5,21,16
+"In Emacs, you can embed R code in org-mode files analogous to the way Sweave lets you embed R in LaTeX.",2,0,7,2
+"In Emacs, you can embed R code in org-mode files analogous to the way Sweave lets you embed R in LaTeX.",2,0,20,2
+Advanced R development  by @hadleywickham,10,3,19,16
+The Art of R Programming by Norman Matloff,15,14,18,43
+Evaluate a buffer of R code in ESS (Emacs Speaks Statistics): C-c C-b,3,1,5,5
+Evaluate a buffer of R code in ESS (Emacs Speaks Statistics): C-c C-b,3,1,17,5
+Writing an R package that uses Rcpp,5,0,16,5
+Step through R code in ESS (Emacs Speaks Statistics): C-c C-n,4,0,11,4
+Evaluate a region of R code in ESS (Emacs Speaks Statistics): C-c C-r,1,0,6,1
+Troubleshooting Sweave,3,1,14,5
+Sweave is a tool for embedding R code inside a LaTeX document. Introduction to Sweave:,8,2,12,12
+"Thesaurus of Mathematical Languages: R, Matlab, Python",11,6,13,23
+Calling R from Python with RPy,8,3,3,14
+"R ranges are closed, e.g. 3:5 includes 3, 4, and 5. (Other languages, such as Python, would not include the 5.)",0,2,8,4
+as.numeric() takes a string representation of a number and returns a number.,1,0,2,1
+RExcel lets you integrate R and Microsoft Excel,7,6,10,19
+R uses a caret (^) for exponentiation. e.g. 2^10 = 1024.,1,0,9,1
+Using R with the Apache web server,4,3,15,10
+Efficiency tip: pre-allocate large vectors to their final size rather than letting them grow dynamically.,1,2,4,5
