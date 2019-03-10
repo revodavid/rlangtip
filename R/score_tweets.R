@@ -49,7 +49,7 @@ join_tips <- function(tweets, fuzzy = TRUE) {
               TRUE ~ FALSE),
    id = 
     case_when(
-     is_canonical ~ max_tips_id + 1 : nrow(.),
+     is_canonical ~ nrow(.) : max_tips_id + 1,
      TRUE ~ NA_real_
     )
   ) 
