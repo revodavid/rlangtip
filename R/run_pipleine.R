@@ -2,15 +2,15 @@
 
 #' Save Tweets
 #'
-#' @param tbl 
+#' @param tbl
 #'
 #' @return
 #' @export
 #'
 #' @examples
 save_tweets <- function(tbl) {
- # Will be whatever format Jim decides
- write_csv(tbl, tips_path)
+  # Will be whatever format Jim decides
+  write_csv(tbl, tips_path)
 }
 
 
@@ -21,8 +21,8 @@ save_tweets <- function(tbl) {
 #'
 #' @examples
 run_tweet_pipeline <- function() {
- get_tweets() %>% 
-  score_tweets() %>% 
-  add_rstats_hashtag() %>% 
-  save_tweets()
+  get_tweets() %>%
+    score_tweets() %>%
+    add_rstats_hashtag() %>%
+    save_tweets()
 }
