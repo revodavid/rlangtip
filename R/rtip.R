@@ -34,7 +34,7 @@ rtip <- function(id, cowsay = TRUE) {
       who_pool <- names(cowsay::animals)[-which(names(cowsay::animals) %in% no_windows)]
     }
 
-    who <- names(sample(cowsay::animals, 1))
+    who <- names(sample(who_pool, 1))
 
     display <- c(
       paste0("Tip #", tiprow$id, " in category ", tiprow$Category, sep = ""),
