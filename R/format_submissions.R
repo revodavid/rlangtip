@@ -11,15 +11,19 @@
 #'
 
 format_submissions <- function(subs, tips) {
-  maxid <- max(tips$id, na.rm = T)
 
-  subs %>%
-    mutate(
-      id = seq(maxid + 1, maxid + nrow(subs)),
-      Tip = `Suggested Tweet`,
-      Author = `Your Name or Twitter Handle`,
-      Last.Sent = NA,
-      Category = "Uncategorized"
-    ) %>%
-    select(id, Tip, Author, Last.Sent, Category)
+ maxid <- max(tips$id, na.rm = T)
+
+ x <- subs %>%
+  mutate(id = seq(maxid+1, maxid+nrow(subs)),
+         Tip = `Suggested Tweet`, 
+         Author = `Your Name or Twitter Handle`, 
+         Last.Sent = "",
+         Category = "Uncategorized") %>% 
+  select(id, Tip, Author, Last.Sent, Category) 
+ 
+ colnames(x) <- NULL
+ 
+ write.csv(x, file("clipboard"), row.names=F)
+ 
 }
