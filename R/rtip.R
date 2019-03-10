@@ -11,7 +11,7 @@
 #'
 #' @return Table of tips in tibble format
 read_tips <- function() {
- readr::read_csv(here::here("inst", "extdata", "tips.csv"), col_types = "icc?c")
+ readr::read_csv(system.file("extdata/tips.csv",package="rlangtip"), col_types = "icc?c")
 }
 
 #' Display an R tip
