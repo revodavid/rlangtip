@@ -11,9 +11,9 @@
 #' 
 #' 
 
-retrieveSubmissions <- function(key, tab) {
+get_submissions <- function(key, tab) {
  rLangSheet <- googlesheets::gs_key(key)
  rLangSheet %>% 
-  googlesheets::gs_read(ws = "Form Responses") 
+  googlesheets::gs_read(ws = tab) 
  }
 
