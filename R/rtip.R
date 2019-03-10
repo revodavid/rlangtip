@@ -7,7 +7,7 @@
 ## Allow filtering by category
 ## Word wrap tweet to width of display
 
-rtip <- function(id) {
+rtip <- function(id, cowsay = TRUE) {
  ## Print a random tweet from tips.csv 
  tips <- readr::read_csv(here::here("inst", "extdata", "tips.csv"),col_types="icc?c")
  N <- NROW(tips)
@@ -19,9 +19,24 @@ rtip <- function(id) {
  }
  tiprow <- tips[rownum,]
  tiprow
- display <- c(paste0("Tip #", tiprow$id, " in category ",tiprow$Category, sep=""),
-              tiprow$Tip,
-              paste0("      -- ", tiprow$Author, ", ", tiprow$"Last Sent"))
- cat(display,sep="\n")
- invisible(display)
+ 
+ if (cowsay) {
+   
+   who <- names(sample(cowsay::animals, 1))
+
+  display <- c(paste0("Tip #", tiprow$id, " in category ",tiprow$Category, sep=""),
+             tiprow$Tip,
+             paste0("      -- ", tiprow$Author, ", ", tiprow$"Last Sent")) 
+  
+  display_cat <- display %>% stringr::str_c(collapse = "\n")
+  
+  cowsay::say(display_cat, by_color = "rainbow", by = who)
+   
+ } else {
+   display <- c(paste0("Tip #", tiprow$id, " in category ",tiprow$Category, sep=""),
+                tiprow$Tip,
+                paste0("      -- ", tiprow$Author, ", ", tiprow$"Last Sent"))
+   
+   cat(display,sep="\n")
+ }
 }
