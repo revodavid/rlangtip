@@ -1,0 +1,78 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# rlangtip <img src="./man/img/logo.png" alt="rtip" height="225px" align="right">
+
+An R package to print out a useful tip in R. Based on the history of the [@RLangTip](http://twitter.com/RLangTip) Twitter account.
+
+Interactions
+
+```{r, echo=FALSE, message=FALSE}
+joined <- readr::read_csv("data-raw/joined.csv")
+
+library(ggplot2)
+
+ggplot(joined, aes(score)) +
+ geom_histogram(binwidth = 10, fill = "light blue", color = "black") +
+ labs(x = "Popularity Score", 
+      y = "Count",
+        title = "@RLangTip on Twitter", 
+        subtitle = "Popularity score based on both retweets and favorites") +
+ theme_minimal()
+
+
+top_tweet <- joined[which(joined$score >= 1000),]
+top_tweets <- joined[which(joined$score >= 400),]
+
+cat(top_tweet$text)
+
+ggplot(top_tweets, aes(favorite_count, retweet_count)) +
+ geom_point()
+```
+
+
+## Installation
+
+This package isn't yet on CRAN. To install, use
+
+```
+devtools::install("revodavid/rlangtip")
+```
+
+## Usage
+
+After loading the package, use:
+
+```
+rtip()
+```
+
+to generate a random tip. See `help(rtip)` for more options.
+
+Would you like to contribute a tip to this package? See [Contributions.md](Contributions.md) for details or run the `submit_tip` function `r emo::ji("smile")`.
+
+## Contributors
+
+This package was created during the [Chicago R Unconference](https://chirunconf.github.io/), March 9-10 2019 by:
+
+Benjamin Crary (@benjamincrary)  
+Amanda Dobbyns (@aedobbyn)  
+Jim Hester (@jimhester)  
+Caroline Kinnen (@carolinekinnen)
+E. Auden Krauska (@krauskae)
+David Smith (@revodavid)  
+Belinda Zo (@belindazo)  
+... and everyone who contributed a tip to this package.
+
+Please note that the 'rlangtip' project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
