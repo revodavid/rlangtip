@@ -1,105 +1,62 @@
 # Categories
 
-announcements (5): Major announcements related to the R Project
+books (16): Useful R e-books
 
-applications (3): specific applications of R (in industry, etc)
+community (21): Things related to the the community of R users
 
-base (175) : tips related to the base/recommended packages installed with R
+datasets (12): Open datasets to use with R
 
-beginner (1): tips aimed at R beginners
+deprecated (13): Out of date tips
 
-bestpractices (5): recommended workflows with R
+developer (13): Tips for developers of R functions and packages
 
-books (8): Books related to R
+gotchas (298) : Handy R functions in base/recommended
 
-check (1): ???
+graphics (79): Data visualization and R graphics systems
 
-community (22): things related to the the community of R users
+help (20): Resources for getting help with R
 
-courses (2): courses to teach you about R
-
-data (5): datasets to use with R
-
-datasets (1): datasets to use with R
-
-deprecated (5): out of date tips
-
-developer (4): tips for developers of R functions and packages
-
-ecosystem (5): other software, systems and entities related to R
-
-fun (1): fun things
-
-function (5): something about R functions?
-
-gotchas (3): pitfalls and traps to avoid
-
-graphics (39): data visualization and R graphics systems
-
-help (19): resources for getting help with R
-
-holiday (19): tweets specific to holidays (new years, christmas, etc)
-
-installation (1): tips on installing R
-
-interfaces (2): tips on connecting R to other software and systems
-
-Language (1): ??
-
-machine learning (1): tips about machine learning with R
-
-manuals (1): R manuals
-
-mathematics (1): mathematics
+holiday (19): Tweets specific to holidays (new years, christmas, etc)
 
 Microsoft (85): Microsoft (Windows, Azure, etc.) specific tips
 
-packages (75): References to specific R packages (other than base/recommended)
+packages (122): References to specific R packages (other than base/recommended)
 
-performance (2): tips to make R run faster
+performance (12): Tips to make R run faster and efficiently
 
-production (1): tips about using R in production environments
+reporting (15): Tips about reporting results from R (tables, pdf, etc)
 
-R Journal (1): tips related to the R Journal
+reproducibility (9): Tips about reliably reproducing results with R
 
-reporting (10): tips about reporting results from R (tables, etc)
+resource (100): Tutorials, introduction, resources to learn R
 
-reproducibility (6): tips about reliably reproducing results with R
+statistics (83): Statistical analysis and modeling with R
 
-resource (2): ??
+syntax (16): The R langauge syntax
 
-statistics (57): statistical analysis and modeling with R
+task view (37): List of R functions and packages sharing the same subject
 
-syntax (6): the R langauge syntax
-
-system (1): ??
-
-Task View (18): R Task Views
-
-tip (17): general R tips
-
-tutorial (10): worked code examples to learn R
-
-Uncategorized (348): tips that need review and need a category assigned
+#Uncategorized (?): tips that need review and need a category assigned
 
 
 
-
-
-               1                3              175                1                5 
-                               community          courses             data 
-               8                1               22                2                5 
-        datasets       deprecated        developer        ecosystem              fun 
-               1                5                4                5                1 
-        function          gotchas         graphics             help          holiday 
-               5                3               39               19               19 
-    installation       interfaces         Language machine learning          manuals 
-               1                2                1                1                1 
-     mathematics        Microsoft         packages      performance       production 
-               1               85               75                2                1 
-       R Journal        reporting  reproducibility         resource       statistics 
-               1               10                6                2               57 
-          syntax           system        Task View              tip         tutorial 
-               6                1               18               17               10 
-   Uncategorized 
-             348 
+          Category   cnt
+             <chr> <int>
+1            books    16
+2        community    21
+3         datasets    12
+4       deprecated    13
+5        developer    13
+6          gotchas   298
+7         graphics    79
+8             help    20
+9          holiday    19
+10       Microsoft    85
+11        packages   122
+12     performance    12
+13       reporting    15
+14 reproducibility     9
+15        resource   100
+16      statistics    83
+17          syntax    16
+18       task view    37
