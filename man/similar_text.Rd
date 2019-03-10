@@ -4,7 +4,7 @@
 \alias{similar_text}
 \title{Return a table of close tips}
 \usage{
-similar_text(text, cutoff = -3, method = "jw", ...)
+similar_text(text, cutoff = 0.15, method = "jw", ...)
 }
 \arguments{
 \item{text}{data.frame of tips}
