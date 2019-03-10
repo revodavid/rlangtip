@@ -2,3 +2,4 @@
 ^data-raw$
 ^rlangtip\.Rproj$
 ^\.Rproj\.user$
+^\.httr-oauth$
