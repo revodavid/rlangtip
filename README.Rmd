@@ -16,12 +16,11 @@ knitr::opts_chunk$set(
 
 An R package to print out a useful tip in R. Based on the history of the [@RLangTip](http://twitter.com/RLangTip) Twitter account.
 
-Interactions
-
 ```{r, echo=FALSE, message=FALSE}
 joined <- readr::read_csv("data-raw/joined.csv")
 
 library(ggplot2)
+library(ggrepel)
 
 ggplot(joined, aes(score)) +
  geom_histogram(binwidth = 10, fill = "light blue", color = "black") +
@@ -31,14 +30,20 @@ ggplot(joined, aes(score)) +
         subtitle = "Popularity score based on both retweets and favorites") +
  theme_minimal()
 
+ggplot(joined, aes(favorite_count, retweet_count, label = text)) +
+ geom_text_repel(
+  data = subset(joined, retweet_count > 105),
+  segment.size  = 0.2,
+  segment.color = "grey50",
+  direction     = "x"
+ ) +
+ geom_jitter(color = "light blue") +
+ theme_minimal() +
+ labs(title = "Top Tweets by Favorites and Retweets",
+      x = "Favorite Count",
+      y = "Retweet Count")
 
-top_tweet <- joined[which(joined$score >= 1000),]
-top_tweets <- joined[which(joined$score >= 400),]
 
-cat(top_tweet$text)
-
-ggplot(top_tweets, aes(favorite_count, retweet_count)) +
- geom_point()
 ```
 
 
