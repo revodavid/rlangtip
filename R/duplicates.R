@@ -5,10 +5,9 @@
 #' @inheritParams stringdist::stringdistmatrix
 #' @param ... Additional parameters passed to [stringdist::stringdistmatrix]
 #' @export
-similar_text <- function(text, cutoff = -3, method = "jw", ...) {
+similar_text <- function(text, cutoff = .15, method = "jw", ...) {
   diffs <- stringdist::stringdistmatrix(text, text, method = method)
   diffs[lower.tri(diffs, diag = TRUE)] <- NA
-  diffs <- z_score(diffs)
   close <- which(diffs < cutoff)
 
   tibble::tibble(
