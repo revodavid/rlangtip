@@ -55,9 +55,14 @@ rtip <- function(id, cowsay = TRUE, color = FALSE,
   tiprow <- tips[rownum, ]
   tiprow
 
+  ### Word-wrap the tip to fit the terminal
+  ## wrappedTip <- NULL
+  ## write.dcf(tiprow$Tip, textConnection("wrappedTip","w",local=TRUE), indent=0)
+  wrappedTip <- tiprow$Tip
+    
   display <- c(
     paste0("Tip #", tiprow$id, " in category ", tiprow$Category, sep = ""),
-    tiprow$Tip,
+    wrappedTip,
     paste0("      -- ", tiprow$Author, ", ", tiprow$"Last Sent")
   )
 
