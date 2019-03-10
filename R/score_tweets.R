@@ -16,6 +16,22 @@ score_tweets <- function(tbl) {
   )
 }
 
+#' Clean tweets
+#'
+#' @param x Tweet
+#'
+#' @return
+#' @export
+#'
+#' @examples
+clean_tweets <- function(x) {
+ x %>% 
+  stringr::str_remove_all("https?://\\S+") %>% 
+  stringr::str_remove_all("#rstats") %>% 
+  textclean::replace_html() %>% 
+  stringr::str_trim()
+}
+
 #' Join tips
 #'
 #' @param tweets 
@@ -32,7 +48,10 @@ join_tips <- function(tweets, fuzzy = TRUE) {
  tips <- 
   read_csv(here("inst", "extdata", "tips.csv")) %>% 
   # rename(text = Tip) %>% 
-  mutate(is_canonical = TRUE)
+  mutate(is_canonical = TRUE) %>% 
+  mutate(
+   Tip = clean_tweets(Tip)
+  )
  
  last_run_day <- readr::read_lines(here::here("last_run_day.txt")) %>% 
   as.Date()
@@ -44,15 +63,18 @@ join_tips <- function(tweets, fuzzy = TRUE) {
  tweets <- 
   tweets %>% 
   mutate(
-   is_canonical = 
+   is_canonical =
     case_when(created_at > last_run_day ~ TRUE,
               TRUE ~ FALSE),
    id = 
     case_when(
-     is_canonical ~ nrow(.) : max_tips_id + 1,
+     is_canonical ~ as.numeric(1: nrow(.)), 
      TRUE ~ NA_real_
     )
-  ) 
+  ) %>% 
+  mutate(
+   text = clean_tweets(text)
+  )
  
  joined <- joiner_fun(tweets, tips, by = c("text" = "Tip")) %>% 
   select(id.x, id.y, favorite_count, retweet_count) %>% 
@@ -78,35 +100,4 @@ join_tips <- function(tweets, fuzzy = TRUE) {
   left_join(scores)
  
 }
-
-
-
-
-
-
-
-
-# bar <- tweets %>% left_join(tips, by = "text")
-# 
-# baz <- bar %>% 
-#  group_by(id) %>% 
-#  score_tweets() %>% 
-#  filter(is_canonical == TRUE) %>% 
-#  distinct(id, .keep_all = TRUE)
-
-
-scores <- bar %>% 
- select(id, text, favorite_count, retweet_count) %>% 
- dplyr::group_by(id) %>% 
- score_tweets() %>% 
- group_by(id) %>% 
- summarise(
-  score = sum(score)
- )
-
-bar %>% 
- left_join(tips)
-
-
-
 
