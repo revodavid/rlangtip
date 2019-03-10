@@ -4,19 +4,19 @@
 \alias{add_rstats_hashtag}
 \title{Add #rstats}
 \usage{
-add_rstats_hashtag(tbl, col = text)
+add_rstats_hashtag(tbl, col)
 }
 \arguments{
-\item{col}{Column to add hashtags to.}
+\item{tbl}{Tip text.}
 
-\item{txt}{Tip text.}
+\item{col}{Column to add hashtags to.}
 }
 \description{
 Add #rstats
 }
 \examples{
 
-tibble(text = "foo") \%>\% add_rstats_hashtag()
-tibble(text = "foo #rstats") \%>\% add_rstats_hashtag
+tibble::tibble(text = "foo") \%>\% add_rstats_hashtag(text)
+tibble::tibble(text = "foo #rstats") \%>\% add_rstats_hashtag(text)
 
 }
