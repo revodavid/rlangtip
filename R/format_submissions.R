@@ -14,15 +14,15 @@ format_submissions <- function(subs, tips) {
  
  maxid <- max(tips$id, na.rm = T)
 
- subs %>%
+ x <- subs %>%
   mutate(id = seq(maxid+1, maxid+nrow(subs)),
          Tip = `Suggested Tweet`, 
          Author = `Your Name or Twitter Handle`, 
          Last.Sent = NA,
          Category = "Uncategorized") %>% 
   select(id, Tip, Author, Last.Sent, Category) 
-
+ write.csv(x, here::here("inst", "extdata", "NewTips.csv"), row.names=F)
+ 
+ ## add double quotes
+ 
 }
-
-
-
