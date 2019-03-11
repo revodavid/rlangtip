@@ -11,6 +11,7 @@
 #'
 #' @return Table of tips in tibble format
 read_tips <- function() {
+  requireNamespace("readr")
   readr::read_csv(system.file("extdata/tips.csv", package = "rlangtip"), col_types = "icc?c")
 }
 
@@ -21,12 +22,18 @@ read_tips <- function() {
 #' @param color if TRUE, use a colorful cowsay display. Ignored if cowsay=FALSE
 #' @param excluded categories excluded for random tip selection
 #' @param keyword character vector keywords contained in tips to search for.
+#' @inheritParams base::strwrap
 #'
 #' @return the tip, as a 3-element vector (tip number and category; tip text; author and date)
 #' @export
 rtip <- function(id, cowsay = TRUE, color = FALSE,
                  excluded = c("deprecated", "Uncategorized"),
-                 keyword = NULL) {
+                 keyword = NULL, width = 0.9 * getOption("width")) {
+
+  requireNamespace("dplyr")
+  requireNamespace("pluralize")
+  requireNamespace("stringr")
+
   ## Print a random tweet from tips.csv
   tips <- read_tips()
 
@@ -40,7 +47,7 @@ rtip <- function(id, cowsay = TRUE, color = FALSE,
     keyword <- stringr::str_c(keyword, collapse = "|")
 
     tips <- tips %>%
-      dplyr::filter(str_detect(tolower(Tip), keyword))
+      dplyr::filter(stringr::str_detect(tolower(Tip), keyword))
   }
 
   N <- NROW(tips)
@@ -55,7 +62,7 @@ rtip <- function(id, cowsay = TRUE, color = FALSE,
   tiprow
 
   ### Word-wrap the tip to fit the terminal
-  wrappedTip <- strwrap(tiprow$Tip)
+  wrappedTip <- strwrap(tiprow$Tip, width = width)
 
   display <- c(
     paste0("Tip #", tiprow$id, " in category ", tiprow$Category, sep = ""),
@@ -64,6 +71,7 @@ rtip <- function(id, cowsay = TRUE, color = FALSE,
   )
 
   if (cowsay) {
+    requireNamespace("cowsay")
     on_windows <- function() {
       os <- tolower(Sys.info()[["sysname"]])
 

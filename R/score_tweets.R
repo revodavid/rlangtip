@@ -1,17 +1,17 @@
-
-utils::globalVariables(c("favorite_count", "retweet_count"))
-
 #' Score tweets
 #'
 #' @param tbl the tibble to import
 #'
 #' @export
 score_tweets <- function(tbl) {
+  requireNamespace("dplyr")
+
   tbl %>%
-    mutate(
+    dplyr::mutate(
       score = favorite_count + 2 * retweet_count
     )
 }
+utils::globalVariables(c("favorite_count", "retweet_count"))
 
 #' Clean tweets
 #'
@@ -19,6 +19,8 @@ score_tweets <- function(tbl) {
 #'
 #' @export
 clean_tweets <- function(x) {
+  requireNamespace("stringr")
+  requireNamespace("textclean")
   x %>%
     stringr::str_remove_all("https?://\\S+") %>%
     stringr::str_remove_all("#rstats") %>%
@@ -30,18 +32,21 @@ clean_tweets <- function(x) {
 #'
 #' @param tweets tweet dataset
 #' @param fuzzy join fuzzily
-#' @importFrom dplyr group_by summarise left_join
-#' @importFrom stringr str_detect
-#' @importFrom readxl read_excel
 #' @export
 join_tips <- function(tweets, fuzzy = TRUE) {
+  requireNamespace("here")
+  requireNamespace("fuzzyjoin")
+  requireNamespace("dplyr")
+  requireNamespace("tidyr")
+  requireNamespace("readr")
+
   joiner_fun <- ifelse(fuzzy, fuzzyjoin::stringdist_left_join, dplyr::left_join)
 
   tips <-
     readr::read_csv(system.file("extdata/tips.csv", package = "rlangtip")) %>%
     # rename(text = Tip) %>%
-    mutate(is_canonical = TRUE) %>%
-    mutate(
+    dplyr::mutate(is_canonical = TRUE) %>%
+    dplyr::mutate(
       Tip = clean_tweets(Tip)
     )
 
@@ -54,46 +59,46 @@ join_tips <- function(tweets, fuzzy = TRUE) {
 
   tweets <-
     tweets %>%
-    mutate(
+    dplyr::mutate(
       is_canonical =
-        case_when(
+        dplyr::case_when(
           created_at > last_run_day ~ TRUE,
           TRUE ~ FALSE
         ),
       id =
-        case_when(
+        dplyr::case_when(
           is_canonical ~ as.numeric(1:nrow(.)),
           TRUE ~ NA_real_
         )
     ) %>%
-    mutate(
+    dplyr::mutate(
       text = clean_tweets(text)
     )
 
   joined <- joiner_fun(tweets, tips, by = c("text" = "Tip")) %>%
-    select(id.x, id.y, favorite_count, retweet_count) %>%
-    mutate(
+    dplyr::select(id.x, id.y, favorite_count, retweet_count) %>%
+    dplyr::mutate(
       id =
-        case_when(
+        dplyr::case_when(
           is.na(id.x) ~ id.y,
           is.na(id.y) ~ id.x,
           TRUE ~ NA_real_
         )
     ) %>%
-    select(-id.x, -id.y)
+    dplyr::select(-id.x, -id.y)
 
   scores <- joined %>%
-    group_by(id) %>%
+    dplyr::group_by(id) %>%
     score_tweets() %>%
-    group_by(id) %>%
-    summarise(
+    dplyr::group_by(id) %>%
+    dplyr::summarise(
       score = sum(score)
     )
 
   joined %>%
     tidyr::drop_na(id) %>%
     dplyr::distinct(id, .keep_all = TRUE) %>%
-    left_join(scores)
+    dplyr::left_join(scores)
 }
 
 utils::globalVariables(c("id.x", "id.y", "score"))

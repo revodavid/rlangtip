@@ -1,9 +1,22 @@
-n_tweets_path <- here::here("n_tweets.txt")
-tips_path <- here::here("inst", "extdata", "tips.csv")
-joined_path <- here::here("data-raw", "joined.csv")
+n_tweets_path <- function() {
+  system.file("extdata", "n_tweets.txt", package = "rlangtip")
+}
+
+tips_path <- function() {
+  system.file("extdata", "tips.csv", package = "rlangtip")
+}
+
+joined_path <- function() {
+  system.file("extdata", "joined.csv", package = "rlangtip")
+}
+
+get_wordlist <- function() {
+  readLines(system.file("extdata", "wordlist", package = "rlangtip"))
+}
 
 utils::globalVariables(c("consumer_key", "consumer_secret", "access_token", "access_secret"))
 save_twitter_token <- function() {
+  requireNamespace("rtweet")
   source(here::here("twitter_keys.R"))
 
   rtweet::create_token(

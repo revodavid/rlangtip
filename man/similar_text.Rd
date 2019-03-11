@@ -11,8 +11,8 @@ similar_text(text, cutoff = 0.15, method = "jw", ...)
 
 \item{cutoff}{the Z score cutoff to use}
 
-\item{method}{Method for distance calculation. The default is \code{"osa"},
-see \code{\link{stringdist-metrics}}.}
+\item{method}{Method for distance calculation, the default is "osa". See
+[stringdist::`stringdist-encoding`] for details.}
 
 \item{...}{Additional parameters passed to [stringdist::stringdistmatrix]}
 }

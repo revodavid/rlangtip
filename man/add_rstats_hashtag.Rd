@@ -16,7 +16,8 @@ Add #rstats
 }
 \examples{
 
-tibble::tibble(text = "foo") \%>\% add_rstats_hashtag(text)
-tibble::tibble(text = "foo #rstats") \%>\% add_rstats_hashtag(text)
-
+if (require("tibble")) {
+  tibble(text = "foo") \%>\% add_rstats_hashtag(text)
+  tibble(text = "foo #rstats") \%>\% add_rstats_hashtag(text)
+}
 }

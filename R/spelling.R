@@ -3,7 +3,9 @@
 #' @param tips data.frame of tips
 #' @inheritParams spelling::spell_check_text
 #' @export
-check_tip_spelling <- function(tips, ignore = readLines(system.file("extdata", "wordlist", package = "rlangtip"))) {
+check_tip_spelling <- function(tips, ignore = get_wordlist()) {
+  requireNamespace("spelling")
+  requireNamespace("tibble")
   tip_text <- tips$Tip
 
   # Remove links

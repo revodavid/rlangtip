@@ -4,8 +4,7 @@
 \alias{check_tip_spelling}
 \title{Check spelling of tips}
 \usage{
-check_tip_spelling(tips, ignore = readLines(system.file("extdata",
-  "wordlist", package = "rlangtip")))
+check_tip_spelling(tips, ignore = get_wordlist())
 }
 \arguments{
 \item{tips}{data.frame of tips}
