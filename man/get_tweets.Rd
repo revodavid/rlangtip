@@ -4,10 +4,12 @@
 \alias{get_tweets}
 \title{Get Tweets}
 \usage{
-get_tweets(save_number = TRUE)
+get_tweets(save_number = TRUE, n_tweets_to_grab = "all")
 }
 \arguments{
 \item{save_number}{Whether to save the numbers of the tweets or not}
+
+\item{n_tweets_to_grab}{Number of tweets to grab, or "all"}
 }
 \description{
 Get Tweets

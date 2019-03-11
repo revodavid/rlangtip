@@ -4,12 +4,15 @@
 \alias{get_bunch_o_tweets}
 \title{Get a bunch of tweets}
 \usage{
-get_bunch_o_tweets(n_tweets = 5, weighted = TRUE)
+get_bunch_o_tweets(from = "joined", n_tweets = "all",
+  weighted = TRUE)
 }
 \arguments{
-\item{n_tweets}{Number of tweets to choose}
+\item{from}{Which data source should be used. "canonical" for tips CSV, "twitter" for full Twitter data, "joined" for canonical joined on Twitter data and deduped}
 
-\item{weighted}{Should tweets with higher scores be chosen more frequently?}
+\item{n_tweets}{Number of tweets to choose, or "all"}
+
+\item{weighted}{Should tweets with higher scores be chosen more frequently? Will be false if from is "canonical"}
 }
 \description{
 Get a bunch of tweets

@@ -20,29 +20,29 @@ read_tips <- function() {
 #' @param cowsay if TRUE, a random cowsay animal will present the tip
 #' @param color if TRUE, use a colorful cowsay display. Ignored if cowsay=FALSE
 #' @param excluded categories excluded for random tip selection
-#' @param keyword character vector keywords contained in tips to search for. 
+#' @param keyword character vector keywords contained in tips to search for.
 #'
 #' @return the tip, as a 3-element vector (tip number and category; tip text; author and date)
 #' @export
-rtip <- function(id, cowsay = TRUE, color = FALSE, 
+rtip <- function(id, cowsay = TRUE, color = FALSE,
                  excluded = c("deprecated", "Uncategorized"),
                  keyword = NULL) {
   ## Print a random tweet from tips.csv
   tips <- read_tips()
-  
+
   if (!is.null(keyword)) {
     if (!is.character(keyword)) stop("keyword must be of class character.")
-    
-    keyword <- keyword %>% 
-      unique() %>% 
+
+    keyword <- keyword %>%
+      unique() %>%
       tolower()
-    
+
     keyword <- stringr::str_c(keyword, collapse = "|")
-    
-    tips <- tips %>% 
+
+    tips <- tips %>%
       dplyr::filter(str_detect(tolower(Tip), keyword))
   }
-  
+
   N <- NROW(tips)
   if (missing(id)) {
     candidates <- (1:N)[!(tips$Category %in% excluded)]
@@ -56,7 +56,7 @@ rtip <- function(id, cowsay = TRUE, color = FALSE,
 
   ### Word-wrap the tip to fit the terminal
   wrappedTip <- strwrap(tiprow$Tip)
-    
+
   display <- c(
     paste0("Tip #", tiprow$id, " in category ", tiprow$Category, sep = ""),
     wrappedTip,
@@ -79,18 +79,17 @@ rtip <- function(id, cowsay = TRUE, color = FALSE,
 
     who <- sample(who_pool, 1)
 
-    display_cat <- display %>% paste(collapse = "\n")
+    display <- display %>% paste(collapse = "\n")
 
     if (color) {
-      cowsay::say(display_cat, by_color = "rainbow", by = who, type = "string") %>%
+      cowsay::say(display, by_color = "rainbow", by = who, type = "string") %>%
         cat()
     } else {
-      cowsay::say(display_cat, by = who, type = "string") %>%
+      cowsay::say(display, by = who, type = "string") %>%
         cat()
     }
   } else {
     cat(display, sep = "\n")
-
   }
 
   invisible(display)

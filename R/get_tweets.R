@@ -27,15 +27,18 @@ save_tweet_number <- function(val) {
 
 #' Get Tweets
 #'
+#' @param n_tweets_to_grab Number of tweets to grab, or "all"
 #' @param save_number Whether to save the numbers of the tweets or not
 #' @export
-get_tweets <- function(save_number = TRUE) {
-  n_tweets_to_grab <-
-    get_tweet_number()
+get_tweets <- function(save_number = TRUE, n_tweets_to_grab = "all") {
+  if (n_tweets_to_grab == "all") {
+    n_tweets_to_grab <-
+      get_tweet_number()
+  }
 
   tbl <- rtweet::get_timeline("RLangTip", n = n_tweets_to_grab)
 
-  if (save_number) {
+  if (save_number && n_tweets_to_grab == "all") {
     n_tweets <- nrow(tbl)
     save_tweet_number(n_tweets)
   }
