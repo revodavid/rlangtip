@@ -1,10 +1,11 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# rlangtip <img src="./man/img/logo.png" alt="rtip" height="225px" align="right">
+# rlangtip <img src="./man/img/logo.png" alt="rtip" height="150px" align="right">
 
 An R package to print out a useful tip in R. Based on the history of the
-[@RLangTip](<http://twitter.com/RLangTip>) Twitter account.
+\[@RLangTip\](<http://twitter.com/RLangTip>) Twitter
+account.
 
 <img src="man/figures/README-unnamed-chunk-1-1.png" width="100%" /><img src="man/figures/README-unnamed-chunk-1-2.png" width="100%" />
 
@@ -32,11 +33,10 @@ This package was created during the [Chicago R
 Unconference](https://chirunconf.github.io/), March 9-10 2019 by:
 
 Benjamin Crary (@benjamincrary)  
-Amanda Dobbyns (@aedobbyn)  
+Amanda Dobbyn (@aedobbyn)  
 Jim Hester (@jimhester)  
-Caroline Kinnen (@carolinekinnen)  
-E. Auden Krauska (@krauskae)  
-David Smith (@revodavid)  
+Caroline Kinnen (@carolinekinnen) E. Auden Krauska (@krauskae) David
+Smith (@revodavid)  
 Belinda Zo (@belindazo)  
 … and everyone who contributed a tip to this package.
 
