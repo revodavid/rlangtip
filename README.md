@@ -13,7 +13,7 @@ account.
 
 This package isn’t yet on CRAN. To install, use
 
-    devtools::install("revodavid/rlangtip")
+    devtools::install_github("revodavid/rlangtip")
 
 ## Usage
 
