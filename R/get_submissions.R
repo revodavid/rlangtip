@@ -8,6 +8,7 @@
 #'
 #' @export
 get_submissions <- function(key, tab) {
+  requireNamespace("googlesheets")
   rLangSheet <- googlesheets::gs_key(key)
   rLangSheet %>%
     googlesheets::gs_read(ws = tab)

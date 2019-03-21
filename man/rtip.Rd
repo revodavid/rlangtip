@@ -5,7 +5,7 @@
 \title{Display an R tip}
 \usage{
 rtip(id, cowsay = TRUE, color = FALSE, excluded = c("deprecated",
-  "Uncategorized"), keyword = NULL)
+  "Uncategorized"), keyword = NULL, width = 0.9 * getOption("width"))
 }
 \arguments{
 \item{id}{numeric ID of tip to display. If not provided, display a randomly-selected tip.}
@@ -17,6 +17,9 @@ rtip(id, cowsay = TRUE, color = FALSE, excluded = c("deprecated",
 \item{excluded}{categories excluded for random tip selection}
 
 \item{keyword}{character vector keywords contained in tips to search for.}
+
+\item{width}{a positive integer giving the target column for wrapping
+    lines in the output.}
 }
 \value{
 the tip, as a 3-element vector (tip number and category; tip text; author and date)

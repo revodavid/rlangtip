@@ -5,11 +5,10 @@
 #' @param buffer Numeric. The number to add to the last number of tweets pulled in such that we always ask for more tweets than necessary the next time the script is run.
 #'
 #' @export
-#' @importFrom dplyr %>%
-#'
 get_tweet_number <- function(buffer = 100) {
+  requireNamespace("readr")
   last_val <-
-    readr::read_lines(n_tweets_path) %>%
+    readr::read_lines(n_tweets_path()) %>%
     as.numeric()
 
   last_val + buffer
@@ -22,7 +21,8 @@ get_tweet_number <- function(buffer = 100) {
 #' @export
 #'
 save_tweet_number <- function(val) {
-  readr::write_lines(val, n_tweets_path)
+  requireNamespace("readr")
+  readr::write_lines(val, n_tweets_path())
 }
 
 #' Get Tweets
@@ -31,6 +31,7 @@ save_tweet_number <- function(val) {
 #' @param save_number Whether to save the numbers of the tweets or not
 #' @export
 get_tweets <- function(save_number = TRUE, n_tweets_to_grab = "all") {
+  requireNamespace("rtweet")
   if (n_tweets_to_grab == "all") {
     n_tweets_to_grab <-
       get_tweet_number()
@@ -44,7 +45,7 @@ get_tweets <- function(save_number = TRUE, n_tweets_to_grab = "all") {
   }
 
   tbl %>%
-    select(status_id, created_at, text, favorite_count, retweet_count)
+    dplyr::select(status_id, created_at, text, favorite_count, retweet_count)
 }
 utils::globalVariables(c("status_id", "created_at", "text"))
 
@@ -56,19 +57,22 @@ utils::globalVariables(c("status_id", "created_at", "text"))
 #'
 #' @export
 #'
-#' @importFrom dplyr enquo case_when
 #' @examples
 #'
-#' tibble::tibble(text = "foo") %>% add_rstats_hashtag(text)
-#' tibble::tibble(text = "foo #rstats") %>% add_rstats_hashtag(text)
-#'
+#' if (require("tibble")) {
+#'   tibble(text = "foo") %>% add_rstats_hashtag(text)
+#'   tibble(text = "foo #rstats") %>% add_rstats_hashtag(text)
+#' }
 add_rstats_hashtag <- function(tbl, col) {
-  q_col <- enquo(col)
+  requireNamespace("dplyr")
+  requireNamespace("stringr")
+
+  q_col <- dplyr::enquo(col)
 
   tbl %>%
-    mutate(
+    dplyr::mutate(
       text =
-        case_when(
+        dplyr::case_when(
           !stringr::str_detect(!!q_col, "#rstats") ~ !!q_col %>% stringr::str_c(" #rstats"),
           TRUE ~ text
         )

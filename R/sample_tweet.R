@@ -7,9 +7,10 @@ weight_determination <- function(weighted = F) {
   }
 }
 
-
 sample_tweet <- function(number_of_tweets = 1, holiday = FALSE, categories = NULL, weighted = FALSE) {
-  tweets <- read_excel("data_cleaned.xlsx")
+  requireNamespace("readxl")
+
+  tweets <- readxl::read_excel("data_cleaned.xlsx")
 
   if (length(categories) != 0) {
     tweets <- tweets[(tweets$category %in% categories), ]
@@ -20,9 +21,9 @@ sample_tweet <- function(number_of_tweets = 1, holiday = FALSE, categories = NUL
   }
 
   if (weighted) {
-    n <- sample_n(tweets, number_of_tweets, weight = score)
+    n <- dplyr::sample_n(tweets, number_of_tweets, weight = score)
   } else {
-    n <- sample_n(tweets, number_of_tweets, weight = NULL)
+    n <- dplyr::sample_n(tweets, number_of_tweets, weight = NULL)
   }
 
   return(n)

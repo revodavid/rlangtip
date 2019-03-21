@@ -5,17 +5,20 @@
 #'
 #' @export
 format_submissions <- function(subs, tips) {
-  maxid <- max(tips$id, na.rm = T)
+  requireNamespace("dplyr")
+  requireNamespace("readr")
+
+  maxid <- max(tips$id, na.rm = TRUE)
 
   x <- subs %>%
-    mutate(
+    dplyr::mutate(
       id = seq(maxid + 1, maxid + nrow(subs)),
       Tip = `Suggested Tweet`,
       Author = `Your Name or Twitter Handle`,
       Last.Sent = "",
       Category = "Uncategorized"
     ) %>%
-    select(id, Tip, Author, Last.Sent, Category)
+  dplyr::select(id, Tip, Author, Last.Sent, Category)
 
   colnames(x) <- NULL
 

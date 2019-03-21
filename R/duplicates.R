@@ -2,10 +2,14 @@
 #'
 #' @param text data.frame of tips
 #' @param cutoff the Z score cutoff to use
-#' @inheritParams stringdist::stringdistmatrix
 #' @param ... Additional parameters passed to [stringdist::stringdistmatrix]
+#' @param method Method for distance calculation, the default is "osa". See
+#'   [stringdist::`stringdist-encoding`] for details.
 #' @export
 similar_text <- function(text, cutoff = .15, method = "jw", ...) {
+  requireNamespace("stringdist")
+  requireNamespace("tibble")
+
   diffs <- stringdist::stringdistmatrix(text, text, method = method)
   diffs[lower.tri(diffs, diag = TRUE)] <- NA
   close <- which(diffs < cutoff)
@@ -26,26 +30,29 @@ utils::globalVariables(c("tip_1_id", "tip_2_id"))
 #' @param cutoff The Z-score cutoff to use for filtering
 #'
 #' @export
-#' @importFrom dplyr as_tibble rename filter mutate distinct select
 filter_dupes <- function(tbl, cutoff = -3) {
+  requireNamespace("stringdist")
+  requireNamespace("tibble")
+  requireNamespace("dplyr")
+
   dists <-
     expand.grid(tbl$text, tbl$text) %>%
-    as_tibble() %>%
-    rename(
+    tibble::as_tibble() %>%
+    dplyr::rename(
       tweet_1 = Var1,
       tweet_2 = Var2
     ) %>%
-    filter(tweet_1 != tweet_2) %>%
-    mutate(
+    dplyr::filter(tweet_1 != tweet_2) %>%
+    dplyr::mutate(
       string_dist = stringdist::stringdist(tweet_1, tweet_2),
       string_dist_scaled = z_score(string_dist)
     ) %>%
-    filter(
+    dplyr::filter(
       string_dist_scaled > cutoff
     ) %>%
-    distinct(tweet_1) %>%
-    select(tweet_1) %>%
-    rename(
+    dplyr::distinct(tweet_1) %>%
+    dplyr::select(tweet_1) %>%
+    dplyr::rename(
       text = tweet_1
     )
 }

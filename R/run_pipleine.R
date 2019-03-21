@@ -4,8 +4,9 @@
 #'
 #' @export
 save_tweets <- function(tbl) {
+  requireNamespace("readr")
   # Will be whatever format Jim decides
-  readr::write_csv(tbl, tips_path)
+  readr::write_csv(tbl, tips_path())
 }
 
 
@@ -27,6 +28,10 @@ run_tweet_pipeline <- function() {
 #' @export
 #' @importFrom dplyr sample_n
 get_bunch_o_tweets <- function(from = "joined", n_tweets = "all", weighted = TRUE) {
+  requireNamespace("here")
+  requireNamespace("dplyr")
+  requireNamespace("readr")
+
   stopifnot(from %in% c("canonical", "twitter", "joined"))
   stopifnot(is.numeric(n_tweets) || n_tweets == "all")
 
@@ -35,9 +40,9 @@ get_bunch_o_tweets <- function(from = "joined", n_tweets = "all", weighted = TRU
       tbl <- get_tweets(save_number = FALSE, n_tweets_to_grab = n_tweets) %>%
         score_tweets()
     } else if (from == "joined") {
-      tbl <- readr::read_csv(joined_path)
+      tbl <- readr::read_csv(joined_path())
     } else if (from == "canonical") {
-      tbl <- readr::read_csv(tips_path)
+      tbl <- readr::read_csv(tips_path())
     }
   })
 
